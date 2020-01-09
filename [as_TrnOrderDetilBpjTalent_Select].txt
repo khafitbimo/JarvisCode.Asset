@@ -1,0 +1,42 @@
+-- =============================================
+-- Author: Yanuar Andriyana Putra - Trans TV
+-- Created  date: 9/24/2010 6:45  PM
+-- Description: Select transaksi_orderdetil (Untuk di BPJ Talent)
+-- =============================================
+
+ALTER    PROCEDURE [as_TrnOrderDetilBpjTalent_Select]
+	@Criteria as nvarchar(1020) 
+AS 
+BEGIN 
+	DECLARE @SQL as varchar(8000);
+	SET @SQL = 'SELECT A.orderdetil_line, artis_name = (SELECT name FROm master_artis WHERE code = A.item_id),
+		category_name = (SELECT name FROM master_skill WHERE code = 
+			(SELECT TOP 1 requestdetil_bal from transaksi_requestdetil WHERE request_id = 
+			(SELECT request_id FROM transaksi_order WHERE order_id = A.order_id))) ,
+		orderdetil_descr, orderdetil_qty,orderdetil_days,
+		curr_name = (SELECT currency_shortname FROM master_currency WHERE currency_id = A.currency_id),
+		orderdetil_foreignrate,orderdetil_foreign, 
+		category_tax = (SELECT category_name FROM master_pajak_kategori WHERE category_id = B.kategori_pajak),
+		type_tax = (SELECT pajak_name FROM master_pajak_type WHERE code_pajak = B.type_pajak),
+		orderdetil_pphpercent,orderdetil_ppnpercent ,
+		ppn_amount = ROUND(((B.requestdetil_idrreal) * (A.orderdetil_ppnpercent / 100)),0), B.amount_talent,
+		B.tax, B.amount_forartist, B.requestdetil_idrreal,
+		 CEILING((ISNULL(A.orderdetil_qty, 0) * ISNULL(A.orderdetil_days, 1)) * ISNULL(A.orderdetil_foreign, 0)) AS rodetil_rowtotalforeign	,	
+		 B.requestdetil_idrreal AS rodetil_rowtotalforeign_incldisc, 
+		budget_name = (SELECT budget_name FROM transaksi_budget WHERE budget_id= A.budget_id),
+		budgetdetil_name = (SELECT budgetdetil_desc FROM transaksi_budgetdetil WHERE budgetdetil_id = A.budgetdetil_id)   		     
+		FROM transaksi_orderdetil A
+		LEFT OUTER JOIN transaksi_orderdetiltax B ON A.order_id = B.order_id AND A.orderdetil_line = B.orderdetil_line';
+
+	IF @Criteria <> '' or @Criteria is NULL
+	BEGIN
+		SET @SQL = @SQL + ' WHERE ' + @Criteria;
+	END
+		SET @SQL = @SQL + ' ORDER BY A.orderdetil_line '
+	EXEC (@SQL)
+END
+
+GO
+
+		 
+

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="E_FRM" Class="DataClassesFRMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=d3330-kokohs;Initial Catalog=E_FRM;Integrated Security=True" SettingsObjectName="ASSET.My.MySettings" SettingsPropertyName="E_FRMConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.master_emailbodypath" Member="master_emailbodypaths">
+    <Type Name="master_emailbodypath">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="id_type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="email_subject" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="email_bodypath" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="channel_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="isdisabled" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.master_useremail" Member="master_useremails">
+    <Type Name="master_useremail">
+      <Column Name="idemail" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="user_email" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="user_emaildefault" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="create_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="create_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.master_user" Member="master_users">
+    <Type Name="master_user">
+      <Column Name="username" Type="System.String" DbType="NVarChar(16) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="user_password" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="user_fullname" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="strukturunit_id" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="user_isdisabled" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="user_default_channel_id" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="user_can_change_channel" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="user_can_browse_channel" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="user_systemuser" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="login_user_erp" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="user_position" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="user_isauthorized_toapprove" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="start_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="end_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="last_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.transaksi_penerimaanbarang" Member="transaksi_penerimaanbarangs">
+    <Type Name="transaksi_penerimaanbarang">
+      <Column Name="terimabarang_id" Type="System.String" DbType="NVarChar(12) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="terimabarang_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="terimabarang_type" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="order_id" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="budget_id" Type="System.Decimal" DbType="Decimal(8,0)" CanBeNull="true" />
+      <Column Name="rekanan_id" Type="System.Decimal" DbType="Decimal(8,0)" CanBeNull="true" />
+      <Column Name="employee_id_owner" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="strukturunit_id" Type="System.Decimal" DbType="Decimal(5,0)" CanBeNull="true" />
+      <Column Name="terimabarang_qtyitem" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="terimabarang_qtyrealization" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="order_qty" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="terimabarang_status" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="terimabarang_statusrealization" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="terimabarang_location" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="terimabarang_notes" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="terimabarang_nosuratjalan" Type="System.String" DbType="NVarChar(35)" CanBeNull="true" />
+      <Column Name="terimabarang_tglsuratjalan" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="channel_id" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="terimabarang_isdisabled" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="terimabarang_createby" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="terimabarang_createdt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="terimabarang_modifiedby" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="terimabarang_modifieddt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="terimabarang_appuser" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="terimabarang_appuser_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="terimabarang_appuser_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="terimabarang_appspv" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="terimabarang_appspv_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="terimabarang_appspv_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="terimabarang_appacc" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="terimabarang_appacc_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="terimabarang_appacc_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="terimabarang_foreign" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="currency_id" Type="System.Decimal" DbType="Decimal(3,0)" CanBeNull="true" />
+      <Column Name="terimabarang_foreignrate" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="terimabarang_idrreal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="terimabarang_pph" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="terimabarang_ppn" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="terimabarang_disc" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="terimabarang_cetakbpb" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.transaksi_receivestatusattach" Member="transaksi_receivestatusattaches">
+    <Type Name="transaksi_receivestatusattach">
+      <Column Name="receivestatus_id" Type="System.String" DbType="NVarChar(12) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="line" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="receivestatusattach_description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="create_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="create_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="modified_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="modified_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="is_deleted" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="deleted_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="deleted_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.view_structure_tabletype" Member="view_structure_tabletypes">
+    <Type Name="view_structure_tabletype">
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="table_name" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="column_name" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="type_data" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="max_length" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.view_transaksi_order_status" Member="view_transaksi_order_status">
+    <Type Name="view_transaksi_order_status">
+      <Column Name="order_id" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="order_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_descr" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="order_note" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="order_intref" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="request_id" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="currency_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="rekanan_id" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="order_prognm" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="order_progsch" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="budget_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="order_eps" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="order_setdate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_settime" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="order_setlocation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="order_utilizeddatestart" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_utilizeddateend" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_utilizedtimestart" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="order_utilizedtimeend" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="order_utilizedlocation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="order_pph_percent" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="order_ppn_percent" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="order_insurancecost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="order_transportationcost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="order_operatorcost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="order_othercost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="order_authname" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="order_authposition" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="order_authname2" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="order_authposition2" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="order_canceled" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="order_createby" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="order_createdate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_modifyby" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="order_modifydate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_discount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="order_source" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ordertype_id" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="order_revno" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="order_revdate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_revdesc" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="order_approved" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="channel_id" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="periode_id" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="order_spkrequired" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="order_spkworktype" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="order_spkdesc" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="order_dlvrname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="order_dlvraddr1" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="order_dlvraddr2" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="order_dlvraddr3" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="order_dlvrtelp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="order_dlvrfax" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="order_dlvrhp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="old_program_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="old_category_id" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="old_apref" Type="System.String" DbType="NVarChar(9)" CanBeNull="true" />
+      <Column Name="strukturunit_id" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="order_programtype" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="order_episodenum" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="order_singlebudget" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="order_epsstart" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="order_epsend" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+      <Column Name="receivedDoc_by" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="receivedDoc_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="receivedDoc_app" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="orderDelivery_by" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="orderDelivery_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_delivery_app" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.view_transaksi_receivestatus" Member="view_transaksi_receivestatus">
+    <Type Name="view_transaksi_receivestatus">
+      <Column Name="channel_id" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="receivestatus_id" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="receivestatus_descr" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="order_id" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="receivestatus_oldstatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="receivestatus_newstatus" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="strukturunit_id" Type="System.Decimal" DbType="Decimal(6,0)" CanBeNull="true" />
+      <Column Name="create_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="create_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="modified_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="modified_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="canceled" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="canceled_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="canceled_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="approved1_to" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="approved1" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="approved1_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="approved1_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="approved2_to" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="approved2" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="approved2_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="approved2_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="approved3" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="approved3_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="approved3_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="rejected" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="rejected_by" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="rejected_dt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="order_descr" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="create_by_fullname" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="approved1_by_fullname" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="approved2_by_fullname" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="approved3_by_fullname" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="rejected_by_fullname" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.master_kategoriassetdeprelink" Member="master_kategoriassetdeprelinks">
+    <Type Name="master_kategoriassetdeprelink">
+      <Column Name="kategoriasset_id" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="kategoriassetdepre_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.as_sequencer_asset" Method="as_sequencer_asset">
+    <Parameter Name="channel_id" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="type" Type="System.String" DbType="NVarChar(2)" />
+    <Parameter Name="id" Type="System.String" DbType="NVarChar(12)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.as_TrnReceiveStatusDelete" Method="as_TrnReceiveStatusDelete">
+    <Parameter Name="receivestatus_id" Type="System.String" DbType="NVarChar(12)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.as_TrnReceiveStatusUnapprove" Method="as_TrnReceiveStatusUnapprove">
+    <Parameter Name="receivestatus_id" Type="System.String" DbType="NVarChar(12)" />
+    <Parameter Name="approve_type" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.as_TrnReceiveStatusApprove" Method="as_TrnReceiveStatusApprove">
+    <Parameter Name="receivestatus_id" Type="System.String" DbType="NVarChar(12)" />
+    <Parameter Name="approve_type" Type="System.Int32" DbType="Int" />
+    <Parameter Name="approve_to" Type="System.String" DbType="NVarChar(16)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.as_TrnReceiveStatusReject" Method="as_TrnReceiveStatusReject">
+    <Parameter Name="receivestatus_id" Type="System.String" DbType="NVarChar(12)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.f_Terimajasa_IsComplete" Method="f_Terimajasa_IsComplete" IsComposable="true">
+    <Parameter Name="order_id" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Boolean" />
+  </Function>
+</Database>

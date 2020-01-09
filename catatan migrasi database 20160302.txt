@@ -1,0 +1,192 @@
+New ASSET Migrasi database
+
+Module yang tidak di pakai
+-
+
+Module done :
+- New ASSET->uiMstKategoriAsset
+- New ASSET->uiTrnDepresiasi
+- New ASSET->uiTrnPenerimaanBarang
+- New ASSET->uiTrnPenerimaanBarangListRV
+- New ASSET->uiTrnTerimaJasa_Editing
+- New ASSET->uiTrnTerimaJasa_General
+- New ASSET->uiTrnTerimaJasa_Maint
+- New ASSET->uiTrnTerimaJasa_Rental
+- New ASSET->uiTrnTerimaJasa_Rental_Wardrobe
+- New ASSET->uiTrnTerimaJasa_Talent
+
+
+* New ASSET->uiMstKategoriAsset :
+- duplicate SP E_ASSET->as_pilihanMstKategoriasset_Select   ke  E_FRM
+- duplicate table E_ASSET->master_pilihan  ke  E_FRM
+- duplicate SP E_ASSET->as_MstKategoriasset_Select   ke  E_FRM
+- duplicate SP E_ASSET->as_MstKategoriasset_Insert   ke  E_FRM
+- duplicate SP E_ASSET->as_MstKategoriasset_Update  ke  E_FRM
+- duplicate SP E_ASSET->as_MstKategoriasset_Delete  ke  E_FRM
+
+- duplicate SP E_ASSET->as_MstKategoriAssetAccount_Select   ke  E_FRM
+- duplicate SP E_ASSET->as_MstKategoriassetaccount_Insert  ke  E_FRM
+- duplicate SP E_ASSET->as_MstKategoriassetaccount_Delete  ke  E_FRM
+- duplicate SP E_ASSET->as_MstKategoriassetaccount_GetAccId  ke  E_FRM
+
+- ubah E_FRM->view_transaksi_jurnaldetildepre
+- ubah E_FRM->view_transaksi_jurnaldetildisposal
+- duplicate table E_ASSET->master_kategoriassetdepre  ke  E_FRM
+- duplicate SP E_ASSET->as_MstKategoriassetdepre_Select  ke  E_FRM
+- edit SP E_FRM->act_TrnJurnal_DepresiasiCreate
+
+
+*New ASSET->uiTrnDepresiasi :
+- edit SP E_FRM->act_TrnJurnal_DepresiasiDelete
+- edit SP E_FRM->cp_RptJurnal_SelectHeader
+
+*New ASSET->uiTrnPenerimaanBarang :
+- duplicate SP E_ASSET->as_MstPilihan_Select  to E_FRM
+- duplicate SP E_ASSET->as_MstRuangAsset_Select  to E_FRM
+- duplicate SP E_ASSET->as_MstUnit_Select  to E_FRM
+- edit view E_FRM->view_strukturunitorderAllBPB_select
+- duplicate SP E_ASSET->as_Trnperimaanbarang_Select_purchase  to E_FRM
+- duplicate SP E_ASSET->as_TrnOrder_Select  to E_FRM
+- edit SP E_FRM->as_TrnPenerimaanBarangdetil_Select_Purchase
+- duplicate SP E_ASSET->as_TrnPenerimaanbarangdetil_Select  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarangdetil_Insert  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarangdetil_Update  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarangdetil_Delete  to E_FRM
+- duplicate SP E_ASSET->as_MstTipeAssetKategori_Select to E_FRM
+- duplicate table E_ASSET->master_tipeassetkategori to E_FRM
+- duplicate SP E_ASSET->as_TrnPerimaanBarang_UserApproved to E_FRM
+
+- delete SP E_FRM->as_TrnPenerimaanBarang_SpvApproved to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanBarang_SpvApproved to E_FRM
+
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_Delete to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanBarang_ClearBarcode to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanBarang_DeleteBarcodeFromMasterAsset  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_BuildJurnal  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_GetAccountOth to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_UpdateRefRequest to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_ClearRefRequest to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_ClearRefRequestAll to E_FRM
+- duplicate SP E_ASSET->as_RptPenerimaanBarang_Select to E_FRM
+- duplicate SP E_ASSET->as_RptPenerimaanBarangDetil_Select to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanBarang_UpdateDate to E_FRM
+
+*New ASSET->uiTrnPenerimaanBarangListRV :
+- duplicate & edit SP E_ASSET->as_TrnPenerimaanbarang_Select  to E_FRM
+- duplicate & edit SP E_ASSET->as_PenerimaanBarangSelectRVListRV  to E_FRM
+
+- duplicate SP E_ASSET->as_ViewTrnPenerimaanbarangdetil_Select  to E_FRM
+- duplicate view E_ASSET->ViewTransaksiPenerimaanbarangDetil  to  E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_Insert  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_Update  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanBarang_CreateBarcode  to E_FRM
+- duplicate SP E_ASSET->as_sequencer_barcode  to E_FRM
+- edit SP E_FRM->as_TrnPenerimaanBarang_AccApproved1
+- duplicate SP E_ASSET->as_TrnPenerimaanBarang_NewAssetRVListRV  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanBarang_CopyBarcodeToMasterAsset to E_FRM
+- duplicate function E_ASSET->DepreBulanan to E_FRM
+- duplicate function E_ASSET->DepreBulananSusulan to E_FRM
+- duplicate function E_ASSET->AkhirDepre   to E_FRM
+- duplicate function E_ASSET->f_GetTotalRakitan   to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_SelectListRV to E_FRM
+- duplicate & edit SP E_ASSET->as_TrnAsset_RVListRV_DELETE to E_FRM
+
+*New ASSET->uiTrnTerimaJasa_Editing :
+- duplicate & edit SP E_ASSET->as_TrnTerimajasa_Select to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasa_Select_OpenRow to E_FRM
+- edit view E_FRM->view_StrukturunitEditingOrder_select
+
+- edit SP E_FRM->as_TrnTerimajasadetil_Select  like SP E_ASSET->as_TrnTerimajasadetil_Select
+- duplicate SP E_ASSET->as_TrnTerimajasausedEditing_Select to E_FRM
+- duplicate table E_ASSET->transaksi_terimajasausedediting to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasausededitingeps_Select to E_FRM
+- duplicate table E_ASSET->transaksi_terimajasausededitingeps to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasa_Select_Editing to E_FRM
+- edit SP E_FRM->as_TrnTerimajasadetil_Select_Editing
+- duplicate table E_ASSET->transaksi_terimajasashiftediting to E_FRM
+- edit SP E_FRM->as_TrnTerimajasadetilUsed_Select_Editing
+- duplicate SP E_ASSET->as_TrnTerimajasa_Insert to E_FRM
+- duplicate table E_ASSET->transaksi_terimajasa_bmacek to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasa_Update to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasadetil_Insert to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasadetil_Update to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasadetil_Delete to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasausedediting_Insert to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasausedediting_Update to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasausedediting_Delete to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasausededitingeps_Insert to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasausededitingeps_Update to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasausededitingeps_Delete to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimaJasa_UserApproved to E_FRM
+
+- duplicate SP E_ASSET->as_TrnTerimajasa_SpvApproved to E_FRM->as_TrnTerimajasa_SpvApproved_RV
+
+- Rename SP E_FRM->as_TrnTerimajasa_SpvApproved to E_FRM->as_TrnTerimajasa_SpvApproved_Order
+- duplicate SP E_START->as_TrnTerimajasa_SpvApproved to E_FRM, edit exec E_FRM->as_TrnTerimajasa_SpvApproved_RV & E_FRM->as_TrnTerimajasa_SpvApproved_Order
+
+- duplicate SP E_ASSET->as_TrnTerimaJasa_bmaApproved to E_FRM->as_TrnTerimaJasa_bmaApproved2
+
+- duplicate SP E_ASSET->as_TrnTerimajasa_IsiCurrencyKosong to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasa_Delete to E_FRM
+
+- edit SP E_FRM->hr_MstEmployee_Select like E_ASSET->ms_MstEmployee_Select
+- duplicate view E_ASSET->View_MstEmployee to E_FRM
+
+*New ASSET->uiTrnTerimaJasa_General :
+- edit view E_FRM->view_strukturunitorderAll_select
+- duplicate SP E_ASSET->as_TrnTerimajasadetilRental_Select to E_FRM
+- duplicate table E_ASSET->transaksi_terimajasaused to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasaused_Select to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasa_Select_General_1 to E_FRM
+- edit SP E_FRM->as_TrnTerimajasadetil_Select_GENERAL
+- edit SP E_FRM->as_TrnTerimajasadetilUsed_Select_General
+- duplicate SP E_ASSET->as_TrnTerimajasaused_Insert to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasaused_Update to E_FRM
+- duplicate SP E_ASSET->as_TrnTerimajasaused_Delete to E_FRM
+
+* New ASSET->uiTrnTerimaJasa_Maint :
+- duplicate SP E_ASSET->as_TrnTerimajasa_Select_Maintenance to E_FRM
+- edit SP E_FRM->as_TrnTerimajasadetil_Select_Maintenance
+- edit function E_FRM->f_TrnTerimajasausedMaintenance_qtyOutstanding
+
+*New ASSET->uiTrnTerimaJasa_Rental
+- duplicate SP E_ASSET->as_TrnTerimajasa_Select_Rental_1 to E_FRM
+- edit SP E_FRM->as_TrnTerimajasadetilUsed_Select_Rental
+- edit SP E_FRM->as_TrnTerimajasadetil_Select_Rental
+
+*New ASSET->uiTrnTerimaJasa_Rental_Wardrobe :
+- duplicate view E_ASSET->view_trnpenerimaanbarang_rentalrequest to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_SelectRentalRequest to E_FRM
+- duplicate view E_ASSET->view_trnpenerimaanbarang_rentalrequestdetil to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_SelectRentalRequestDetil  to E_FRM
+- duplicate view E_ASSET->view_trnpenerimaanbarang_request  to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_SelectRequest  to E_FRM
+- duplicate view E_ASSET->view_trnpenerimaanbarang_requestdetil to E_FRM
+- duplicate SP E_ASSET->as_TrnPenerimaanbarang_SelectRequestDetil  to E_FRM
+- edit SP E_FRM->as_TrnTerimajasadetilUsed_Select_RentalWardrobe
+- duplicate SP E_ASSET->as_TrnTerimajasa_BMAChecked  to E_FRM
+
+*New ASSET->uiTrnTerimaJasa_Talent :
+
+- duplicate SP E_ASSET->as_TrnTerimajasa_Select_20130423  to E_FRM
+
+- edit view E_FRM->view_strukturunitorder_select
+
+- duplicate SP E_ASSET->as_Trnterimajasabmacek_Select  to E_FRM
+
+- duplicate SP E_ASSET->as_TrnTerimajasausedtalent_Select  to E_FRM
+
+- duplicate SP E_ASSET->as_TrnTerimajasa_Select_Talent_1  to E_FRM
+
+- edit SP E_FRM->as_TrnTerimajasadetil_Select_Talent
+
+- duplicate SP E_ASSET->as_TrnTerimajasausedtalent_Insert  to E_FRM
+
+- duplicate SP E_ASSET->as_TrnTerimajasausedtalent_Update  to E_FRM
+
+- duplicate SP E_ASSET->as_TrnTerimajasausedtalent_Delete  to E_FRM
+
+- edit SP E_FRM->ms_MstArtisdetil_Delete_BMAUncheck
+
+
+

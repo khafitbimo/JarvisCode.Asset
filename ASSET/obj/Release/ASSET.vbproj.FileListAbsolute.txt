@@ -1,0 +1,812 @@
+J:\PTS_Data\WORK\New ASSET\ASSET\bin\Release\ASSET.dll.config
+J:\PTS_Data\WORK\New ASSET\ASSET\bin\Release\ASSET.dll
+J:\PTS_Data\WORK\New ASSET\ASSET\bin\Release\ASSET.pdb
+J:\PTS_Data\WORK\New ASSET\ASSET\bin\Release\ASSET.xml
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.vbprojResolveAssemblyReference.cache
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uibangsat.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiLapBpjOutstanding.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiLaporanPenerimaanAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.UiLaporanRekapitulasi.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.UiMstAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriItem.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.UiMstMaterial.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiMstMerk.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.UiMstRuang.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiMstTipeItem.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.UiMstUkuran.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiMstunit.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.UiMstwarna.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiRptBPJ_RentalIdle.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.UiSearch.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrackingGoodRequestToBpj.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnBookasset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnBPBProcurement.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi_ageChanges.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnIncomingAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnMaintenanceAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnRevaluasi.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnMoveAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnOutgoingAsset.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaBarang.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnwriteoff.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.uiViewDepresiasi.resources
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\RdlCompile.cache
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dll
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.xml
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.pdb
+C:\Users\mdp\Desktop\New ASSET\ASSET\bin\Release\ASSET.dll.config
+C:\Users\mdp\Desktop\New ASSET\ASSET\bin\Release\ASSET.dll
+C:\Users\mdp\Desktop\New ASSET\ASSET\bin\Release\ASSET.pdb
+C:\Users\mdp\Desktop\New ASSET\ASSET\bin\Release\ASSET.xml
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.vbprojResolveAssemblyReference.cache
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uibangsat.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiLapBpjOutstanding.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiLaporanPenerimaanAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.UiLaporanRekapitulasi.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.UiMstAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriItem.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.UiMstMaterial.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiMstMerk.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.UiMstRuang.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiMstTipeItem.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.UiMstUkuran.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiMstunit.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.UiMstwarna.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiRptBPJ_RentalIdle.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.UiSearch.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrackingGoodRequestToBpj.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnBookasset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnBPBProcurement.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi_ageChanges.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnIncomingAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnMaintenanceAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnRevaluasi.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnMoveAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnOutgoingAsset.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaBarang.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiTrnwriteoff.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.uiViewDepresiasi.resources
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\RdlCompile.cache
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.dll
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.xml
+C:\Users\mdp\Desktop\New ASSET\ASSET\obj\Release\ASSET.pdb
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\bin\Release\ASSET.dll.config
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\bin\Release\ASSET.dll
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\bin\Release\ASSET.pdb
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\bin\Release\ASSET.xml
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.vbprojResolveAssemblyReference.cache
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uibangsat.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiLapBpjOutstanding.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiLaporanPenerimaanAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.UiLaporanRekapitulasi.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.UiMstAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriItem.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.UiMstMaterial.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiMstMerk.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.UiMstRuang.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiMstTipeItem.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.UiMstUkuran.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiMstunit.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.UiMstwarna.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiRptBPJ_RentalIdle.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.UiSearch.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrackingGoodRequestToBpj.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnBookasset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnBPBProcurement.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi_ageChanges.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnIncomingAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnMaintenanceAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnRevaluasi.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnMoveAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnOutgoingAsset.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaBarang.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiTrnwriteoff.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.uiViewDepresiasi.resources
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\RdlCompile.cache
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.dll
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.xml
+G:\File Sharing\Gamba Migrasi\New ASSET\ASSET\obj\Release\ASSET.pdb
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.vbprojResolveAssemblyReference.cache
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uibangsat.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiLapBpjOutstanding.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiLaporanPenerimaanAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.UiLaporanRekapitulasi.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.UiMstAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriItem.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.UiMstMaterial.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiMstMerk.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.UiMstRuang.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiMstTipeItem.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.UiMstUkuran.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiMstunit.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.UiMstwarna.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiRptBPJ_RentalIdle.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.UiSearch.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrackingGoodRequestToBpj.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnBookasset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnBPBProcurement.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi_ageChanges.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnIncomingAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnMaintenanceAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnRevaluasi.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnMoveAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnOutgoingAsset.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaBarang.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiTrnwriteoff.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.uiViewDepresiasi.resources
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\RdlCompile.cache
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.dll
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.xml
+J:\FOLDER KERJA\New ASSET\ASSET\obj\Release\ASSET.pdb
+J:\FOLDER KERJA\New ASSET\ASSET\bin\Release\ASSET.dll.config
+J:\FOLDER KERJA\New ASSET\ASSET\bin\Release\ASSET.dll
+J:\FOLDER KERJA\New ASSET\ASSET\bin\Release\ASSET.pdb
+J:\FOLDER KERJA\New ASSET\ASSET\bin\Release\ASSET.xml
+J:\PTS_Data\WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+G:\Work\New ASSET\ASSET\bin\Release\ASSET.dll.config
+G:\Work\New ASSET\ASSET\bin\Release\ASSET.dll
+G:\Work\New ASSET\ASSET\bin\Release\ASSET.pdb
+G:\Work\New ASSET\ASSET\bin\Release\ASSET.xml
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.vbprojResolveAssemblyReference.cache
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+G:\Work\New ASSET\ASSET\obj\Release\RdlCompile.cache
+G:\Work\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.dll
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.xml
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.pdb
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\bin\Release\ASSET.dll.config
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\bin\Release\ASSET.dll
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\bin\Release\ASSET.pdb
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\bin\Release\ASSET.xml
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.vbprojResolveAssemblyReference.cache
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.DlgMstAssetConsumable.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\RdlCompile.cache
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dll
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.xml
+J:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.pdb
+G:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgMstAssetConsumable.resources
+D:\Work\New ASSET\ASSET\bin\Release\ASSET.dll.config
+D:\Work\New ASSET\ASSET\bin\Release\ASSET.dll
+D:\Work\New ASSET\ASSET\bin\Release\ASSET.pdb
+D:\Work\New ASSET\ASSET\bin\Release\ASSET.xml
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.vbprojResolveAssemblyReference.cache
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgSearch2.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgAddRV_CIPAsset.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRVSelectListRV.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRVSelect.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Detil_GQ_Jasa.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgDepresiasiNew.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Header_GQ.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgAssetItemCategory_select.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgAssetItem_select.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgAssetCategory_select.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgMstAssetConsumable.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental_Wardrobe.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Detil_GQ.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiBase2.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriAsset.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarangListRV.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental_Wardrobe.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dll.licenses
+D:\Work\New ASSET\ASSET\obj\Release\RdlCompile.cache
+D:\Work\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dll
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.xml
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.pdb
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\bin\Release\ASSET.dll.config
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\bin\Release\ASSET.dll
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\bin\Release\ASSET.pdb
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\bin\Release\ASSET.xml
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.vbprojResolveAssemblyReference.cache
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgSearch2.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgAddRV_CIPAsset.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRVSelectListRV.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRVSelect.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Detil_GQ_Jasa.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgDepresiasiNew.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Header_GQ.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgAssetItemCategory_select.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgAssetItem_select.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgAssetCategory_select.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.DlgMstAssetConsumable.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental_Wardrobe.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Detil_GQ.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiBase2.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriAsset.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarangListRV.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental_Wardrobe.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dll.licenses
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\RdlCompile.cache
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.dll
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.xml
+E:\ARI MDP2NET\ARI WORK\New ASSET\ASSET\obj\Release\ASSET.pdb
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\bin\Release\ASSET.dll.config
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\bin\Release\ASSET.dll
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\bin\Release\ASSET.pdb
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\bin\Release\ASSET.xml
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgSearch2.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgAddRV_CIPAsset.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRVSelectListRV.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRVSelect.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Detil_GQ_Jasa.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgDepresiasiNew.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Header_GQ.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgAssetItemCategory_select.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgAssetItem_select.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgAssetCategory_select.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.DlgMstAssetConsumable.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgSelectContract.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_PV.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_General.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_General.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental_Wardrobe.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_General.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Detil_GQ.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiBase2.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiMstKategoriAsset.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnDepresiasi.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarang.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnPenerimaanBarangListRV.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_General.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgAddItem_TrmBarang.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.DlgBpjSelectOrder.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgKondisiDepresiasi.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgListBarangNonFix.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgListBpj.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgListEditing_eps_shift.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgListOrder_days.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgListPO.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.NewData.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.DlgNewDataIncoming.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgNewDataTerimaJasa.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgPilihanPrint.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptDepre.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptIncAsset.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptLaporanPenerimaanAsset.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptMoveAsset.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptOutAsset.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasa.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaEditing.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaMaintenance.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptTerimaJasaTalent.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnAdaBarang.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgRptTrnTerimaBarang.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgSearch.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.DlgSelectEps.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgStatusTerimaJasa.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarangDetil_Select_Purchase.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnPenerimaanBarang_Select_Purchase.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Editing.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Maintenance.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Rental.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaDetil_Select_Talent.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Editing.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_EditingEps.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Rental.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimaJasaUsed_Talent.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Editing.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Maintenance.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Rental.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgTrnTerimajasa_Select_Talent.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateDepresiasiDetil.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateOutDetil.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlgUpdateStatusMaintenance.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dlg_addPicture.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.FPrintBPB.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.UpdateIncDetil.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.Resources.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiBase.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Editing.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Maint.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Rental_Wardrobe.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.uiTrnTerimaJasa_Talent.resources
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.vbproj.GenerateResource.Cache
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dll.licenses
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\RdlCompile.cache
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\RdlCompile.compiled
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.dll
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.xml
+D:\BIMO IT SOFTWARE\Download\New ASSET\ASSET\obj\Release\ASSET.pdb
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.uiTrnReceiveStatus.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgReceiveStatus_Order.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.DlgReceiveStatus_ApproveTo.resources
+D:\Work\New ASSET\ASSET\obj\Release\ASSET.dlgReceiveStatus_Attachment.resources

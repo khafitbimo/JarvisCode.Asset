@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>5a5d420b-378e-4e20-a217-92563de7c549</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="imageURL">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>imageURL</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelID">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelName">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelName</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelAddress">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelAddress</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="terimabarang_id">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>terimabarang_id</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.2in</RightMargin>
+  <LeftMargin>0.2in</LeftMargin>
+  <PageHeader>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Rectangle Name="rectangle7">
+        <Left>0.125in</Left>
+        <ZIndex>1</ZIndex>
+        <ReportItems>
+          <Textbox Name="textbox1">
+            <Top>0.29531in</Top>
+            <Width>2.3625in</Width>
+            <Style>
+              <FontFamily>Z: 3of 9 BarCode</FontFamily>
+              <FontSize>8pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>13cm</Left>
+            <Height>0.2in</Height>
+            <Value>="*" &amp; Parameters!terimabarang_id.Value &amp; "*"</Value>
+          </Textbox>
+          <Textbox Name="textbox40">
+            <Top>0.09531in</Top>
+            <Width>2.3625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>13cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Parameters!terimabarang_id.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox37">
+            <Top>0.09141in</Top>
+            <Width>3.73958in</Width>
+            <Style>
+              <FontSize>12pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <VerticalAlign>Bottom</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.68177in</Left>
+            <Height>0.19688in</Height>
+            <Value>=Parameters!channelName.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox38">
+            <Top>0.28829in</Top>
+            <Width>3.73958in</Width>
+            <Style>
+              <BorderColor>
+                <Default>Gray</Default>
+              </BorderColor>
+              <FontSize>8pt</FontSize>
+              <Format>dd/MM/yyyy</Format>
+              <PaddingLeft>2pt</PaddingLeft>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <Left>0.68177in</Left>
+            <Height>0.27344in</Height>
+            <Value>=Parameters!channelAddress.Value</Value>
+          </Textbox>
+          <Image Name="image2">
+            <Sizing>FitProportional</Sizing>
+            <Top>0.0875in</Top>
+            <Width>0.52656in</Width>
+            <MIMEType>image/gif</MIMEType>
+            <Source>External</Source>
+            <Style />
+            <Left>0.09844in</Left>
+            <Height>0.5in</Height>
+            <Value>=Parameters!imageURL.Value + "/solutions/images/" + Parameters!channelID.Value + ".jpg"</Value>
+          </Image>
+        </ReportItems>
+        <Top>0.125in</Top>
+        <Width>7.6424in</Width>
+        <Style>
+          <BorderColor>
+            <Left>Black</Left>
+          </BorderColor>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+        </Style>
+        <Height>0.7875in</Height>
+      </Rectangle>
+      <Textbox Name="textbox36">
+        <Top>1.125in</Top>
+        <Width>7.6474in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>14pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Value>TALENT ATTENDANCE </Value>
+      </Textbox>
+    </ReportItems>
+    <Height>1.61718in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageHeader>
+  <BottomMargin>0.2in</BottomMargin>
+  <rd:ReportID>9c152bd2-3c91-454f-8a41-edf38e59f283</rd:ReportID>
+  <PageWidth>8.27in</PageWidth>
+  <DataSets>
+    <DataSet Name="ASSET_DataSource_clsRptBarang">
+      <Fields>
+        <Field Name="accounting_appdt">
+          <DataField>accounting_appdt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="accounting_applogin">
+          <DataField>accounting_applogin</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="budget_id">
+          <DataField>budget_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="budget_name">
+          <DataField>budget_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_address">
+          <DataField>channel_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_id">
+          <DataField>channel_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_namereport">
+          <DataField>channel_namereport</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="editby">
+          <DataField>editby</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="editdt">
+          <DataField>editdt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="employee_id_pemilik">
+          <DataField>employee_id_pemilik</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_name_pemilik">
+          <DataField>employee_name_pemilik</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="inputby">
+          <DataField>inputby</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="inputdt">
+          <DataField>inputdt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="location">
+          <DataField>location</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="notes">
+          <DataField>notes</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="order_id">
+          <DataField>order_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="pa_ref">
+          <DataField>pa_ref</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="proc_full">
+          <DataField>proc_full</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="procurement_appdt">
+          <DataField>procurement_appdt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="procurement_applogin">
+          <DataField>procurement_applogin</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="rekanan_id">
+          <DataField>rekanan_id</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="shooting_date">
+          <DataField>shooting_date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="status_kedatangan">
+          <DataField>status_kedatangan</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="strukturunit_id_pemilik">
+          <DataField>strukturunit_id_pemilik</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="strukturunit_namereport">
+          <DataField>strukturunit_namereport</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="strukturunit1_namereport">
+          <DataField>strukturunit1_namereport</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimabarang_appacc">
+          <DataField>terimabarang_appacc</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="terimabarang_appprc">
+          <DataField>terimabarang_appprc</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="terimabarang_cetakbkb">
+          <DataField>terimabarang_cetakbkb</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="terimabarang_cetakbpb">
+          <DataField>terimabarang_cetakbpb</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="terimabarang_id">
+          <DataField>terimabarang_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimabarang_item">
+          <DataField>terimabarang_item</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="terimabarang_status">
+          <DataField>terimabarang_status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimabarang_tgl">
+          <DataField>terimabarang_tgl</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="usedby">
+          <DataField>usedby</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="useddt">
+          <DataField>useddt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="user_accounting">
+          <DataField>user_accounting</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="user_applogin">
+          <DataField>user_applogin</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="user_proc">
+          <DataField>user_proc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ASSET.DataSource</rd:DataSetName>
+        <rd:TableName>clsRptBarang</rd:TableName>
+        <rd:ObjectDataSourceType>ASSET.DataSource.clsRptBarang, ASSET, Version=1.0.3608.21217, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>8.08489in</Width>
+  <Body>
+    <ReportItems>
+      <Textbox Name="textbox30">
+        <Top>0.69271in</Top>
+        <Width>0.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>33</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.1746cm</Left>
+        <Height>0.2in</Height>
+        <Value>:</Value>
+      </Textbox>
+      <Textbox Name="textbox31">
+        <Top>0.7in</Top>
+        <Width>2.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>32</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.49206cm</Left>
+        <Height>0.2in</Height>
+        <Value>=Fields!pa_ref.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox32">
+        <Top>0.69271in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>31</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.63492cm</Left>
+        <Height>0.2in</Height>
+        <Value>RV Ref. No.</Value>
+      </Textbox>
+      <Textbox Name="textbox27">
+        <Top>0.7in</Top>
+        <Width>0.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>30</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.38095cm</Left>
+        <Height>0.2in</Height>
+        <Value>:</Value>
+      </Textbox>
+      <Textbox Name="textbox28">
+        <Top>0.70105in</Top>
+        <Width>2.65781in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>29</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.63492cm</Left>
+        <Height>0.2in</Height>
+        <Value>=Fields!status_kedatangan.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox29">
+        <Top>0.7in</Top>
+        <Width>0.98281in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>28</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>9.88492cm</Left>
+        <Height>0.2in</Height>
+        <Value>Arrival Status</Value>
+      </Textbox>
+      <Textbox Name="textbox25">
+        <Top>3.625in</Top>
+        <Width>7.625in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>27</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.2in</Height>
+        <Value>Notes</Value>
+      </Textbox>
+      <Textbox Name="textbox26">
+        <Top>3.825in</Top>
+        <Width>7.625in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>26</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.5in</Height>
+        <Value>=Fields!notes.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox4">
+        <Top>4.7in</Top>
+        <Width>2.52083in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>25</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.33333cm</Left>
+        <Height>0.88281in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox24">
+        <Top>4.5in</Top>
+        <Width>2.52083in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>24</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.33333cm</Left>
+        <Height>0.2in</Height>
+        <Value>Producer</Value>
+      </Textbox>
+      <Textbox Name="textbox17">
+        <Top>0.5in</Top>
+        <Width>0.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>23</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.38095cm</Left>
+        <Height>0.2in</Height>
+        <Value>:</Value>
+      </Textbox>
+      <Textbox Name="textbox18">
+        <Top>0.3in</Top>
+        <Width>0.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>22</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.38095cm</Left>
+        <Height>0.2in</Height>
+        <Value>:</Value>
+      </Textbox>
+      <Textbox Name="textbox19">
+        <Top>0.1in</Top>
+        <Width>0.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>21</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.38095cm</Left>
+        <Height>0.2in</Height>
+        <Value>:</Value>
+      </Textbox>
+      <Textbox Name="textbox16">
+        <Top>0.50313in</Top>
+        <Width>0.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>20</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.1746cm</Left>
+        <Height>0.2in</Height>
+        <Value>:</Value>
+      </Textbox>
+      <Textbox Name="textbox15">
+        <Top>0.30313in</Top>
+        <Width>0.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>19</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.1746cm</Left>
+        <Height>0.2in</Height>
+        <Value>:</Value>
+      </Textbox>
+      <Textbox Name="textbox3">
+        <Top>0.10313in</Top>
+        <Width>0.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>18</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.1746cm</Left>
+        <Height>0.2in</Height>
+        <Value>:</Value>
+      </Textbox>
+      <Textbox Name="textbox2">
+        <Top>0.3in</Top>
+        <Width>0.98281in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>17</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>9.88492cm</Left>
+        <Height>0.2in</Height>
+        <Value>Location</Value>
+      </Textbox>
+      <Textbox Name="location">
+        <rd:DefaultName>location</rd:DefaultName>
+        <Top>0.30625in</Top>
+        <Width>2.65781in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>16</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.63492cm</Left>
+        <Height>0.2in</Height>
+        <Value>=First(Fields!location.Value)</Value>
+      </Textbox>
+      <Subreport Name="subreport1">
+        <Parameters>
+          <Parameter Name="terimabarang_id">
+            <Value>=Fields!terimabarang_id.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>4.44444cm</Top>
+        <ReportName>RptTerimaJasaDetil1</ReportName>
+        <Width>19.55026cm</Width>
+        <ZIndex>15</ZIndex>
+        <Left>0.31746cm</Left>
+        <Height>4.44445cm</Height>
+      </Subreport>
+      <Textbox Name="textbox20">
+        <Top>4.5in</Top>
+        <Width>2.61458in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>14</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.34392cm</Left>
+        <Height>0.2in</Height>
+        <Value>Talent</Value>
+      </Textbox>
+      <Textbox Name="textbox21">
+        <Top>4.7in</Top>
+        <Width>2.61458in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>13</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.34392cm</Left>
+        <Height>0.88281in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox23">
+        <Top>4.7in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>12</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.98413cm</Left>
+        <Height>0.88281in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox22">
+        <Top>4.5in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>11</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.98413cm</Left>
+        <Height>0.2in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox5">
+        <Top>0.30313in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>10</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.63492cm</Left>
+        <Height>0.2in</Height>
+        <Value>Order Status</Value>
+      </Textbox>
+      <Textbox Name="textbox6">
+        <Top>0.10313in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>9</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.63492cm</Left>
+        <Height>0.2in</Height>
+        <Value>Received Date</Value>
+      </Textbox>
+      <Textbox Name="textbox7">
+        <Top>0.10313in</Top>
+        <Width>2.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>8</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.49206cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Format(Fields!terimabarang_tgl.Value, "dd/MM/yyyy")</Value>
+      </Textbox>
+      <Textbox Name="textbox8">
+        <Top>0.3in</Top>
+        <Width>2.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>7</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.49206cm</Left>
+        <Height>0.2in</Height>
+        <Value>=Fields!terimabarang_status.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox9">
+        <Top>0.5in</Top>
+        <Width>2.125in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.49206cm</Left>
+        <Height>0.2in</Height>
+        <Value>=Fields!order_id.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox10">
+        <Top>0.5in</Top>
+        <Width>0.98281in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>9.88492cm</Left>
+        <Height>0.2in</Height>
+        <Value>Department</Value>
+      </Textbox>
+      <Textbox Name="textbox11">
+        <Top>0.1in</Top>
+        <Width>0.98281in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>9.88492cm</Left>
+        <Height>0.2in</Height>
+        <Value>Vendor</Value>
+      </Textbox>
+      <Textbox Name="textbox12">
+        <Top>0.50105in</Top>
+        <Width>2.65781in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.63492cm</Left>
+        <Height>0.2in</Height>
+        <Value>=Fields!strukturunit1_namereport.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox13">
+        <Top>0.09583in</Top>
+        <Width>2.65781in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.63492cm</Left>
+        <Height>0.2in</Height>
+        <Value>=Fields!strukturunit_namereport.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox14">
+        <Top>0.50313in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.63492cm</Left>
+        <Height>0.2in</Height>
+        <Value>Order No.</Value>
+      </Textbox>
+      <Rectangle Name="rectangle2">
+        <Left>0.125in</Left>
+        <ReportItems>
+          <Textbox Name="textbox52">
+            <Top>1.24895in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>17</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.06349cm</Left>
+            <Height>0.25in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox53">
+            <Top>1.25in</Top>
+            <Width>2.65781in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>16</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.31746cm</Left>
+            <Height>0.25in</Height>
+            <Value />
+          </Textbox>
+          <Textbox Name="textbox54">
+            <Top>1.24895in</Top>
+            <Width>0.98281in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>15</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>9.56746cm</Left>
+            <Height>0.25in</Height>
+            <Value>Producer</Value>
+          </Textbox>
+          <Textbox Name="textbox49">
+            <Top>1.075in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>14</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.06349cm</Left>
+            <Height>0.17395in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox50">
+            <Top>1.07605in</Top>
+            <Width>2.65781in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>13</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.31746cm</Left>
+            <Height>0.17395in</Height>
+            <Value />
+          </Textbox>
+          <Textbox Name="textbox51">
+            <Top>1.075in</Top>
+            <Width>0.98281in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>12</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>9.56746cm</Left>
+            <Height>0.17395in</Height>
+            <Value>Talent</Value>
+          </Textbox>
+          <Textbox Name="textbox39">
+            <Top>0.875in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>11</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.06349cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox41">
+            <Top>0.87605in</Top>
+            <Width>2.65781in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>10</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.31746cm</Left>
+            <Height>0.2in</Height>
+            <Value>=format(Fields!shooting_date.Value,"dd/MM/yyyy")</Value>
+          </Textbox>
+          <Textbox Name="textbox42">
+            <Top>0.875in</Top>
+            <Width>0.98281in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>9</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>9.56746cm</Left>
+            <Height>0.2in</Height>
+            <Value>Tanggal Shooting</Value>
+          </Textbox>
+          <Textbox Name="textbox46">
+            <Top>1.25in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>8</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.85714cm</Left>
+            <Height>0.25in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox47">
+            <Top>1.25in</Top>
+            <Width>2.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>7</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>3.1746cm</Left>
+            <Height>0.25in</Height>
+            <Value />
+          </Textbox>
+          <Textbox Name="textbox48">
+            <Top>1.25in</Top>
+            <Width>1in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>6</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.31746cm</Left>
+            <Height>0.25in</Height>
+            <Value>Jenis Acara</Value>
+          </Textbox>
+          <Textbox Name="textbox43">
+            <Top>1.075in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>5</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.85714cm</Left>
+            <Height>0.175in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox44">
+            <Top>1.075in</Top>
+            <Width>2.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>3.1746cm</Left>
+            <Height>0.175in</Height>
+            <Value />
+          </Textbox>
+          <Textbox Name="textbox45">
+            <Top>1.075in</Top>
+            <Width>1in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.31746cm</Left>
+            <Height>0.175in</Height>
+            <Value>Live/tapping</Value>
+          </Textbox>
+          <Textbox Name="textbox33">
+            <Top>0.85417in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.84616cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox34">
+            <Top>0.85417in</Top>
+            <Width>2.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>3.16362cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!budget_id.Value &amp; " - " &amp; Fields!budget_name.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox35">
+            <Top>0.85417in</Top>
+            <Width>1in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Left>0.30648cm</Left>
+            <Height>0.2in</Height>
+            <Value>Budget</Value>
+          </Textbox>
+        </ReportItems>
+        <Top>0.05313in</Top>
+        <Width>7.625in</Width>
+        <Style>
+          <BorderColor>
+            <Left>Black</Left>
+          </BorderColor>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+        </Style>
+        <Height>1.57605in</Height>
+      </Rectangle>
+    </ReportItems>
+    <Height>5.63281in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <PageFooter>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <Height>0.25in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageFooter>
+  <TopMargin>0.2in</TopMargin>
+  <PageHeight>11.69in</PageHeight>
+</Report>

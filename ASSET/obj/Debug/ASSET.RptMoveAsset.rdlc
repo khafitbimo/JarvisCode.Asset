@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>4c03ccd7-8567-4126-8cd7-51af36f401d2</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="imageURL">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>imageURL</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelID">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelName">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelName</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelAddress">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelAddress</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="moveAssetID">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>moveAssetID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="strukturUnit">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>strukturUnit</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.4in</RightMargin>
+  <LeftMargin>0.4in</LeftMargin>
+  <PageHeader>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Rectangle Name="rectangle7">
+        <Left>0.125in</Left>
+        <ZIndex>1</ZIndex>
+        <ReportItems>
+          <Textbox Name="textbox39">
+            <Top>0.29531in</Top>
+            <Width>2.3625in</Width>
+            <Style>
+              <FontFamily>Z: 3of 9 BarCode</FontFamily>
+              <FontSize>8pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>5</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>11.63889cm</Left>
+            <Height>0.2in</Height>
+            <Value>="*" &amp; Parameters!moveAssetID.Value &amp; "*"</Value>
+          </Textbox>
+          <Textbox Name="textbox40">
+            <Top>0.09531in</Top>
+            <Width>2.3625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>11.63889cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Parameters!moveAssetID.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox37">
+            <Top>0.09141in</Top>
+            <Width>3.73958in</Width>
+            <Style>
+              <FontSize>12pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <VerticalAlign>Bottom</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.66458in</Left>
+            <Height>0.19688in</Height>
+            <Value>=Parameters!channelName.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox38">
+            <Top>0.28829in</Top>
+            <Width>3.73958in</Width>
+            <Style>
+              <BorderColor>
+                <Default>Gray</Default>
+              </BorderColor>
+              <FontSize>8pt</FontSize>
+              <Format>dd/MM/yyyy</Format>
+              <PaddingLeft>2pt</PaddingLeft>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <Left>0.66458in</Left>
+            <Height>0.27344in</Height>
+            <Value>=Parameters!channelAddress.Value</Value>
+          </Textbox>
+          <Image Name="image2">
+            <Sizing>FitProportional</Sizing>
+            <Top>0.0875in</Top>
+            <Width>0.52656in</Width>
+            <MIMEType>image/gif</MIMEType>
+            <Source>External</Source>
+            <Style />
+            <ZIndex>1</ZIndex>
+            <Left>0.08125in</Left>
+            <Height>0.5in</Height>
+            <Value>=Parameters!imageURL.Value + "/solutions/images/" + Parameters!channelID.Value + ".jpg"</Value>
+          </Image>
+          <Textbox Name="textbox18">
+            <Top>0.49531in</Top>
+            <Width>2.3625in</Width>
+            <Style>
+              <BorderWidth>
+                <Default>2pt</Default>
+              </BorderWidth>
+              <TextAlign>Right</TextAlign>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Left>4.58281in</Left>
+            <Height>0.21198in</Height>
+            <Value>=Parameters!strukturUnit.Value</Value>
+          </Textbox>
+        </ReportItems>
+        <Width>7in</Width>
+        <Style>
+          <BorderColor>
+            <Left>Black</Left>
+          </BorderColor>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+        </Style>
+        <Height>0.7875in</Height>
+      </Rectangle>
+      <Textbox Name="textbox36">
+        <Top>0.88594in</Top>
+        <Width>7in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>14pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Value>FORMULIR MUTASI / PERPINDAHAN ASSET                                                                                              ASSET MUTATION FORM     </Value>
+      </Textbox>
+    </ReportItems>
+    <Height>1.37812in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageHeader>
+  <BottomMargin>0.4in</BottomMargin>
+  <rd:ReportID>f2c977c2-1548-4fb0-80b3-3d4f99eefbd0</rd:ReportID>
+  <PageWidth>8.27in</PageWidth>
+  <DataSets>
+    <DataSet Name="ASSET_DataSource_clsRptMoveAsset">
+      <Fields>
+        <Field Name="channel_address">
+          <DataField>channel_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_id">
+          <DataField>channel_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_namereport">
+          <DataField>channel_namereport</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_acc_string">
+          <DataField>employee_acc_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_id_new">
+          <DataField>employee_id_new</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Employee_id_new_string">
+          <DataField>Employee_id_new_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_id_old">
+          <DataField>employee_id_old</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Employee_id_old_string">
+          <DataField>Employee_id_old_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_new_depthead_string">
+          <DataField>employee_new_depthead_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_new_divhead_string">
+          <DataField>employee_new_divhead_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_old_depthead_string">
+          <DataField>employee_old_depthead_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_old_divhead_string">
+          <DataField>employee_old_divhead_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="moveasset_acct">
+          <DataField>moveasset_acct</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Moveasset_acct_string">
+          <DataField>Moveasset_acct_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="moveasset_id">
+          <DataField>moveasset_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="moveasset_item">
+          <DataField>moveasset_item</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="moveasset_remark">
+          <DataField>moveasset_remark</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="moveasset_report">
+          <DataField>moveasset_report</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Moveasset_report_string">
+          <DataField>Moveasset_report_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="moveasset_strukturunit">
+          <DataField>moveasset_strukturunit</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Moveasset_strukturunit_string">
+          <DataField>Moveasset_strukturunit_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="moveasset_tgl">
+          <DataField>moveasset_tgl</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="strukturunit_id_new">
+          <DataField>strukturunit_id_new</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Strukturunit_id_new_divisi">
+          <DataField>Strukturunit_id_new_divisi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Strukturunit_id_new_string">
+          <DataField>Strukturunit_id_new_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="strukturunit_id_old">
+          <DataField>strukturunit_id_old</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Strukturunit_id_old_divisi">
+          <DataField>Strukturunit_id_old_divisi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Strukturunit_id_old_string">
+          <DataField>Strukturunit_id_old_string</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ASSET.DataSource</rd:DataSetName>
+        <rd:TableName>clsRptMoveAsset</rd:TableName>
+        <rd:ObjectDataSourceType>ASSET.DataSource.clsRptMoveAsset, ASSET, Version=1.0.3232.32879, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>20.31746cm</Width>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Textbox Name="textbox32">
+        <Top>7.065in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>32</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.375in</Left>
+        <Height>0.62501in</Height>
+        <Value>= "(" &amp; Fields!employee_acc_string.Value &amp; ")"</Value>
+      </Textbox>
+      <Textbox Name="textbox33">
+        <Top>6.875in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>31</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.375in</Left>
+        <Height>0.19in</Height>
+        <Value>Accounting Dept. Head</Value>
+      </Textbox>
+      <Textbox Name="textbox30">
+        <Top>7.065in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>30</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.625in</Left>
+        <Height>0.62501in</Height>
+        <Value>= "(" &amp; Fields!employee_new_divhead_string.Value &amp; ")"</Value>
+      </Textbox>
+      <Textbox Name="textbox31">
+        <Top>6.875in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>29</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.625in</Left>
+        <Height>0.19in</Height>
+        <Value>New Owner Div. Head</Value>
+      </Textbox>
+      <Textbox Name="textbox27">
+        <Top>7.065in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>28</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.875in</Left>
+        <Height>0.62501in</Height>
+        <Value>= "(" &amp; Fields!employee_new_depthead_string.Value &amp; ")"</Value>
+      </Textbox>
+      <Textbox Name="textbox28">
+        <Top>6.875in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>27</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.875in</Left>
+        <Height>0.19in</Height>
+        <Value>New Owner Dept. Head</Value>
+      </Textbox>
+      <Textbox Name="textbox25">
+        <Top>7.065in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>26</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.62501in</Height>
+        <Value>= "(" &amp; Fields!Employee_id_new_string.Value &amp; ")"</Value>
+      </Textbox>
+      <Textbox Name="textbox26">
+        <Top>6.875in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>25</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.19in</Height>
+        <Value>New Owner</Value>
+      </Textbox>
+      <Textbox Name="textbox19">
+        <Top>6.25in</Top>
+        <Width>2.375in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>24</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.06349cm</Left>
+        <Height>0.625in</Height>
+        <Value>="(" &amp; Fields!employee_old_divhead_string.Value &amp;  ")"</Value>
+      </Textbox>
+      <Textbox Name="textbox22">
+        <Top>6.06in</Top>
+        <Width>2.375in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>23</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>12.06349cm</Left>
+        <Height>0.19in</Height>
+        <Value>Last Owner Div. Head</Value>
+      </Textbox>
+      <Textbox Name="textbox21">
+        <Top>0.51823in</Top>
+        <Width>0.96875in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Left>1.5pt</Left>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>22</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>9.20635cm</Left>
+        <Height>0.2in</Height>
+        <Value>New Department       </Value>
+      </Textbox>
+      <Textbox Name="textbox24">
+        <Top>0.51821in</Top>
+        <Width>2.53125in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Right>1.5pt</Right>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>21</ZIndex>
+        <Left>11.66667cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Fields!Strukturunit_id_new_string.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox13">
+        <Top>0.11823in</Top>
+        <Width>0.96875in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Left>1.5pt</Left>
+            <Top>1.5pt</Top>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>20</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>9.20635cm</Left>
+        <Height>0.2in</Height>
+        <Value>Date         </Value>
+      </Textbox>
+      <Textbox Name="textbox20">
+        <Top>0.11823in</Top>
+        <Width>2.53125in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Right>1.5pt</Right>
+            <Top>1.5pt</Top>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>19</ZIndex>
+        <Left>11.66667cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Format(Fields!moveasset_tgl.Value, "dd MMMM yyyy")</Value>
+      </Textbox>
+      <Textbox Name="textbox11">
+        <Top>0.71823in</Top>
+        <Width>1in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Left>1.5pt</Left>
+            <Bottom>1.5pt</Bottom>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>18</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.2in</Height>
+        <Value>Last Division    </Value>
+      </Textbox>
+      <Textbox Name="textbox12">
+        <Top>0.7182in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Right>1.5pt</Right>
+            <Bottom>1.5pt</Bottom>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>17</ZIndex>
+        <Left>2.85714cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Fields!Strukturunit_id_old_divisi.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox9">
+        <Top>0.51823in</Top>
+        <Width>1in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Left>1.5pt</Left>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>16</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.2in</Height>
+        <Value>Last Department             </Value>
+      </Textbox>
+      <Textbox Name="textbox10">
+        <Top>0.51821in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Right>1.5pt</Right>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>15</ZIndex>
+        <Left>2.85714cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Fields!Strukturunit_id_old_string.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox7">
+        <Top>0.71823in</Top>
+        <Width>0.96875in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Left>1.5pt</Left>
+            <Bottom>1.5pt</Bottom>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>14</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>9.20635cm</Left>
+        <Height>0.2in</Height>
+        <Value>New Division</Value>
+      </Textbox>
+      <Textbox Name="textbox8">
+        <Top>0.7182in</Top>
+        <Width>2.53125in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Right>1.5pt</Right>
+            <Bottom>1.5pt</Bottom>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>13</ZIndex>
+        <Left>11.66667cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Fields!Strukturunit_id_new_divisi.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox5">
+        <Top>0.31823in</Top>
+        <Width>0.96875in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Left>1.5pt</Left>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>12</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>9.20635cm</Left>
+        <Height>0.2in</Height>
+        <Value>New Owner      </Value>
+      </Textbox>
+      <Textbox Name="textbox6">
+        <Top>0.31822in</Top>
+        <Width>2.53073in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Right>1.5pt</Right>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>11</ZIndex>
+        <Left>11.66667cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Fields!Employee_id_new_string.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <Top>0.31823in</Top>
+        <Width>1in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Left>1.5pt</Left>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>10</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.2in</Height>
+        <Value>Last Owner                      </Value>
+      </Textbox>
+      <Textbox Name="textbox2">
+        <Top>0.31822in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Right>1.5pt</Right>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>9</ZIndex>
+        <Left>2.85714cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Fields!Employee_id_old_string.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox3">
+        <Top>0.11823in</Top>
+        <Width>1in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Left>1.5pt</Left>
+            <Top>1.5pt</Top>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>8</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.2in</Height>
+        <Value>Move No.                         </Value>
+      </Textbox>
+      <Textbox Name="textbox4">
+        <Top>0.11823in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>0.5pt</Default>
+            <Right>1.5pt</Right>
+            <Top>1.5pt</Top>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>7</ZIndex>
+        <Left>2.85714cm</Left>
+        <Height>0.19999in</Height>
+        <Value>=Fields!moveasset_id.Value</Value>
+      </Textbox>
+      <Textbox Name="moveasset_remark">
+        <rd:DefaultName>moveasset_remark</rd:DefaultName>
+        <Top>5.625in</Top>
+        <Width>7in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.25in</Height>
+        <Value>=Fields!moveasset_remark.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox17">
+        <Top>5.425in</Top>
+        <Width>7in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.2in</Height>
+        <Value>Move Remark</Value>
+      </Textbox>
+      <Textbox Name="textbox15">
+        <Top>6.25in</Top>
+        <Width>2.25in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.34921cm</Left>
+        <Height>0.625in</Height>
+        <Value>="("  &amp; Fields!employee_old_depthead_string.Value &amp; ")"</Value>
+      </Textbox>
+      <Textbox Name="textbox16">
+        <Top>6.06in</Top>
+        <Width>2.25in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.34921cm</Left>
+        <Height>0.19in</Height>
+        <Value>Last Owner Dept. Head</Value>
+      </Textbox>
+      <Textbox Name="textbox14">
+        <Top>6.24999in</Top>
+        <Width>2.375in</Width>
+        <Style>
+          <BorderStyle>
+            <Left>Solid</Left>
+            <Right>Solid</Right>
+            <Top>Solid</Top>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.62501in</Height>
+        <Value>="(" &amp; Fields!Employee_id_old_string.Value &amp; ")"</Value>
+      </Textbox>
+      <Textbox Name="textbox23">
+        <Top>6.05999in</Top>
+        <Width>2.375in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.19in</Height>
+        <Value>Last Owner</Value>
+      </Textbox>
+      <Subreport Name="subreport1">
+        <Top>2.85714cm</Top>
+        <ReportName>ASSET.RptMoveAssetDetil.rdlc</ReportName>
+        <Width>17.77778cm</Width>
+        <Left>0.125in</Left>
+        <Height>10.47619cm</Height>
+      </Subreport>
+    </ReportItems>
+    <Height>19.68254cm</Height>
+  </Body>
+  <Language>en-US</Language>
+  <PageFooter>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Textbox Name="textbox29">
+        <Width>1.37812in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>14.60317cm</Left>
+        <Height>0.2in</Height>
+        <Value>=Globals!PageNumber &amp; " of " &amp; Globals!TotalPages</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>0.25in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageFooter>
+  <TopMargin>0.4in</TopMargin>
+  <PageHeight>11.69in</PageHeight>
+</Report>

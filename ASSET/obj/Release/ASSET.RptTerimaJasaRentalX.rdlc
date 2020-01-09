@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>b6839720-7ad3-4a49-b6ac-29367b169a78</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="imageURL">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>imageURL</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelID">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelName">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelName</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="channelAddress">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>channelAddress</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="terimajasa_id">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>terimajasa_id</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="p_domain_name">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>p_domain_name</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.01in</RightMargin>
+  <LeftMargin>0.01in</LeftMargin>
+  <PageHeader>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Textbox Name="textbox36">
+        <Top>1.125in</Top>
+        <Width>7.6474in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+          <FontSize>14pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.1138in</Left>
+        <Height>0.49218in</Height>
+        <Value>BERITA ACARA PENERIMAAN BARANG SEWA / JASA                                                                                                              GOODS RECEIVED     </Value>
+      </Textbox>
+      <Rectangle Name="rectangle7">
+        <Left>0.125in</Left>
+        <ReportItems>
+          <Textbox Name="textbox1">
+            <Top>0.29531in</Top>
+            <Width>2.3625in</Width>
+            <Style>
+              <FontFamily>Z: 3of 9 BarCode</FontFamily>
+              <FontSize>8pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>13cm</Left>
+            <Height>0.2in</Height>
+            <Value>="*" &amp; Parameters!terimajasa_id.Value &amp; "*"</Value>
+          </Textbox>
+          <Textbox Name="textbox40">
+            <Top>0.09531in</Top>
+            <Width>2.3625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>13cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Parameters!terimajasa_id.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox37">
+            <Top>0.09141in</Top>
+            <Width>3.73958in</Width>
+            <Style>
+              <FontSize>12pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <VerticalAlign>Bottom</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.68177in</Left>
+            <Height>0.19688in</Height>
+            <Value>=Parameters!channelName.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox38">
+            <Top>0.28829in</Top>
+            <Width>3.73958in</Width>
+            <Style>
+              <BorderColor>
+                <Default>Gray</Default>
+              </BorderColor>
+              <FontSize>8pt</FontSize>
+              <Format>dd/MM/yyyy</Format>
+              <PaddingLeft>2pt</PaddingLeft>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <Left>0.68177in</Left>
+            <Height>0.27344in</Height>
+            <Value>=Parameters!channelAddress.Value</Value>
+          </Textbox>
+          <Image Name="image2">
+            <Sizing>FitProportional</Sizing>
+            <Top>0.0875in</Top>
+            <Width>0.52656in</Width>
+            <MIMEType>image/gif</MIMEType>
+            <Source>External</Source>
+            <Style />
+            <Left>0.09844in</Left>
+            <Height>0.5in</Height>
+            <Value>=Parameters!p_domain_name.Value &amp; "/services/live/solutions/images/" &amp; Parameters!channelID.Value + ".jpg"</Value>
+          </Image>
+        </ReportItems>
+        <Top>0.125in</Top>
+        <Width>7.6424in</Width>
+        <Style>
+          <BorderColor>
+            <Left>Black</Left>
+          </BorderColor>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+        </Style>
+        <Height>0.7875in</Height>
+      </Rectangle>
+    </ReportItems>
+    <Height>1.75in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageHeader>
+  <BottomMargin>0.2in</BottomMargin>
+  <rd:ReportID>1d8b454f-ba34-4a11-b37b-93a8ed878d86</rd:ReportID>
+  <PageWidth>8.27in</PageWidth>
+  <DataSets>
+    <DataSet Name="ASSET_DataSource_clsRptTerimaJasaRental">
+      <Fields>
+        <Field Name="budget_id">
+          <DataField>budget_id</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="budget_name">
+          <DataField>budget_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_address">
+          <DataField>channel_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_id">
+          <DataField>channel_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_namereport">
+          <DataField>channel_namereport</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="currency_id">
+          <DataField>currency_id</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="employee_id_owner">
+          <DataField>employee_id_owner</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="order_id">
+          <DataField>order_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="order_qty">
+          <DataField>order_qty</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="program_name">
+          <DataField>program_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="rekanan_id">
+          <DataField>rekanan_id</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="rekanan_name">
+          <DataField>rekanan_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="strukturunit_id">
+          <DataField>strukturunit_id</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="strukturunit_name">
+          <DataField>strukturunit_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appbma">
+          <DataField>terimajasa_appbma</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appbma_by">
+          <DataField>terimajasa_appbma_by</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appbma_dt">
+          <DataField>terimajasa_appbma_dt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appspv">
+          <DataField>terimajasa_appspv</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appspv_by">
+          <DataField>terimajasa_appspv_by</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appspv_dt">
+          <DataField>terimajasa_appspv_dt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appuser">
+          <DataField>terimajasa_appuser</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appuser_by">
+          <DataField>terimajasa_appuser_by</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appuser_dt">
+          <DataField>terimajasa_appuser_dt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_cetakbpj">
+          <DataField>terimajasa_cetakbpj</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_createby">
+          <DataField>terimajasa_createby</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_createdt">
+          <DataField>terimajasa_createdt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_date">
+          <DataField>terimajasa_date</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_disc">
+          <DataField>terimajasa_disc</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_foreign">
+          <DataField>terimajasa_foreign</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_foreignrate">
+          <DataField>terimajasa_foreignrate</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_id">
+          <DataField>terimajasa_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_idrreal">
+          <DataField>terimajasa_idrreal</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_isdisabled">
+          <DataField>terimajasa_isdisabled</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_location">
+          <DataField>terimajasa_location</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_modifiedby">
+          <DataField>terimajasa_modifiedby</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_modifieddt">
+          <DataField>terimajasa_modifieddt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_nosuratjalan">
+          <DataField>terimajasa_nosuratjalan</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_notes">
+          <DataField>terimajasa_notes</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_pph">
+          <DataField>terimajasa_pph</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_ppn">
+          <DataField>terimajasa_ppn</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_qtyitem">
+          <DataField>terimajasa_qtyitem</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_qtyrealization">
+          <DataField>terimajasa_qtyrealization</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_status">
+          <DataField>terimajasa_status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_statusrealization">
+          <DataField>terimajasa_statusrealization</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_type">
+          <DataField>terimajasa_type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="employee_name">
+          <DataField>employee_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="terimajasa_appspv_by_name">
+          <DataField>terimajasa_appspv_by_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ASSET.DataSource</rd:DataSetName>
+        <rd:TableName>clsRptTerimaJasaRental</rd:TableName>
+        <rd:ObjectDataSourceType>ASSET.DataSource.clsRptTerimaJasaRental, ASSET, Version=1.0.3775.38298, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>7.89583in</Width>
+  <Body>
+    <ReportItems>
+      <Subreport Name="subreport2">
+        <Parameters>
+          <Parameter Name="terimajasa_id">
+            <Value>=Fields!terimajasa_id.Value</Value>
+          </Parameter>
+        </Parameters>
+        <Top>3.1746cm</Top>
+        <ReportName>ASSET.RptTerimaJasaRentalDetilX</ReportName>
+        <Width>19.36508cm</Width>
+        <ZIndex>9</ZIndex>
+        <Left>0.34391cm</Left>
+        <Height>0.95238cm</Height>
+      </Subreport>
+      <Rectangle Name="rectangle2">
+        <Left>0.12541in</Left>
+        <ZIndex>8</ZIndex>
+        <ReportItems>
+          <Textbox Name="textbox31">
+            <Top>0.525in</Top>
+            <Width>2.625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>23</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.85714cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!strukturunit_name.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox32">
+            <Top>0.525in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>22</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.31745cm</Left>
+            <Height>0.2in</Height>
+            <Value>Department</Value>
+          </Textbox>
+          <Textbox Name="textbox33">
+            <Top>0.525in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>21</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.53968cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox7">
+            <Top>0.125in</Top>
+            <Width>2.625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>20</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.85714cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Format(Fields!terimajasa_date.Value, "dd/MM/yyyy")</Value>
+          </Textbox>
+          <Textbox Name="textbox6">
+            <Top>0.125in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>19</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.31746cm</Left>
+            <Height>0.2in</Height>
+            <Value>Received Date</Value>
+          </Textbox>
+          <Textbox Name="textbox3">
+            <Top>0.125in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>18</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.53968cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox14">
+            <Top>0.325in</Top>
+            <Width>2.625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>17</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.85714cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!order_id.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox13">
+            <Top>0.325in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>16</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.31745cm</Left>
+            <Height>0.2in</Height>
+            <Value>RO No.</Value>
+          </Textbox>
+          <Textbox Name="textbox12">
+            <Top>0.325in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>15</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.53968cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox11">
+            <Top>0.725in</Top>
+            <Width>2.625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>14</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.85714cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!budget_id.Value &amp; " - " &amp; Fields!budget_name.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox10">
+            <Top>0.725in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>13</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.31745cm</Left>
+            <Height>0.2in</Height>
+            <Value>Budget</Value>
+          </Textbox>
+          <Textbox Name="textbox9">
+            <Top>0.725in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>12</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.53968cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox17">
+            <Top>0.325in</Top>
+            <Width>2.625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>11</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.38095cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!terimajasa_location.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox16">
+            <Top>0.325in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>10</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>9.84126cm</Left>
+            <Height>0.2in</Height>
+            <Value>Location</Value>
+          </Textbox>
+          <Textbox Name="textbox15">
+            <Top>0.325in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>9</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.06349cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox30">
+            <Top>0.125in</Top>
+            <Width>2.625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>8</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.38095cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!rekanan_name.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox29">
+            <Top>0.125in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>7</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>9.84126cm</Left>
+            <Height>0.2in</Height>
+            <Value>Rekanan</Value>
+          </Textbox>
+          <Textbox Name="textbox28">
+            <Top>0.125in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>6</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.06349cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox27">
+            <Top>0.525in</Top>
+            <Width>2.625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>5</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.38095cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!terimajasa_statusrealization.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox19">
+            <Top>0.525in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>9.84126cm</Left>
+            <Height>0.2in</Height>
+            <Value>Arrival Status</Value>
+          </Textbox>
+          <Textbox Name="textbox18">
+            <Top>0.525in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.06349cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+          <Textbox Name="textbox8">
+            <Top>0.725in</Top>
+            <Width>2.625in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>12.38095cm</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!program_name.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox5">
+            <Top>0.725in</Top>
+            <Width>0.875in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>9.84126cm</Left>
+            <Height>0.2in</Height>
+            <Value>Program</Value>
+          </Textbox>
+          <Textbox Name="textbox2">
+            <Top>0.725in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <FontSize>8pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Left>12.06349cm</Left>
+            <Height>0.2in</Height>
+            <Value>:</Value>
+          </Textbox>
+        </ReportItems>
+        <Width>7.645in</Width>
+        <Style>
+          <BorderColor>
+            <Left>Black</Left>
+          </BorderColor>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+        </Style>
+        <Height>1.125in</Height>
+      </Rectangle>
+      <Textbox Name="textbox25">
+        <Top>1.75in</Top>
+        <Width>7.625in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>7</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.2in</Height>
+        <Value>Notes</Value>
+      </Textbox>
+      <Textbox Name="textbox26">
+        <Top>1.95in</Top>
+        <Width>7.625in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.31746cm</Left>
+        <Height>0.5in</Height>
+        <Value>=Fields!terimajasa_notes.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox4">
+        <Top>2.825in</Top>
+        <Width>2.52083in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.33333cm</Left>
+        <Height>0.88281in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox24">
+        <Top>2.625in</Top>
+        <Width>2.52083in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>13.33333cm</Left>
+        <Height>0.2in</Height>
+        <Value>Post By</Value>
+      </Textbox>
+      <Textbox Name="textbox20">
+        <Top>2.625in</Top>
+        <Width>2.61458in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.34392cm</Left>
+        <Height>0.2in</Height>
+        <Value>Received By</Value>
+      </Textbox>
+      <Textbox Name="textbox21">
+        <Top>2.825in</Top>
+        <Width>2.61458in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.34392cm</Left>
+        <Height>0.88281in</Height>
+        <Value>=First(Fields!employee_name.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox23">
+        <Top>2.825in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Bottom</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.98413cm</Left>
+        <Height>0.88281in</Height>
+        <Value>=Fields!terimajasa_appspv_by_name.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox22">
+        <Top>2.625in</Top>
+        <Width>2.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>6.98413cm</Left>
+        <Height>0.2in</Height>
+        <Value>Supervisor / Section Head</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>3.75in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>0.2in</TopMargin>
+  <PageHeight>11.69in</PageHeight>
+</Report>

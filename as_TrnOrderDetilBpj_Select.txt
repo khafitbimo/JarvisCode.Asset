@@ -1,0 +1,53 @@
+-- =============================================
+-- Author: Yanuar Andriyana Putra - Trans TV
+-- Created  date: 9/21/2010 6:16  PM
+-- Description: Select transaksi_orderdetil (Untuk di BPJ)
+-- =============================================
+
+CREATE    PROCEDURE [as_TrnOrderDetilBpj_Select]
+	@Criteria as nvarchar(1020) 
+AS 
+BEGIN 
+	DECLARE @SQL as varchar(8000);
+	SET @SQL = '
+		SELECT order_id, orderdetil_line,requestdetil_line,
+		item_name = (SELECT item_name FROM master_item WHERE item_id = A.item_id),
+		orderdetil_descr,orderdetil_qty,
+		unit_name = (SELECT unit_name FROM master_unit WHERE unit_id = A.unit_id),orderdetil_days, 
+		orderdetil_foreign AS amount, 
+		   CASE LEFT(order_id,2) WHEN ''RO'' THEN 
+					      ((ISNULL( orderdetil_qty, 0) 
+			                      * ISNULL( orderdetil_days, 1) * ISNULL( orderdetil_foreign, 0))) ELSE
+			                      (ISNULL( orderdetil_qty, 0) 
+			                      * ISNULL( orderdetil_days, 1) * ISNULL( orderdetil_foreign, 0)) END AS subtotal, 
+		orderdetil_discount,
+		   CASE LEFT(order_id,2) WHEN ''RO'' THEN 
+			                      ((ISNULL( orderdetil_qty, 0) * ISNULL(orderdetil_days, 1) 
+			                      * ISNULL(orderdetil_foreign, 0) - ISNULL(orderdetil_discount, 0))) ELSE
+			                     (ISNULL(orderdetil_qty, 0) * ISNULL(orderdetil_days, 1))
+			                      * (ISNULL(orderdetil_foreign, 0) - ISNULL(orderdetil_discount, 0)) END AS subtotal_incldisc, 
+		orderdetil_pphpercent AS pph_percent,
+		CASE LEFT(order_id,2) WHEN ''RO'' THEN 
+		 	                      ((ISNULL(orderdetil_qty, 0) * ISNULL(orderdetil_days, 1) 
+			                      * ISNULL(orderdetil_foreign, 0) - ISNULL(orderdetil_discount, 0)) * ISNULL(orderdetil_pphpercent, 0) * 0.01) ELSE
+			                     (((ISNULL(orderdetil_qty, 0) * ISNULL(orderdetil_days, 1))
+			                      * (ISNULL(orderdetil_foreign, 0) - ISNULL(orderdetil_discount, 0))) * ISNULL(orderdetil_pphpercent, 0) * 0.01) END AS pph_amount, 
+		orderdetil_ppnpercent AS ppn_percent, 
+		CASE LEFT(order_id,2) WHEN ''RO'' THEN 
+		 	                      ((ISNULL(orderdetil_qty, 0) * ISNULL(orderdetil_days, 1) 
+			                      * ISNULL(orderdetil_foreign, 0) - ISNULL(orderdetil_discount, 0)) * ISNULL(orderdetil_ppnpercent, 0) * 0.01) ELSE
+			                     (((ISNULL(orderdetil_qty, 0) * ISNULL(orderdetil_days, 1))
+			                      * (ISNULL(orderdetil_foreign, 0) - ISNULL(orderdetil_discount, 0))) * ISNULL(orderdetil_ppnpercent, 0) * 0.01) END AS ppn_amount, 
+		budget_name = (SELECT budget_name FROM transaksi_budget WHERE budget_id = A.budget_id), 
+		budgetdetil_name = (SELECT budgetdetil_desc FROm transaksi_budgetdetil WHERE budgetdetil_id = A.budgetdetil_id)
+		FROM transaksi_orderdetil A';
+
+	IF @Criteria <> '' or @Criteria is NULL
+	BEGIN
+		SET @SQL = @SQL + ' WHERE ' + @Criteria;
+	END
+		SET @SQL = @SQL + ' ORDER BY orderdetil_line '
+	EXEC (@SQL)
+END
+
+GO

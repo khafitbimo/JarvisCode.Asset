@@ -1,0 +1,12 @@
+DELETE transaksi_jurnal
+DELETE   transaksi_jurnaldetil
+DELETE transaksi_jurnalreference
+
+DELETE transaksi_jurnalbilyet
+DELETE transaksi_jurnalentry
+
+DELETE transaksi_jurnal_tax
+
+DELETE transaksi_circulationvoucher
+DELETE transaksi_circulationvoucherdetil
+DELETE transaksi_jurnalbilyetrekening

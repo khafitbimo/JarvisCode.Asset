@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>43e18c42-5a5c-4c4e-8d03-6a4c955dbdeb</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="imageURL">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>imageURL</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.4in</RightMargin>
+  <LeftMargin>0.4in</LeftMargin>
+  <BottomMargin>0.5in</BottomMargin>
+  <rd:ReportID>edd57736-4d3d-40bb-9250-f3d491a887df</rd:ReportID>
+  <DataSets>
+    <DataSet Name="ASSET_DataSource_clsRptMaintenance">
+      <Fields>
+        <Field Name="channel_address">
+          <DataField>channel_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_id">
+          <DataField>channel_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="channel_namereport">
+          <DataField>channel_namereport</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="currency_id">
+          <DataField>currency_id</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="employee_id">
+          <DataField>employee_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="maintenace_itemqty">
+          <DataField>maintenace_itemqty</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="maintenace_itemqtyret">
+          <DataField>maintenace_itemqtyret</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_editby">
+          <DataField>maintenance_editby</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_editdt">
+          <DataField>maintenance_editdt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_harga">
+          <DataField>maintenance_harga</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_id">
+          <DataField>maintenance_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_idrprice">
+          <DataField>maintenance_idrprice</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_inclock">
+          <DataField>maintenance_inclock</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_indt">
+          <DataField>maintenance_indt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_inputby">
+          <DataField>maintenance_inputby</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_inputdt">
+          <DataField>maintenance_inputdt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_outdt">
+          <DataField>maintenance_outdt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_outin">
+          <DataField>maintenance_outin</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_outlock">
+          <DataField>maintenance_outlock</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_status">
+          <DataField>maintenance_status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_type">
+          <DataField>maintenance_type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_usedby">
+          <DataField>maintenance_usedby</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_useddt">
+          <DataField>maintenance_useddt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="maintenance_valas">
+          <DataField>maintenance_valas</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="order_id">
+          <DataField>order_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="rekanan_id">
+          <DataField>rekanan_id</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="strukturunit_id">
+          <DataField>strukturunit_id</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>ASSET.DataSource</rd:DataSetName>
+        <rd:TableName>clsRptMaintenance</rd:TableName>
+        <rd:ObjectDataSourceType>ASSET.DataSource.clsRptMaintenance, ASSET, Version=1.0.3224.26219, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>7.125in</Width>
+  <Body>
+    <ReportItems>
+      <Rectangle Name="rectangle7">
+        <Left>0.125in</Left>
+        <ZIndex>1</ZIndex>
+        <ReportItems>
+          <Textbox Name="textbox1">
+            <Top>0.45in</Top>
+            <Width>2.125in</Width>
+            <Style>
+              <FontFamily>Z: 3of 9 BarCode</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.75in</Left>
+            <Height>0.2in</Height>
+            <Value>="*" &amp; Fields!maintenance_id.Value &amp; "*"</Value>
+          </Textbox>
+          <Textbox Name="maintenance_id">
+            <rd:DefaultName>maintenance_id</rd:DefaultName>
+            <Top>0.25in</Top>
+            <Width>2.125in</Width>
+            <Style>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.75in</Left>
+            <Height>0.2in</Height>
+            <Value>=Fields!maintenance_id.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox8">
+            <Top>0.09141in</Top>
+            <Width>3.73958in</Width>
+            <Style>
+              <FontSize>12pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <VerticalAlign>Bottom</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.66458in</Left>
+            <Height>0.19688in</Height>
+            <Value>=Fields!channel_namereport.Value</Value>
+          </Textbox>
+          <Textbox Name="textbox13">
+            <Top>0.28829in</Top>
+            <Width>3.73958in</Width>
+            <Style>
+              <BorderColor>
+                <Default>Gray</Default>
+              </BorderColor>
+              <FontSize>8pt</FontSize>
+              <Format>dd/MM/yyyy</Format>
+              <PaddingLeft>2pt</PaddingLeft>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <Left>0.66458in</Left>
+            <Height>0.27344in</Height>
+            <Value>=Fields!channel_address.Value</Value>
+          </Textbox>
+          <Image Name="image2">
+            <Sizing>FitProportional</Sizing>
+            <Top>0.0875in</Top>
+            <Width>0.52656in</Width>
+            <MIMEType>image/gif</MIMEType>
+            <Source>External</Source>
+            <Style />
+            <Left>0.08125in</Left>
+            <Height>0.5in</Height>
+            <Value>=Parameters!imageURL.Value + "/solutions/images/" + Fields!channel_id.Value + ".jpg"</Value>
+          </Image>
+        </ReportItems>
+        <Top>0.25in</Top>
+        <Style>
+          <BorderColor>
+            <Left>Black</Left>
+          </BorderColor>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>1.5pt</Default>
+          </BorderWidth>
+        </Style>
+        <Height>0.75in</Height>
+      </Rectangle>
+      <Subreport Name="subreport1">
+        <Top>1.375in</Top>
+        <ReportName>ASSET.RptMaintenanceDetil.rdlc</ReportName>
+        <Left>0.125in</Left>
+        <Height>0.17708in</Height>
+      </Subreport>
+    </ReportItems>
+    <Height>2in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>0.5in</TopMargin>
+</Report>

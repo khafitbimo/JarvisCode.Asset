@@ -1,0 +1,47 @@
+-- Yanuar Andriyana Putra
+-- TransTV
+-- 8/24/2010 11:59 PM
+-- ================================================================ 
+-- Select from table: transaksi_PenerimaanBarang 
+-- ================================================================ 
+
+CREATE  PROCEDURE [as_RptTerimaJasaQtyIdle_Select]
+	@channel_id as nvarchar(20), 
+	@Criteria as nvarchar(1020) = ''
+
+AS 
+BEGIN 
+
+	SET NOCOUNT ON;
+
+	DECLARE @SQL as varchar(8000);
+
+	BEGIN
+		SET @SQL ='
+			SELECT
+			(B.terimajasadetil_idrreal * A.terimajasaused_qty_idle) AS Amount_idr_idle,
+			A.terimajasaused_qty_idle,
+			B.terimajasa_id, B.terimajasadetil_line, 
+			B.item_id, item_name = (SELECT item_name FROM FRM_ASSET.E_FRM.dbo.master_item WHERE item_id = B.item_id), 
+			B.budget_id, budget_name = (SELECT TOP 1 budget_nameshort FROM FRM_ASSET.E_FRM.dbo.transaksi_budget WHERE budget_id = B.budget_id), 
+			C.rekanan_id, rekanan_name = (SELECT TOP 1 rekanan_name FROM view_mstrekanan_erp WHERE rekanan_id = C.rekanan_id), 
+			C.employee_id_owner, employee_name = (SELECT TOP 1 employee_namalengkap FROM HRD.E_HRD.dbo.master_employee where employee_id  = C.employee_id_owner),
+			C.order_id, A.terimajasa_date, 
+			C.strukturunit_id, strukturunit_name = (SELECT strukturunit_name FROM FRM_ASSET.E_FRM.dbo.master_strukturunit WHERE strukturunit_id = C.strukturunit_id), 
+			C.channel_id
+			FROM transaksi_terimajasaused A
+			LEFT OUTER JOIN transaksi_terimajasadetil B ON A.terimajasa_id = B.terimajasa_id AND A.terimajasa_line = B.terimajasadetil_line 
+			LEFT OUTER JOIN transaksi_terimajasa C ON C.terimajasa_id = A.terimajasa_id
+			WHERE A.terimajasa_check = 1 AND A.terimajasaused_qty_idle > 0 AND  C.channel_id = ''' + @channel_id + '''';
+
+	END
+			
+	IF @Criteria <> '' or @Criteria is NULL
+	BEGIN
+		SET @SQL = @SQL + ' AND ' + @Criteria;
+	END
+	EXEC (@SQL)
+
+		
+END
+GO

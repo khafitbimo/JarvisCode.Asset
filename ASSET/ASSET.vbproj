@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8128B281-1F42-441C-9A13-1C68806D5017}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ASSET</RootNamespace>
+    <AssemblyName>ASSET</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ASSET.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <Optimize>false</Optimize>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ASSET.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Win.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Master\WAREHOUSE\WAREHOUSE\bin\Debug\DevExpress.XtraTreeList.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="FlatTabControl, Version=1.0.2469.22824, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>X:\INSOSYS\buat develop\FlatTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="VideoGrabberNET4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=8f6d8332ba68ae9e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\VideoGrabberNET4.0.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\calender.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\clsAddressConfig.vb" />
+    <Compile Include="Class\clsApplicationRole.vb" />
+    <Compile Include="Class\clsDatabaseConfig.vb" />
+    <Compile Include="Class\clsDataFiller.vb" />
+    <Compile Include="Class\clsDataset.vb" />
+    <Compile Include="Class\clsEmail.vb" />
+    <Compile Include="Class\clsLockingTransaction.vb" />
+    <Compile Include="Class\clsMstAsset.vb" />
+    <Compile Include="Class\clsQuickPrint.vb" />
+    <Compile Include="Class\clsTerimaBarangReport.vb" />
+    <Compile Include="Class\clsUtil.vb" />
+    <Compile Include="Class\DataGridViewMaskedEditColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\Linq\DatabaseUtils.vb" />
+    <Compile Include="Class\Linq\Sequencer.vb" />
+    <Compile Include="Class\StoreProcedures.vb" />
+    <Compile Include="DataClassesFILES.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClassesFILES.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataClassesFILES.vb">
+      <DependentUpon>DataClassesFILES.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataClassesFRM.vb">
+      <DependentUpon>DataClassesFRM.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_EditingNew.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_EditingNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_EditingNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_EditingNew.Designer.vb">
+      <DependentUpon>dlgTrnTerimajasa_Select_EditingNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_EditingNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgReceiveStatus_ApproveTo.designer.vb">
+      <DependentUpon>dlgReceiveStatus_ApproveTo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgReceiveStatus_ApproveTo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgReceiveStatus_Attachment.designer.vb">
+      <DependentUpon>dlgReceiveStatus_Attachment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgReceiveStatus_Attachment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgReceiveStatus_Order.designer.vb">
+      <DependentUpon>dlgReceiveStatus_Order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgReceiveStatus_Order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgSearch2.Designer.vb">
+      <DependentUpon>dlgSearch2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgSearch2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgAddRV_CIPAsset.Designer.vb">
+      <DependentUpon>dlgAddRV_CIPAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgAddRV_CIPAsset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRVSelectListRV.Designer.vb">
+      <DependentUpon>dlgRVSelectListRV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRVSelectListRV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRVSelect.Designer.vb">
+      <DependentUpon>dlgRVSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRVSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_Detil_GQ_Jasa.Designer.vb">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_Detil_GQ_Jasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_Detil_GQ_Jasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgDepresiasiNew.Designer.vb">
+      <DependentUpon>dlgDepresiasiNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgDepresiasiNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_Header_GQ.Designer.vb">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_Header_GQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_Header_GQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgAssetItemCategory_select.Designer.vb">
+      <DependentUpon>dlgAssetItemCategory_select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgAssetItemCategory_select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgAssetItem_select.Designer.vb">
+      <DependentUpon>dlgAssetItem_select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgAssetItem_select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgAssetCategory_select.Designer.vb">
+      <DependentUpon>dlgAssetCategory_select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgAssetCategory_select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\DlgMstAssetConsumable.Designer.vb">
+      <DependentUpon>DlgMstAssetConsumable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\DlgMstAssetConsumable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgSelectContract.Designer.vb">
+      <DependentUpon>dlgSelectContract.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgSelectContract.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_PV.Designer.vb">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_PV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_PV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_General.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaUsed_General.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_General.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_General.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_General.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_General.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_Rental_Wardrobe.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaUsed_Rental_Wardrobe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_Rental_Wardrobe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_General.Designer.vb">
+      <DependentUpon>dlgTrnTerimajasa_Select_General.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_General.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\XtraForm1.Designer.vb">
+      <DependentUpon>XtraForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\XtraForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entity\clsMstAcc.vb" />
+    <Compile Include="Entity\clsMstAssetConsumableClosing.vb" />
+    <Compile Include="Entity\clsMstAssetConsumableLog.vb" />
+    <Compile Include="Entity\clsMstAssetConsumable.vb" />
+    <Compile Include="Entity\clsMstChannel.vb" />
+    <Compile Include="Entity\clsMstKategoriAssetAcc.vb" />
+    <Compile Include="Entity\clsMstPeriod.vb" />
+    <Compile Include="Entity\clsMstRate.vb" />
+    <Compile Include="Entity\clsMstRekanan.vb" />
+    <Compile Include="Entity\clsMstSourceAcc.vb" />
+    <Compile Include="Entity\clsMstTipeAsset.vb" />
+    <Compile Include="Entity\clsMstTipeItem.vb" />
+    <Compile Include="Entity\clsRVListPV.vb" />
+    <Compile Include="Entity\clsTrnBudget.vb" />
+    <Compile Include="Entity\clsTrnBudgetDetil.vb" />
+    <Compile Include="Entity\clsTrnJurnal.vb" />
+    <Compile Include="Entity\clsTrnJurnalReference.vb" />
+    <Compile Include="Entity\clsTrnOrder.vb" />
+    <Compile Include="Entity\clsTrnPenerimaanBarang.vb" />
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_Detil_GQ.Designer.vb">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_Detil_GQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_Detil_GQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entity\clsTrnRequest.vb" />
+    <Compile Include="Interface\ILocking.vb" />
+    <Compile Include="DataClassesFRM.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClassesFRM.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_EditingNew.Designer.vb">
+      <DependentUpon>uiTrnTerimaJasa_EditingNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_EditingNew.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiBase2.designer.vb">
+      <DependentUpon>uiBase2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiBase2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiMstKategoriAsset.Designer.vb">
+      <DependentUpon>uiMstKategoriAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiMstKategoriAsset.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnDepresiasi.Designer.vb">
+      <DependentUpon>uiTrnDepresiasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnDepresiasi.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnPenerimaanBarang.designer.vb">
+      <DependentUpon>uiTrnPenerimaanBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnPenerimaanBarang.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnPenerimaanBarangListRV.Designer.vb">
+      <DependentUpon>uiTrnPenerimaanBarangListRV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnPenerimaanBarangListRV.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnReceiveStatus.designer.vb">
+      <DependentUpon>uiTrnReceiveStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnReceiveStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_General.Designer.vb">
+      <DependentUpon>uiTrnTerimaJasa_General.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_General.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataSources\clsRptBPJinOrder.vb" />
+    <Compile Include="DataSources\clsRptBpjOutstanding.vb" />
+    <Compile Include="DataSources\clsRptBPJ_RentalIdle.vb" />
+    <Compile Include="DataSources\clsRptDepresiasiRekapReport.vb" />
+    <Compile Include="DataSources\clsRptGoodRequestToBpj_Tracking.vb" />
+    <Compile Include="DataSources\clsRptJurnal_Detil.vb" />
+    <Compile Include="DataSources\clsRptJurnal_Header.vb" />
+    <Compile Include="DataSources\ClsRptLaporanRekapitulasiOutBookingAsset.vb" />
+    <Compile Include="DataSources\clsRptBarang.vb" />
+    <Compile Include="DataSources\clsRptBarangDetil.vb" />
+    <Compile Include="DataSources\clsRptDepresiasi.vb" />
+    <Compile Include="DataSources\clsRptDepresiasiDetil.vb" />
+    <Compile Include="DataSources\clsRptDepresiasiReport.vb" />
+    <Compile Include="DataSources\clsRptIncAsset.vb" />
+    <Compile Include="DataSources\clsRptIncAssetDetil.vb" />
+    <Compile Include="DataSources\clsRptLaporanPenerimaanAsset.vb" />
+    <Compile Include="DataSources\clsRptLaporanRekapitulasiAsset.vb" />
+    <Compile Include="DataSources\clsRptLaporanRekapitulasiOutGoingAsset.vb" />
+    <Compile Include="DataSources\clsRptMaintenance.vb" />
+    <Compile Include="DataSources\clsRptMaintenanceDetil.vb" />
+    <Compile Include="DataSources\clsRptMoveAsset.vb" />
+    <Compile Include="DataSources\clsRptPenerimaanBarang.vb" />
+    <Compile Include="DataSources\clsRptPenerimaanBarangDetil.vb" />
+    <Compile Include="DataSources\clsRptTerimaJasaEditing.vb" />
+    <Compile Include="DataSources\clsRptTerimaJasaEditingDetil.vb" />
+    <Compile Include="DataSources\clsRptTerimaJasaMaintenance.vb" />
+    <Compile Include="DataSources\clsRptTerimaJasaMaintenanceDetil.vb" />
+    <Compile Include="DataSources\clsRptTerimaJasaRental.vb" />
+    <Compile Include="DataSources\clsRptTerimaJasaRentalDetil.vb" />
+    <Compile Include="DataSources\clsRptTerimaJasaTalent.vb" />
+    <Compile Include="DataSources\clsRptTerimaJasaTalentDetil.vb" />
+    <Compile Include="Dialog\dlgAddItem_TrmBarang.designer.vb">
+      <DependentUpon>dlgAddItem_TrmBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgAddItem_TrmBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\DlgBpjSelectOrder.Designer.vb">
+      <DependentUpon>DlgBpjSelectOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\DlgBpjSelectOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgListBpj.Designer.vb">
+      <DependentUpon>dlgListBpj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgListBpj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgListEditing_eps_shift.Designer.vb">
+      <DependentUpon>dlgListEditing_eps_shift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgListEditing_eps_shift.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgListOrder_days.Designer.vb">
+      <DependentUpon>dlgListOrder_days.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgListOrder_days.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgListPO.Designer.vb">
+      <DependentUpon>dlgListPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgListPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgNewDataTerimaJasa.Designer.vb">
+      <DependentUpon>dlgNewDataTerimaJasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgNewDataTerimaJasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgPilihanPrint.Designer.vb">
+      <DependentUpon>dlgPilihanPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgPilihanPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptGoodRequestToBpj_Tracking.Designer.vb">
+      <DependentUpon>dlgRptGoodRequestToBpj_Tracking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptGoodRequestToBpj_Tracking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptJurnal.designer.vb">
+      <DependentUpon>dlgRptJurnal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptJurnal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptMaintenance.Designer.vb">
+      <DependentUpon>dlgRptMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSources\clsRptMoveAssetDetil.vb" />
+    <Compile Include="DataSources\clsRptOutAsset.vb" />
+    <Compile Include="DataSources\clsRptOutAssetDetil.vb" />
+    <Compile Include="DataSources\clsRptTrnBookasset.vb" />
+    <Compile Include="DataSources\clsRptTrnBookassetDetil.vb" />
+    <Compile Include="DataSources\clsRptTrnWriteoff.vb" />
+    <Compile Include="DataSources\clsRptTrnWriteoffDetil.vb" />
+    <Compile Include="Dialog\dlgKondisiDepresiasi.Designer.vb">
+      <DependentUpon>dlgKondisiDepresiasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgKondisiDepresiasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgListBarangNonFix.Designer.vb">
+      <DependentUpon>dlgListBarangNonFix.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgListBarangNonFix.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgNewdata.designer.vb">
+      <DependentUpon>dlgNewdata.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgNewdata.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\DlgNewDataIncoming.Designer.vb">
+      <DependentUpon>DlgNewDataIncoming.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\DlgNewDataIncoming.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptBookasset.Designer.vb">
+      <DependentUpon>dlgRptBookasset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptBookasset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptDepresiasi.Designer.vb">
+      <DependentUpon>dlgRptDepresiasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptDepresiasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptIncAsset.designer.vb">
+      <DependentUpon>dlgRptIncAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptIncAsset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptLaporanPenerimaanAsset.Designer.vb">
+      <DependentUpon>dlgRptLaporanPenerimaanAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptLaporanPenerimaanAsset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptMoveAsset.Designer.vb">
+      <DependentUpon>dlgRptMoveAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptMoveAsset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptOutAsset.designer.vb">
+      <DependentUpon>dlgRptOutAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptOutAsset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptPenerimaanBarang.designer.vb">
+      <DependentUpon>dlgRptPenerimaanBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptPenerimaanBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasa.Designer.vb">
+      <DependentUpon>dlgRptTerimaJasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasaEditing.Designer.vb">
+      <DependentUpon>dlgRptTerimaJasaEditing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasaEditing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasaMaintenance.Designer.vb">
+      <DependentUpon>dlgRptTerimaJasaMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasaMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasaRental.Designer.vb">
+      <DependentUpon>dlgRptTerimaJasaRental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasaRental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasaTalent.Designer.vb">
+      <DependentUpon>dlgRptTerimaJasaTalent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTerimaJasaTalent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTrnAdaBarang.Designer.vb">
+      <DependentUpon>dlgRptTrnAdaBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTrnAdaBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTrnTerimaBarang.Designer.vb">
+      <DependentUpon>dlgRptTrnTerimaBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptTrnTerimaBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgRptWriteOff.Designer.vb">
+      <DependentUpon>dlgRptWriteOff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgRptWriteOff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgSearch.Designer.vb">
+      <DependentUpon>dlgSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\DlgSelectEps.Designer.vb">
+      <DependentUpon>DlgSelectEps.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\DlgSelectEps.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgStatusTerimaJasa.Designer.vb">
+      <DependentUpon>dlgStatusTerimaJasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgStatusTerimaJasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarangDetil_Select_Purchase.Designer.vb">
+      <DependentUpon>dlgTrnPenerimaanBarangDetil_Select_Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarangDetil_Select_Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_Purchase.Designer.vb">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnPenerimaanBarang_Select_Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_Editing.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_Editing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_Editing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_Maintenance.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_Maintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_Rental.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_Rental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_Rental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_Talent.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_Talent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaDetil_Select_Talent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_Editing.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaUsed_Editing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_Editing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_EditingEps.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaUsed_EditingEps.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_EditingEps.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_Rental.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaUsed_Rental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_Rental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_Talent.Designer.vb">
+      <DependentUpon>dlgTrnTerimaJasaUsed_Talent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimaJasaUsed_Talent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_Editing.Designer.vb">
+      <DependentUpon>dlgTrnTerimajasa_Select_Editing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_Editing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_Maintenance.Designer.vb">
+      <DependentUpon>dlgTrnTerimajasa_Select_Maintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_Rental.Designer.vb">
+      <DependentUpon>dlgTrnTerimajasa_Select_Rental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_Rental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_Talent.Designer.vb">
+      <DependentUpon>dlgTrnTerimajasa_Select_Talent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgTrnTerimajasa_Select_Talent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgUpdateDepresiasiDetil.Designer.vb">
+      <DependentUpon>dlgUpdateDepresiasiDetil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgUpdateDepresiasiDetil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgUpdateOutDetil.Designer.vb">
+      <DependentUpon>dlgUpdateOutDetil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgUpdateOutDetil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlgUpdateStatusMaintenance.Designer.vb">
+      <DependentUpon>dlgUpdateStatusMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlgUpdateStatusMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\dlg_addPicture.Designer.vb">
+      <DependentUpon>dlg_addPicture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\dlg_addPicture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FPrintBPB.Designer.vb">
+      <DependentUpon>FPrintBPB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FPrintBPB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\UpdateIncDetil.Designer.vb">
+      <DependentUpon>UpdateIncDetil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\UpdateIncDetil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\uiBase.designer.vb">
+      <DependentUpon>uiBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Editing.Designer.vb">
+      <DependentUpon>uiTrnTerimaJasa_Editing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Editing.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Maint.Designer.vb">
+      <DependentUpon>uiTrnTerimaJasa_Maint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Maint.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Rental.Designer.vb">
+      <DependentUpon>uiTrnTerimaJasa_Rental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Rental.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Rental_Wardrobe.Designer.vb">
+      <DependentUpon>uiTrnTerimaJasa_Rental_Wardrobe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Rental_Wardrobe.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Talent.Designer.vb">
+      <DependentUpon>uiTrnTerimaJasa_Talent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\uiTrnTerimaJasa_Talent.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataClassesFILES.dbml.layout">
+      <DependentUpon>DataClassesFILES.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaDetil_Select_EditingNew.resx">
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_EditingNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimajasa_Select_EditingNew.resx">
+      <DependentUpon>dlgTrnTerimajasa_Select_EditingNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgReceiveStatus_ApproveTo.resx">
+      <DependentUpon>dlgReceiveStatus_ApproveTo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgReceiveStatus_Attachment.resx">
+      <DependentUpon>dlgReceiveStatus_Attachment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgReceiveStatus_Order.resx">
+      <DependentUpon>dlgReceiveStatus_Order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgSearch2.resx">
+      <DependentUpon>dlgSearch2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgAddRV_CIPAsset.resx">
+      <DependentUpon>dlgAddRV_CIPAsset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRVSelectListRV.resx">
+      <DependentUpon>dlgRVSelectListRV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRVSelect.resx">
+      <DependentUpon>dlgRVSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnPenerimaanBarang_Select_Detil_GQ_Jasa.resx">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_Detil_GQ_Jasa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgDepresiasiNew.resx">
+      <DependentUpon>dlgDepresiasiNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnPenerimaanBarang_Select_Header_GQ.resx">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_Header_GQ.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgAssetItemCategory_select.resx">
+      <DependentUpon>dlgAssetItemCategory_select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgAssetItem_select.resx">
+      <DependentUpon>dlgAssetItem_select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgAssetCategory_select.resx">
+      <DependentUpon>dlgAssetCategory_select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DlgMstAssetConsumable.resx">
+      <DependentUpon>DlgMstAssetConsumable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgSelectContract.resx">
+      <DependentUpon>dlgSelectContract.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnPenerimaanBarang_Select_PV.resx">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_PV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaUsed_General.resx">
+      <DependentUpon>dlgTrnTerimaJasaUsed_General.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaDetil_Select_General.resx">
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_General.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaUsed_Rental_Wardrobe.resx">
+      <DependentUpon>dlgTrnTerimaJasaUsed_Rental_Wardrobe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimajasa_Select_General.resx">
+      <DependentUpon>dlgTrnTerimajasa_Select_General.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnPenerimaanBarang_Select_Detil_GQ.resx">
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_Detil_GQ.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="Reports\rptJurnal_Header.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetil_Editing1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasa_Editing1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetil_TalentX1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasa_Talentxx1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetil_Talent1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasa_Talent1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimajasaMaintDetil2.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaMaintenance2.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaMaintenanceDetil1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRentalDetilX1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRentalx1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRentalDetil1.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRental1.rdlc" />
+    <EmbeddedResource Include="Reports\rptPenerimaanBarangDetilX1.rdlc" />
+    <EmbeddedResource Include="Reports\rptPenerimaanBarangX1.rdlc" />
+    <None Include="DataClassesFILES.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClassesFILES.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataClassesFRM.dbml.layout">
+      <DependentUpon>DataClassesFRM.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="UI\uiTrnTerimaJasa_EditingNew.resx">
+      <DependentUpon>uiTrnTerimaJasa_EditingNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiBase2.resx">
+      <DependentUpon>uiBase2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiMstKategoriAsset.resx">
+      <DependentUpon>uiMstKategoriAsset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnDepresiasi.resx">
+      <DependentUpon>uiTrnDepresiasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnPenerimaanBarang.resx">
+      <DependentUpon>uiTrnPenerimaanBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnPenerimaanBarangListRV.resx">
+      <DependentUpon>uiTrnPenerimaanBarangListRV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnReceiveStatus.resx">
+      <DependentUpon>uiTrnReceiveStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnTerimaJasa_General.resx">
+      <DependentUpon>uiTrnTerimaJasa_General.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgAddItem_TrmBarang.resx">
+      <DependentUpon>dlgAddItem_TrmBarang.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DlgBpjSelectOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DlgBpjSelectOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgKondisiDepresiasi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgKondisiDepresiasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgListBarangNonFix.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgListBarangNonFix.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgListBpj.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgListBpj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgListEditing_eps_shift.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgListEditing_eps_shift.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgListOrder_days.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgListOrder_days.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgListPO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgListPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgNewdata.resx">
+      <DependentUpon>dlgNewdata.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DlgNewDataIncoming.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DlgNewDataIncoming.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgNewDataTerimaJasa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgNewDataTerimaJasa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgPilihanPrint.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgPilihanPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptDepresiasi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgRptDepresiasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptIncAsset.resx">
+      <DependentUpon>dlgRptIncAsset.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptLaporanPenerimaanAsset.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgRptLaporanPenerimaanAsset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptMoveAsset.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgRptMoveAsset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptOutAsset.resx">
+      <DependentUpon>dlgRptOutAsset.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptTerimaJasa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgRptTerimaJasa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptTerimaJasaEditing.resx">
+      <DependentUpon>dlgRptTerimaJasaEditing.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptTerimaJasaMaintenance.resx">
+      <DependentUpon>dlgRptTerimaJasaMaintenance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptTerimaJasaTalent.resx">
+      <DependentUpon>dlgRptTerimaJasaTalent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptTrnAdaBarang.resx">
+      <DependentUpon>dlgRptTrnAdaBarang.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgRptTrnTerimaBarang.resx">
+      <DependentUpon>dlgRptTrnTerimaBarang.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgSearch.resx">
+      <DependentUpon>dlgSearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DlgSelectEps.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DlgSelectEps.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgStatusTerimaJasa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgStatusTerimaJasa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnPenerimaanBarangDetil_Select_Purchase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnPenerimaanBarangDetil_Select_Purchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnPenerimaanBarang_Select_Purchase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnPenerimaanBarang_Select_Purchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaDetil_Select_Editing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_Editing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaDetil_Select_Maintenance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_Maintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaDetil_Select_Rental.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_Rental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaDetil_Select_Talent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimaJasaDetil_Select_Talent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaUsed_Editing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimaJasaUsed_Editing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaUsed_EditingEps.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimaJasaUsed_EditingEps.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaUsed_Rental.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimaJasaUsed_Rental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimaJasaUsed_Talent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimaJasaUsed_Talent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimajasa_Select_Editing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimajasa_Select_Editing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimajasa_Select_Maintenance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimajasa_Select_Maintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimajasa_Select_Rental.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimajasa_Select_Rental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgTrnTerimajasa_Select_Talent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgTrnTerimajasa_Select_Talent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgUpdateDepresiasiDetil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgUpdateDepresiasiDetil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgUpdateOutDetil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgUpdateOutDetil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlgUpdateStatusMaintenance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgUpdateStatusMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\dlg_addPicture.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlg_addPicture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\FPrintBPB.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FPrintBPB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\UpdateIncDetil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UpdateIncDetil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptTerimaJasa_Editingxx.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimajasaMaintDetilx.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimajasaMaintDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRentalxx.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasa_Talentxx.rdlc" />
+    <EmbeddedResource Include="Reports\rptPenerimaanBarangX.rdlc" />
+    <EmbeddedResource Include="Reports\rptPenerimaanBarangDetilX.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetil_TalentX.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasa_TalentX.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRentalX.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRentalDetilX.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaMaintenanceDetilX.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaMaintenanceX.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetil_EditingX.rdlc" />
+    <EmbeddedResource Include="Reports\RptAdaBarang.rdlc" />
+    <EmbeddedResource Include="Reports\RptBarangDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptBookasset.rdlc" />
+    <EmbeddedResource Include="Reports\RptBookassetDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJinOrder.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJinOrderRekap.rdlc" />
+    <EmbeddedResource Include="Reports\RptBpjOutstanding.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_Budget.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_BudgetRecap.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_BudgetSummary.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_BudgetSummaryRecap.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_Department.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_DepartmentRecap.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_DepartmentSummary.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_DepartmentSummaryRecap.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_Employee.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_EmployeeRecap.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_EmployeeSummary.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_EmployeeSummaryRecap.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_Rekanan.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_RekananRecap.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_RekananSummary.rdlc" />
+    <EmbeddedResource Include="Reports\RptBPJ_RentalIdle_RekananSummaryRecap.rdlc" />
+    <EmbeddedResource Include="Reports\RptDepre.rdlc" />
+    <EmbeddedResource Include="Reports\RptDepreRekap.rdlc" />
+    <EmbeddedResource Include="Reports\RptDepreRekapMonth.rdlc" />
+    <EmbeddedResource Include="Reports\RptDepresiasi.rdlc" />
+    <EmbeddedResource Include="Reports\RptDepresiasi_Location.rdlc" />
+    <EmbeddedResource Include="Reports\RptGoodRequestToBpj_Tracking.rdlc" />
+    <EmbeddedResource Include="Reports\RptGoodRequestToBpj_Tracking_EntryGR.rdlc" />
+    <EmbeddedResource Include="Reports\RptGoodRequestToBpj_Tracking_RoToBpj.rdlc" />
+    <EmbeddedResource Include="Reports\RptIncAsset.rdlc" />
+    <EmbeddedResource Include="Reports\RptIncAssetDetil.rdlc" />
+    <EmbeddedResource Include="Reports\rptJurnal_Penerimaanbarang_Header.rdlc" />
+    <EmbeddedResource Include="Reports\rptJurnal_Detil.rdlc" />
+    <EmbeddedResource Include="Reports\RptLaporanPenerimaanAsset.rdlc" />
+    <EmbeddedResource Include="Reports\RptLaporanRekapitulasiAsset.rdlc" />
+    <EmbeddedResource Include="Reports\RptLaporanRekapitulasiOutAsset.rdlc" />
+    <EmbeddedResource Include="Reports\RptLaporanRekapitulasiOutBookingAsset.rdlc" />
+    <EmbeddedResource Include="Reports\RptMaintenance.rdlc" />
+    <EmbeddedResource Include="Reports\RptMaintenanceDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptMoveAsset.rdlc" />
+    <EmbeddedResource Include="Reports\RptMoveAssetDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptOutAsset.rdlc" />
+    <EmbeddedResource Include="Reports\RptOutAssetDetil.rdlc" />
+    <EmbeddedResource Include="Reports\rptPenerimaanBarang.rdlc" />
+    <EmbeddedResource Include="Reports\rptPenerimaanBarangDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaBarang.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasa.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetilMO.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetil_Editing.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaDetil_Talent.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaMaintenance.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaMaintenanceDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRental.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasaRentalDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasa_Editing.rdlc" />
+    <EmbeddedResource Include="Reports\RptTerimaJasa_Talent.rdlc" />
+    <EmbeddedResource Include="Reports\RptWriteOff.rdlc" />
+    <EmbeddedResource Include="Reports\RptWriteOffDetil.rdlc" />
+    <EmbeddedResource Include="UI\uiBase.resx">
+      <DependentUpon>uiBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnTerimaJasa_Editing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uiTrnTerimaJasa_Editing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnTerimaJasa_Maint.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uiTrnTerimaJasa_Maint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnTerimaJasa_Rental.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uiTrnTerimaJasa_Rental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnTerimaJasa_Rental_Wardrobe.resx">
+      <DependentUpon>uiTrnTerimaJasa_Rental_Wardrobe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\uiTrnTerimaJasa_Talent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uiTrnTerimaJasa_Talent.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptBarang.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptBarangDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptDepresiasi.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptDepresiasiDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptDepresiasiRekapReport.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptDepresiasiReport.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptIncAsset.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptJurnal_Detil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptJurnal_Header.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptLaporanPenerimaanAsset.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptLaporanRekapitulasiAsset.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.ClsRptLaporanRekapitulasiOutBookingAsset.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptLaporanRekapitulasiOutGoingAsset.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptMaintenance.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptMaintenanceDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptMoveAsset.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptMoveAssetDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptOutAsset.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTrnBookasset.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTrnBookassetDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTrnWriteoff.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTrnWriteoffDetil.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataClassesFRM.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClassesFRM.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon\Barcode.ico" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptBPJinOrder.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptBpjOutstanding.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptBPJ_RentalIdle.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptGoodRequestToBpj_Tracking.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptPenerimaanBarangDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTerimaJasaEditing.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTerimaJasaEditingDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTerimaJasaMaintenance.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTerimaJasaMaintenanceDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTerimaJasaRental.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTerimaJasaRentalDetil.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTerimaJasaTalent.datasource" />
+    <None Include="My Project\DataSources\ASSET.DataSource.clsRptTerimaJasaTalentDetil.datasource" />
+    <None Include="Other Object\warnamenuterimabarang.JPG" />
+    <None Include="Icon\btnrefresh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

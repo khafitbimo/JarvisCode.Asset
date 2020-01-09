@@ -1,0 +1,67 @@
+Cari DAta BPJ (RV) untuk :
+	1. Dari Rental (RO)
+		a. data RV yang udah di posting di september,, dapet amount
+		b. data RV yang udah jadi AP dari A diatas, cuman si PDP na ajah posisi debet 					tanpa pajak..
+	2. Dari Talent
+		a. data RV yang udah di posting di september,, dapet amount
+		b. data RV yang udah jadi AP dari A diatas, cuman si PDP na ajah posisi debet 					tanpa pajak (yang gross up), tampilkan pph na juga..
+		c. data RV yang udah jadi AP dari A diatas, cuman si PDP na ajah posisi debet 					tanpa pajak (yang potong), tampilkan pph na juga..
+	3. Dari Editing
+		a. data RV yang udah di posting di september,, dapet amount
+		b. data RV yang udah jadi AP dari A diatas, cuman si PDP na ajah posisi debet 					tanpa pajak..
+
+
+PDP	1.024.000
+	GR/IR PDP	1.024.000
+
+
+
+GR/IR PDP 1.024.000
+PPN	  0
+	Hutang		1.000.000
+	GR/IR PPh	   24.000
+
+
+1A
+SELECT 
+A.jurnal_id, --D.jurnal_id AS ref,  
+C.jurnaldetil_line, A.jurnal_bookdate, 
+rekanan = (SELECT rekanan_name FROM dbo.view_mstrekanan_erp WHERE rekanan_id = A.rekanan_id), 
+curr_name = (SELECT currency_shortname FROM master_currency WHERE currency_id = C.currency_id), C.jurnaldetil_foreign, 
+C.jurnaldetil_foreignrate, C.jurnaldetil_idr, 
+account = (SELECT acc_name from master_acc WHERE acc_id = C.acc_id) FROM ASSET.E_ASSET.dbo.transaksi_terimajasa  B
+LEFT OUTER JOIN  transaksi_jurnal A ON A.jurnal_id  = B.terimajasa_id 
+LEFT OUTER JOIN transaksi_jurnaldetil C ON A.jurnal_id = C.jurnal_id
+--1B. LEFT OUTER JOIN transaksi_jurnalreference D ON C.jurnal_id = D.jurnal_id_ref AND C.jurnaldetil_line = D.jurnal_id_refline
+WHERE LEFT(B.order_id,2) = 'RO' AND MONTH(jurnal_bookdate) = 9 AND jurnal_isposted = 1
+AND C.jurnaldetil_dk = 'D'
+
+1B
+SELECT 
+A.jurnal_id, D.jurnal_id AS ref,  
+C.jurnaldetil_line, A.jurnal_bookdate, 
+rekanan = (SELECT rekanan_name FROM dbo.view_mstrekanan_erp WHERE rekanan_id = A.rekanan_id), 
+curr_name = (SELECT currency_shortname FROM master_currency WHERE currency_id = C.currency_id), C.jurnaldetil_foreign, 
+C.jurnaldetil_foreignrate, C.jurnaldetil_idr, 
+account = (SELECT acc_name from master_acc WHERE acc_id = C.acc_id) FROM ASSET.E_ASSET.dbo.transaksi_terimajasa  B
+LEFT OUTER JOIN  transaksi_jurnal A ON A.jurnal_id  = B.terimajasa_id 
+LEFT OUTER JOIN transaksi_jurnaldetil C ON A.jurnal_id = C.jurnal_id
+. LEFT OUTER JOIN transaksi_jurnalreference D ON C.jurnal_id = D.jurnal_id_ref AND C.jurnaldetil_line = D.jurnal_id_refline
+WHERE LEFT(B.order_id,2) = 'RO' AND MONTH(jurnal_bookdate) = 9 AND jurnal_isposted = 1
+AND C.jurnaldetil_dk = 'K'
+
+
+2A.
+SELECT 
+A.jurnal_id, --D.jurnal_id AS ref,  
+C.jurnaldetil_line, A.jurnal_bookdate, 
+rekanan = (SELECT rekanan_name FROM dbo.view_mstrekanan_erp WHERE rekanan_id = A.rekanan_id), 
+curr_name = (SELECT currency_shortname FROM master_currency WHERE currency_id = C.currency_id), C.jurnaldetil_foreign, 
+C.jurnaldetil_foreignrate, C.jurnaldetil_idr, 
+account = (SELECT acc_name from master_acc WHERE acc_id = C.acc_id) FROM ASSET.E_ASSET.dbo.transaksi_terimajasa  B
+LEFT OUTER JOIN  transaksi_jurnal A ON A.jurnal_id  = B.terimajasa_id 
+LEFT OUTER JOIN transaksi_jurnaldetil C ON A.jurnal_id = C.jurnal_id
+--1B. LEFT OUTER JOIN transaksi_jurnalreference D ON C.jurnal_id = D.jurnal_id_ref AND C.jurnaldetil_line = D.jurnal_id_refline
+WHERE LEFT(B.order_id,2) = 'TO' AND MONTH(jurnal_bookdate) = 9 AND jurnal_isposted = 1
+AND C.jurnaldetil_dk = 'D'
+
