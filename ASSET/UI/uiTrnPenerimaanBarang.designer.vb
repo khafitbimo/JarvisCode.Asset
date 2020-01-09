@@ -732,9 +732,9 @@ Partial Class uiTrnPenerimaanBarang
         Me.chkSearchChannel.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkSearchChannel.Location = New System.Drawing.Point(17, 15)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(65, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
         Me.chkSearchChannel.TabIndex = 0
-        Me.chkSearchChannel.Text = "Channel"
+        Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
         '
         'ftabMain_Data
@@ -2518,9 +2518,9 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Channel_id.AutoSize = True
         Me.lbl_Channel_id.Location = New System.Drawing.Point(506, 10)
         Me.lbl_Channel_id.Name = "lbl_Channel_id"
-        Me.lbl_Channel_id.Size = New System.Drawing.Size(46, 13)
+        Me.lbl_Channel_id.Size = New System.Drawing.Size(51, 13)
         Me.lbl_Channel_id.TabIndex = 0
-        Me.lbl_Channel_id.Text = "Channel"
+        Me.lbl_Channel_id.Text = "Company"
         '
         'obj_Terimabarang_date
         '
