@@ -117,16 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.DSNAsset" xml:space="preserve">
-    <value>User ID=sa; Password=Lantai27; Data Source="172.16.11.7"; Initial Catalog=E_ASSET; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
-  </data>
-  <data name="$this.DSNFrm" xml:space="preserve">
-    <value>User ID=sa; Password=Lantai27; Data Source="172.16.11.7"; Initial Catalog=E_FRM; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
-  </data>
-  <data name="$this.DSNHRD" xml:space="preserve">
-    <value>User ID=sa; Password=Lantai27; Data Source="172.16.27.216"; Initial Catalog=E_HRD; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
-  </data>
-  <data name="$this.DSNStart" xml:space="preserve">
-    <value>User ID=sa; Password=Lantai27; Data Source="172.16.11.7"; Initial Catalog=E_START; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
-  </data>
 </root>

@@ -19,7 +19,6 @@ Partial Class uiMstKategoriAsset
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(uiMstKategoriAsset))
         Me.ftabMain = New DevExpress.XtraTab.XtraTabControl()
         Me.ftabMain_List = New DevExpress.XtraTab.XtraTabPage()
         Me.PnlDfMain = New DevExpress.XtraEditors.PanelControl()
@@ -92,7 +91,7 @@ Partial Class uiMstKategoriAsset
         Me.ftabMain.Location = New System.Drawing.Point(0, 26)
         Me.ftabMain.Name = "ftabMain"
         Me.ftabMain.SelectedTabPage = Me.ftabMain_List
-        Me.ftabMain.Size = New System.Drawing.Size(898, 522)
+        Me.ftabMain.Size = New System.Drawing.Size(753, 522)
         Me.ftabMain.TabIndex = 1
         Me.ftabMain.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.ftabMain_List, Me.ftabMain_Data})
         '
@@ -104,7 +103,7 @@ Partial Class uiMstKategoriAsset
         Me.ftabMain_List.Controls.Add(Me.PnlDfSearch)
         Me.ftabMain_List.Name = "ftabMain_List"
         Me.ftabMain_List.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabMain_List.Size = New System.Drawing.Size(893, 497)
+        Me.ftabMain_List.Size = New System.Drawing.Size(748, 497)
         Me.ftabMain_List.Text = "List"
         '
         'PnlDfMain
@@ -115,7 +114,7 @@ Partial Class uiMstKategoriAsset
         Me.PnlDfMain.Location = New System.Drawing.Point(3, 75)
         Me.PnlDfMain.Name = "PnlDfMain"
         Me.PnlDfMain.Padding = New System.Windows.Forms.Padding(3)
-        Me.PnlDfMain.Size = New System.Drawing.Size(887, 419)
+        Me.PnlDfMain.Size = New System.Drawing.Size(742, 419)
         Me.PnlDfMain.TabIndex = 1
         '
         'GCMstKategoriAsset
@@ -124,7 +123,7 @@ Partial Class uiMstKategoriAsset
         Me.GCMstKategoriAsset.Location = New System.Drawing.Point(3, 3)
         Me.GCMstKategoriAsset.MainView = Me.GvMstKategoriAsset
         Me.GCMstKategoriAsset.Name = "GCMstKategoriAsset"
-        Me.GCMstKategoriAsset.Size = New System.Drawing.Size(881, 413)
+        Me.GCMstKategoriAsset.Size = New System.Drawing.Size(736, 413)
         Me.GCMstKategoriAsset.TabIndex = 1
         Me.GCMstKategoriAsset.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GvMstKategoriAsset})
         '
@@ -184,7 +183,7 @@ Partial Class uiMstKategoriAsset
         Me.PnlDfSearch.Dock = System.Windows.Forms.DockStyle.Top
         Me.PnlDfSearch.Location = New System.Drawing.Point(3, 3)
         Me.PnlDfSearch.Name = "PnlDfSearch"
-        Me.PnlDfSearch.Size = New System.Drawing.Size(887, 72)
+        Me.PnlDfSearch.Size = New System.Drawing.Size(742, 72)
         Me.PnlDfSearch.TabIndex = 0
         Me.PnlDfSearch.Visible = False
         '
@@ -248,7 +247,7 @@ Partial Class uiMstKategoriAsset
         Me.ftabMain_Data.Controls.Add(Me.PnlDataMaster)
         Me.ftabMain_Data.Name = "ftabMain_Data"
         Me.ftabMain_Data.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabMain_Data.Size = New System.Drawing.Size(893, 497)
+        Me.ftabMain_Data.Size = New System.Drawing.Size(748, 497)
         Me.ftabMain_Data.Text = "Data"
         '
         'PnlDataMaster
@@ -274,7 +273,7 @@ Partial Class uiMstKategoriAsset
         Me.PnlDataMaster.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PnlDataMaster.Location = New System.Drawing.Point(3, 3)
         Me.PnlDataMaster.Name = "PnlDataMaster"
-        Me.PnlDataMaster.Size = New System.Drawing.Size(887, 491)
+        Me.PnlDataMaster.Size = New System.Drawing.Size(742, 491)
         Me.PnlDataMaster.TabIndex = 0
         '
         'objDepreKredit
@@ -282,7 +281,7 @@ Partial Class uiMstKategoriAsset
         Me.objDepreKredit.Location = New System.Drawing.Point(457, 142)
         Me.objDepreKredit.Name = "objDepreKredit"
         Me.objDepreKredit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.objDepreKredit.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30)})
+        Me.objDepreKredit.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30, "acc_id")})
         Me.objDepreKredit.Properties.NullText = ""
         Me.objDepreKredit.Size = New System.Drawing.Size(322, 20)
         Me.objDepreKredit.TabIndex = 20
@@ -292,7 +291,7 @@ Partial Class uiMstKategoriAsset
         Me.objDepreDebet.Location = New System.Drawing.Point(129, 142)
         Me.objDepreDebet.Name = "objDepreDebet"
         Me.objDepreDebet.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.objDepreDebet.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30)})
+        Me.objDepreDebet.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30, "acc_id")})
         Me.objDepreDebet.Properties.NullText = ""
         Me.objDepreDebet.Size = New System.Drawing.Size(322, 20)
         Me.objDepreDebet.TabIndex = 19
@@ -302,7 +301,7 @@ Partial Class uiMstKategoriAsset
         Me.objDisposalKredit.Location = New System.Drawing.Point(457, 116)
         Me.objDisposalKredit.Name = "objDisposalKredit"
         Me.objDisposalKredit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.objDisposalKredit.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30)})
+        Me.objDisposalKredit.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30, "acc_id")})
         Me.objDisposalKredit.Properties.NullText = ""
         Me.objDisposalKredit.Size = New System.Drawing.Size(322, 20)
         Me.objDisposalKredit.TabIndex = 18
@@ -312,7 +311,7 @@ Partial Class uiMstKategoriAsset
         Me.objDisposalDebet.Location = New System.Drawing.Point(129, 116)
         Me.objDisposalDebet.Name = "objDisposalDebet"
         Me.objDisposalDebet.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.objDisposalDebet.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30)})
+        Me.objDisposalDebet.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30, "acc_id")})
         Me.objDisposalDebet.Properties.NullText = ""
         Me.objDisposalDebet.Size = New System.Drawing.Size(322, 20)
         Me.objDisposalDebet.TabIndex = 17
@@ -331,7 +330,7 @@ Partial Class uiMstKategoriAsset
         Me.objRVKredit.Location = New System.Drawing.Point(457, 90)
         Me.objRVKredit.Name = "objRVKredit"
         Me.objRVKredit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.objRVKredit.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30)})
+        Me.objRVKredit.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("acc_id", 30, "acc_id")})
         Me.objRVKredit.Properties.NullText = ""
         Me.objRVKredit.Size = New System.Drawing.Size(322, 20)
         Me.objRVKredit.TabIndex = 15

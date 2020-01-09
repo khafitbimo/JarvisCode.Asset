@@ -782,7 +782,7 @@ Partial Class uiTrnPenerimaanBarangListRV
         Me.chkSrchChannel.Enabled = False
         Me.chkSrchChannel.Location = New System.Drawing.Point(5, 11)
         Me.chkSrchChannel.Name = "chkSrchChannel"
-        Me.chkSrchChannel.Properties.Caption = "Channel"
+        Me.chkSrchChannel.Properties.Caption = "Company"
         Me.chkSrchChannel.Size = New System.Drawing.Size(75, 19)
         Me.chkSrchChannel.TabIndex = 0
         '

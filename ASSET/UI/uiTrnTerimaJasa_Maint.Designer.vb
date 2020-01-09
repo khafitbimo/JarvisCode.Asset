@@ -509,9 +509,9 @@ Partial Class uiTrnTerimaJasa_Maint
         Me.chkSearchChannel.AutoSize = True
         Me.chkSearchChannel.Location = New System.Drawing.Point(17, 15)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(65, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
         Me.chkSearchChannel.TabIndex = 0
-        Me.chkSearchChannel.Text = "Channel"
+        Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
         '
         'ftabMain_Data
@@ -903,7 +903,7 @@ Partial Class uiTrnTerimaJasa_Maint
         Me.ftabDataDetil_Jurnal.Controls.Add(Me.Panel2)
         Me.ftabDataDetil_Jurnal.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Jurnal.Name = "ftabDataDetil_Jurnal"
-        Me.ftabDataDetil_Jurnal.Size = New System.Drawing.Size(731, 245)
+        Me.ftabDataDetil_Jurnal.Size = New System.Drawing.Size(178, 0)
         Me.ftabDataDetil_Jurnal.TabIndex = 3
         Me.ftabDataDetil_Jurnal.Text = "Jurnal"
         '
@@ -926,7 +926,7 @@ Partial Class uiTrnTerimaJasa_Maint
         Me.FtabJurnal.myBackColor = System.Drawing.Color.WhiteSmoke
         Me.FtabJurnal.Name = "FtabJurnal"
         Me.FtabJurnal.SelectedIndex = 0
-        Me.FtabJurnal.Size = New System.Drawing.Size(731, 166)
+        Me.FtabJurnal.Size = New System.Drawing.Size(178, 0)
         Me.FtabJurnal.TabIndex = 236
         '
         'ftabDataDetil_Pembayaran
@@ -936,7 +936,7 @@ Partial Class uiTrnTerimaJasa_Maint
         Me.ftabDataDetil_Pembayaran.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Pembayaran.Name = "ftabDataDetil_Pembayaran"
         Me.ftabDataDetil_Pembayaran.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Pembayaran.Size = New System.Drawing.Size(723, 137)
+        Me.ftabDataDetil_Pembayaran.Size = New System.Drawing.Size(170, 0)
         Me.ftabDataDetil_Pembayaran.TabIndex = 4
         Me.ftabDataDetil_Pembayaran.Text = "Penerimaan (D)"
         '
@@ -946,7 +946,7 @@ Partial Class uiTrnTerimaJasa_Maint
         Me.DgvTrnJurnaldetil_Pembayaran.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnaldetil_Pembayaran.Location = New System.Drawing.Point(3, 3)
         Me.DgvTrnJurnaldetil_Pembayaran.Name = "DgvTrnJurnaldetil_Pembayaran"
-        Me.DgvTrnJurnaldetil_Pembayaran.Size = New System.Drawing.Size(717, 131)
+        Me.DgvTrnJurnaldetil_Pembayaran.Size = New System.Drawing.Size(164, 0)
         Me.DgvTrnJurnaldetil_Pembayaran.TabIndex = 1
         '
         'TabPage1
@@ -1042,7 +1042,7 @@ Partial Class uiTrnTerimaJasa_Maint
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(731, 79)
+        Me.Panel2.Size = New System.Drawing.Size(178, 79)
         Me.Panel2.TabIndex = 237
         '
         'pnlClose2

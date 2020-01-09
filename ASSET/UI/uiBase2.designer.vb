@@ -53,6 +53,17 @@ Partial Class uiBase2
         Me.ImageList2.Images.SetKeyName(4, "tbtnDel.png")
         Me.ImageList2.Images.SetKeyName(5, "tbtnLoad.png")
         Me.ImageList2.Images.SetKeyName(6, "tbtnQuery.png")
+        Me.ImageList2.Images.SetKeyName(7, "newtbtnApprove.png")
+        Me.ImageList2.Images.SetKeyName(8, "newtbtnDelete.png")
+        Me.ImageList2.Images.SetKeyName(9, "newtbtnEdit.png")
+        Me.ImageList2.Images.SetKeyName(10, "newtbtnNewFile.png")
+        Me.ImageList2.Images.SetKeyName(11, "newtbtnPreview.png")
+        Me.ImageList2.Images.SetKeyName(12, "newtbtnPrint.png")
+        Me.ImageList2.Images.SetKeyName(13, "newtbtnQuery.png")
+        Me.ImageList2.Images.SetKeyName(14, "newtbtnRefresh.png")
+        Me.ImageList2.Images.SetKeyName(15, "newtbtnRetrieve.png")
+        Me.ImageList2.Images.SetKeyName(16, "newtbtnSave.png")
+        Me.ImageList2.Images.SetKeyName(17, "newtbtnUnapproved.png")
         '
         'XafBarManager1
         '
@@ -85,43 +96,43 @@ Partial Class uiBase2
         'tbtnNew
         '
         Me.tbtnNew.Id = 1
-        Me.tbtnNew.ImageIndex = 0
+        Me.tbtnNew.ImageIndex = 10
         Me.tbtnNew.Name = "tbtnNew"
         '
         'tbtnSave
         '
         Me.tbtnSave.Id = 2
-        Me.tbtnSave.ImageIndex = 1
+        Me.tbtnSave.ImageIndex = 16
         Me.tbtnSave.Name = "tbtnSave"
         '
         'tbtnPrint
         '
         Me.tbtnPrint.Id = 3
-        Me.tbtnPrint.ImageIndex = 2
+        Me.tbtnPrint.ImageIndex = 12
         Me.tbtnPrint.Name = "tbtnPrint"
         '
         'tbtnPrintPreview
         '
         Me.tbtnPrintPreview.Id = 4
-        Me.tbtnPrintPreview.ImageIndex = 3
+        Me.tbtnPrintPreview.ImageIndex = 11
         Me.tbtnPrintPreview.Name = "tbtnPrintPreview"
         '
         'tbtnDel
         '
         Me.tbtnDel.Id = 5
-        Me.tbtnDel.ImageIndex = 4
+        Me.tbtnDel.ImageIndex = 8
         Me.tbtnDel.Name = "tbtnDel"
         '
         'tbtnLoad
         '
         Me.tbtnLoad.Id = 6
-        Me.tbtnLoad.ImageIndex = 5
+        Me.tbtnLoad.ImageIndex = 15
         Me.tbtnLoad.Name = "tbtnLoad"
         '
         'tbtnQuery
         '
         Me.tbtnQuery.Id = 9
-        Me.tbtnQuery.ImageIndex = 6
+        Me.tbtnQuery.ImageIndex = 13
         Me.tbtnQuery.Name = "tbtnQuery"
         '
         'tbtnPosting
