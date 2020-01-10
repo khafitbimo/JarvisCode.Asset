@@ -24,22 +24,22 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.ftabMain = New FlatTabControl.FlatTabControl()
         Me.ftabMain_List = New System.Windows.Forms.TabPage()
         Me.PnlDfSearch = New DevExpress.XtraEditors.PanelControl()
+        Me.obj_Rekanan_id_search = New System.Windows.Forms.TextBox()
+        Me.cboSearchChannel = New System.Windows.Forms.ComboBox()
+        Me.btn_Rekanan = New System.Windows.Forms.Button()
+        Me.chkSearchChannel = New System.Windows.Forms.CheckBox()
+        Me.obj_RvID_search = New System.Windows.Forms.TextBox()
+        Me.chk_Rekanan_id_search = New System.Windows.Forms.CheckBox()
+        Me.chk_RvID_search = New System.Windows.Forms.CheckBox()
+        Me.chk_Strukturunit_id_pemilik_search = New System.Windows.Forms.CheckBox()
+        Me.obj_orderID_search = New System.Windows.Forms.TextBox()
+        Me.obj_Strukturunit_id_pemilik_search = New System.Windows.Forms.ComboBox()
+        Me.chk_orderID_search = New System.Windows.Forms.CheckBox()
+        Me.chk_User_search = New System.Windows.Forms.CheckBox()
+        Me.cmb_appuser = New System.Windows.Forms.ComboBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.lblLoading = New System.Windows.Forms.Label()
         Me.obj_ProgressBar_backGroundWorker = New System.Windows.Forms.ProgressBar()
-        Me.obj_Rekanan_id_search = New System.Windows.Forms.TextBox()
-        Me.btn_Rekanan = New System.Windows.Forms.Button()
-        Me.obj_RvID_search = New System.Windows.Forms.TextBox()
-        Me.chk_RvID_search = New System.Windows.Forms.CheckBox()
-        Me.obj_orderID_search = New System.Windows.Forms.TextBox()
-        Me.chk_orderID_search = New System.Windows.Forms.CheckBox()
-        Me.cmb_appuser = New System.Windows.Forms.ComboBox()
-        Me.chk_User_search = New System.Windows.Forms.CheckBox()
-        Me.obj_Strukturunit_id_pemilik_search = New System.Windows.Forms.ComboBox()
-        Me.chk_Strukturunit_id_pemilik_search = New System.Windows.Forms.CheckBox()
-        Me.chk_Rekanan_id_search = New System.Windows.Forms.CheckBox()
-        Me.cboSearchChannel = New System.Windows.Forms.ComboBox()
-        Me.chkSearchChannel = New System.Windows.Forms.CheckBox()
         Me.PnlDfMain = New System.Windows.Forms.Panel()
         Me.DgvTrnTerimajasa = New System.Windows.Forms.DataGridView()
         Me.PnlDfFooter = New System.Windows.Forms.Panel()
@@ -124,45 +124,45 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.cbo_periode = New System.Windows.Forms.ComboBox()
         Me.ftabDataDetil_Order = New System.Windows.Forms.TabPage()
         Me.dgvTrnOrder = New System.Windows.Forms.DataGridView()
+        Me.PnlDataMaster = New DevExpress.XtraEditors.PanelControl()
         Me.obj_Budget_id = New System.Windows.Forms.ComboBox()
-        Me.obj_Employee_id_owner = New System.Windows.Forms.ComboBox()
-        Me.obj_Rekanan_id = New System.Windows.Forms.ComboBox()
-        Me.obj_Terimajasa_statusrealization = New System.Windows.Forms.ComboBox()
-        Me.obj_Terimajasa_status = New System.Windows.Forms.ComboBox()
-        Me.btn_order = New System.Windows.Forms.Button()
-        Me.obj_Terimajasa_date = New System.Windows.Forms.MaskedTextBox()
-        Me.obj_Terimajasa_id = New System.Windows.Forms.TextBox()
         Me.lbl_Terimajasa_id = New System.Windows.Forms.Label()
+        Me.obj_Employee_id_owner = New System.Windows.Forms.ComboBox()
+        Me.lbl_Channel_id = New System.Windows.Forms.Label()
+        Me.obj_Rekanan_id = New System.Windows.Forms.ComboBox()
+        Me.obj_Channel_id = New System.Windows.Forms.TextBox()
+        Me.obj_Terimajasa_statusrealization = New System.Windows.Forms.ComboBox()
+        Me.lbl_Terimajasa_nosuratjalan = New System.Windows.Forms.Label()
+        Me.obj_Terimajasa_status = New System.Windows.Forms.ComboBox()
+        Me.obj_Terimajasa_nosuratjalan = New System.Windows.Forms.TextBox()
+        Me.btn_order = New System.Windows.Forms.Button()
+        Me.lbl_Terimajasa_notes = New System.Windows.Forms.Label()
+        Me.obj_Terimajasa_date = New System.Windows.Forms.MaskedTextBox()
+        Me.obj_Terimajasa_notes = New System.Windows.Forms.TextBox()
+        Me.obj_Terimajasa_id = New System.Windows.Forms.TextBox()
+        Me.lbl_Terimajasa_location = New System.Windows.Forms.Label()
+        Me.obj_Terimajasa_location = New System.Windows.Forms.TextBox()
         Me.lbl_Terimajasa_date = New System.Windows.Forms.Label()
+        Me.lbl_Terimajasa_statusrealization = New System.Windows.Forms.Label()
         Me.obj_Terimajasa_type = New System.Windows.Forms.TextBox()
+        Me.lbl_Terimajasa_status = New System.Windows.Forms.Label()
         Me.lbl_Terimajasa_type = New System.Windows.Forms.Label()
+        Me.lbl_Order_qty = New System.Windows.Forms.Label()
         Me.obj_Order_id = New System.Windows.Forms.TextBox()
+        Me.obj_Order_qty = New System.Windows.Forms.TextBox()
         Me.lbl_Order_id = New System.Windows.Forms.Label()
+        Me.lbl_Terimajasa_qtyrealization = New System.Windows.Forms.Label()
         Me.lbl_Budget_id = New System.Windows.Forms.Label()
+        Me.obj_Terimajasa_qtyrealization = New System.Windows.Forms.TextBox()
         Me.lbl_Rekanan_id = New System.Windows.Forms.Label()
+        Me.lbl_Terimajasa_qtyitem = New System.Windows.Forms.Label()
         Me.lbl_Employee_id_owner = New System.Windows.Forms.Label()
         Me.obj_Terimajasa_qtyitem = New System.Windows.Forms.TextBox()
-        Me.lbl_Terimajasa_qtyitem = New System.Windows.Forms.Label()
-        Me.obj_Terimajasa_qtyrealization = New System.Windows.Forms.TextBox()
-        Me.lbl_Terimajasa_qtyrealization = New System.Windows.Forms.Label()
-        Me.obj_Order_qty = New System.Windows.Forms.TextBox()
-        Me.lbl_Order_qty = New System.Windows.Forms.Label()
-        Me.lbl_Terimajasa_status = New System.Windows.Forms.Label()
-        Me.lbl_Terimajasa_statusrealization = New System.Windows.Forms.Label()
-        Me.obj_Terimajasa_location = New System.Windows.Forms.TextBox()
-        Me.lbl_Terimajasa_location = New System.Windows.Forms.Label()
-        Me.obj_Terimajasa_notes = New System.Windows.Forms.TextBox()
-        Me.lbl_Terimajasa_notes = New System.Windows.Forms.Label()
-        Me.obj_Terimajasa_nosuratjalan = New System.Windows.Forms.TextBox()
-        Me.lbl_Terimajasa_nosuratjalan = New System.Windows.Forms.Label()
-        Me.obj_Channel_id = New System.Windows.Forms.TextBox()
-        Me.lbl_Channel_id = New System.Windows.Forms.Label()
         Me.PnlDataFooter = New System.Windows.Forms.Panel()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.btn_BuiltJurnal = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PnlDataMaster = New DevExpress.XtraEditors.PanelControl()
         Me.ftabMain.SuspendLayout()
         Me.ftabMain_List.SuspendLayout()
         CType(Me.PnlDfSearch, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -193,9 +193,9 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Panel2.SuspendLayout()
         Me.ftabDataDetil_Order.SuspendLayout()
         CType(Me.dgvTrnOrder, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.ContextMenuStrip1.SuspendLayout()
         CType(Me.PnlDataMaster, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PnlDataMaster.SuspendLayout()
+        Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ftabMain
@@ -245,6 +245,118 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.PnlDfSearch.Size = New System.Drawing.Size(739, 111)
         Me.PnlDfSearch.TabIndex = 5
         '
+        'obj_Rekanan_id_search
+        '
+        Me.obj_Rekanan_id_search.Location = New System.Drawing.Point(95, 30)
+        Me.obj_Rekanan_id_search.Name = "obj_Rekanan_id_search"
+        Me.obj_Rekanan_id_search.Size = New System.Drawing.Size(121, 21)
+        Me.obj_Rekanan_id_search.TabIndex = 205
+        '
+        'cboSearchChannel
+        '
+        Me.cboSearchChannel.FormattingEnabled = True
+        Me.cboSearchChannel.Location = New System.Drawing.Point(95, 5)
+        Me.cboSearchChannel.Name = "cboSearchChannel"
+        Me.cboSearchChannel.Size = New System.Drawing.Size(121, 21)
+        Me.cboSearchChannel.TabIndex = 1
+        '
+        'btn_Rekanan
+        '
+        Me.btn_Rekanan.Location = New System.Drawing.Point(222, 31)
+        Me.btn_Rekanan.Name = "btn_Rekanan"
+        Me.btn_Rekanan.Size = New System.Drawing.Size(24, 20)
+        Me.btn_Rekanan.TabIndex = 204
+        Me.btn_Rekanan.Text = "..."
+        Me.btn_Rekanan.UseVisualStyleBackColor = True
+        '
+        'chkSearchChannel
+        '
+        Me.chkSearchChannel.AutoSize = True
+        Me.chkSearchChannel.Location = New System.Drawing.Point(8, 7)
+        Me.chkSearchChannel.Name = "chkSearchChannel"
+        Me.chkSearchChannel.Size = New System.Drawing.Size(71, 17)
+        Me.chkSearchChannel.TabIndex = 0
+        Me.chkSearchChannel.Text = "Company"
+        Me.chkSearchChannel.UseVisualStyleBackColor = True
+        '
+        'obj_RvID_search
+        '
+        Me.obj_RvID_search.Location = New System.Drawing.Point(479, 55)
+        Me.obj_RvID_search.Name = "obj_RvID_search"
+        Me.obj_RvID_search.Size = New System.Drawing.Size(233, 21)
+        Me.obj_RvID_search.TabIndex = 28
+        '
+        'chk_Rekanan_id_search
+        '
+        Me.chk_Rekanan_id_search.AutoSize = True
+        Me.chk_Rekanan_id_search.Location = New System.Drawing.Point(8, 32)
+        Me.chk_Rekanan_id_search.Name = "chk_Rekanan_id_search"
+        Me.chk_Rekanan_id_search.Size = New System.Drawing.Size(62, 17)
+        Me.chk_Rekanan_id_search.TabIndex = 20
+        Me.chk_Rekanan_id_search.TabStop = False
+        Me.chk_Rekanan_id_search.Text = "Partner"
+        '
+        'chk_RvID_search
+        '
+        Me.chk_RvID_search.AutoSize = True
+        Me.chk_RvID_search.Location = New System.Drawing.Point(375, 58)
+        Me.chk_RvID_search.Name = "chk_RvID_search"
+        Me.chk_RvID_search.Size = New System.Drawing.Size(59, 17)
+        Me.chk_RvID_search.TabIndex = 27
+        Me.chk_RvID_search.TabStop = False
+        Me.chk_RvID_search.Text = "RV No."
+        '
+        'chk_Strukturunit_id_pemilik_search
+        '
+        Me.chk_Strukturunit_id_pemilik_search.AutoSize = True
+        Me.chk_Strukturunit_id_pemilik_search.Location = New System.Drawing.Point(375, 7)
+        Me.chk_Strukturunit_id_pemilik_search.Name = "chk_Strukturunit_id_pemilik_search"
+        Me.chk_Strukturunit_id_pemilik_search.Size = New System.Drawing.Size(83, 17)
+        Me.chk_Strukturunit_id_pemilik_search.TabIndex = 21
+        Me.chk_Strukturunit_id_pemilik_search.TabStop = False
+        Me.chk_Strukturunit_id_pemilik_search.Text = "Department"
+        '
+        'obj_orderID_search
+        '
+        Me.obj_orderID_search.Location = New System.Drawing.Point(95, 55)
+        Me.obj_orderID_search.Name = "obj_orderID_search"
+        Me.obj_orderID_search.Size = New System.Drawing.Size(233, 21)
+        Me.obj_orderID_search.TabIndex = 26
+        '
+        'obj_Strukturunit_id_pemilik_search
+        '
+        Me.obj_Strukturunit_id_pemilik_search.Location = New System.Drawing.Point(479, 5)
+        Me.obj_Strukturunit_id_pemilik_search.Name = "obj_Strukturunit_id_pemilik_search"
+        Me.obj_Strukturunit_id_pemilik_search.Size = New System.Drawing.Size(233, 21)
+        Me.obj_Strukturunit_id_pemilik_search.TabIndex = 22
+        '
+        'chk_orderID_search
+        '
+        Me.chk_orderID_search.AutoSize = True
+        Me.chk_orderID_search.Location = New System.Drawing.Point(8, 57)
+        Me.chk_orderID_search.Name = "chk_orderID_search"
+        Me.chk_orderID_search.Size = New System.Drawing.Size(74, 17)
+        Me.chk_orderID_search.TabIndex = 25
+        Me.chk_orderID_search.TabStop = False
+        Me.chk_orderID_search.Text = "Order No."
+        '
+        'chk_User_search
+        '
+        Me.chk_User_search.AutoSize = True
+        Me.chk_User_search.Location = New System.Drawing.Point(375, 32)
+        Me.chk_User_search.Name = "chk_User_search"
+        Me.chk_User_search.Size = New System.Drawing.Size(98, 17)
+        Me.chk_User_search.TabIndex = 23
+        Me.chk_User_search.TabStop = False
+        Me.chk_User_search.Text = "Approved User"
+        '
+        'cmb_appuser
+        '
+        Me.cmb_appuser.Location = New System.Drawing.Point(479, 30)
+        Me.cmb_appuser.Name = "cmb_appuser"
+        Me.cmb_appuser.Size = New System.Drawing.Size(85, 21)
+        Me.cmb_appuser.TabIndex = 24
+        '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Moccasin
@@ -278,118 +390,6 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_ProgressBar_backGroundWorker.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.obj_ProgressBar_backGroundWorker.TabIndex = 58
         Me.obj_ProgressBar_backGroundWorker.UseWaitCursor = True
-        '
-        'obj_Rekanan_id_search
-        '
-        Me.obj_Rekanan_id_search.Location = New System.Drawing.Point(95, 30)
-        Me.obj_Rekanan_id_search.Name = "obj_Rekanan_id_search"
-        Me.obj_Rekanan_id_search.Size = New System.Drawing.Size(121, 21)
-        Me.obj_Rekanan_id_search.TabIndex = 205
-        '
-        'btn_Rekanan
-        '
-        Me.btn_Rekanan.Location = New System.Drawing.Point(222, 31)
-        Me.btn_Rekanan.Name = "btn_Rekanan"
-        Me.btn_Rekanan.Size = New System.Drawing.Size(24, 20)
-        Me.btn_Rekanan.TabIndex = 204
-        Me.btn_Rekanan.Text = "..."
-        Me.btn_Rekanan.UseVisualStyleBackColor = True
-        '
-        'obj_RvID_search
-        '
-        Me.obj_RvID_search.Location = New System.Drawing.Point(479, 55)
-        Me.obj_RvID_search.Name = "obj_RvID_search"
-        Me.obj_RvID_search.Size = New System.Drawing.Size(233, 21)
-        Me.obj_RvID_search.TabIndex = 28
-        '
-        'chk_RvID_search
-        '
-        Me.chk_RvID_search.AutoSize = True
-        Me.chk_RvID_search.Location = New System.Drawing.Point(375, 58)
-        Me.chk_RvID_search.Name = "chk_RvID_search"
-        Me.chk_RvID_search.Size = New System.Drawing.Size(59, 17)
-        Me.chk_RvID_search.TabIndex = 27
-        Me.chk_RvID_search.TabStop = False
-        Me.chk_RvID_search.Text = "RV No."
-        '
-        'obj_orderID_search
-        '
-        Me.obj_orderID_search.Location = New System.Drawing.Point(95, 55)
-        Me.obj_orderID_search.Name = "obj_orderID_search"
-        Me.obj_orderID_search.Size = New System.Drawing.Size(233, 21)
-        Me.obj_orderID_search.TabIndex = 26
-        '
-        'chk_orderID_search
-        '
-        Me.chk_orderID_search.AutoSize = True
-        Me.chk_orderID_search.Location = New System.Drawing.Point(8, 57)
-        Me.chk_orderID_search.Name = "chk_orderID_search"
-        Me.chk_orderID_search.Size = New System.Drawing.Size(74, 17)
-        Me.chk_orderID_search.TabIndex = 25
-        Me.chk_orderID_search.TabStop = False
-        Me.chk_orderID_search.Text = "Order No."
-        '
-        'cmb_appuser
-        '
-        Me.cmb_appuser.Location = New System.Drawing.Point(479, 30)
-        Me.cmb_appuser.Name = "cmb_appuser"
-        Me.cmb_appuser.Size = New System.Drawing.Size(85, 21)
-        Me.cmb_appuser.TabIndex = 24
-        '
-        'chk_User_search
-        '
-        Me.chk_User_search.AutoSize = True
-        Me.chk_User_search.Location = New System.Drawing.Point(375, 32)
-        Me.chk_User_search.Name = "chk_User_search"
-        Me.chk_User_search.Size = New System.Drawing.Size(98, 17)
-        Me.chk_User_search.TabIndex = 23
-        Me.chk_User_search.TabStop = False
-        Me.chk_User_search.Text = "Approved User"
-        '
-        'obj_Strukturunit_id_pemilik_search
-        '
-        Me.obj_Strukturunit_id_pemilik_search.Location = New System.Drawing.Point(479, 5)
-        Me.obj_Strukturunit_id_pemilik_search.Name = "obj_Strukturunit_id_pemilik_search"
-        Me.obj_Strukturunit_id_pemilik_search.Size = New System.Drawing.Size(233, 21)
-        Me.obj_Strukturunit_id_pemilik_search.TabIndex = 22
-        '
-        'chk_Strukturunit_id_pemilik_search
-        '
-        Me.chk_Strukturunit_id_pemilik_search.AutoSize = True
-        Me.chk_Strukturunit_id_pemilik_search.Location = New System.Drawing.Point(375, 7)
-        Me.chk_Strukturunit_id_pemilik_search.Name = "chk_Strukturunit_id_pemilik_search"
-        Me.chk_Strukturunit_id_pemilik_search.Size = New System.Drawing.Size(83, 17)
-        Me.chk_Strukturunit_id_pemilik_search.TabIndex = 21
-        Me.chk_Strukturunit_id_pemilik_search.TabStop = False
-        Me.chk_Strukturunit_id_pemilik_search.Text = "Department"
-        '
-        'chk_Rekanan_id_search
-        '
-        Me.chk_Rekanan_id_search.AutoSize = True
-        Me.chk_Rekanan_id_search.Location = New System.Drawing.Point(8, 32)
-        Me.chk_Rekanan_id_search.Name = "chk_Rekanan_id_search"
-        Me.chk_Rekanan_id_search.Size = New System.Drawing.Size(68, 17)
-        Me.chk_Rekanan_id_search.TabIndex = 20
-        Me.chk_Rekanan_id_search.TabStop = False
-        Me.chk_Rekanan_id_search.Text = "Partner"
-        '
-        'cboSearchChannel
-        '
-        Me.cboSearchChannel.FormattingEnabled = True
-        Me.cboSearchChannel.Location = New System.Drawing.Point(95, 5)
-        Me.cboSearchChannel.Name = "cboSearchChannel"
-        Me.cboSearchChannel.Size = New System.Drawing.Size(121, 21)
-        Me.cboSearchChannel.TabIndex = 1
-        '
-        'chkSearchChannel
-        '
-        Me.chkSearchChannel.AutoSize = True
-        Me.chkSearchChannel.Location = New System.Drawing.Point(8, 7)
-        Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(71, 17)
-        Me.chkSearchChannel.TabIndex = 0
-        Me.chkSearchChannel.Text = "Company"
-        Me.chkSearchChannel.UseVisualStyleBackColor = True
         '
         'PnlDfMain
         '
@@ -958,7 +958,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.TabPage1.Location = New System.Drawing.Point(4, 25)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(723, 131)
+        Me.TabPage1.Size = New System.Drawing.Size(184, 0)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Pembayaran (K)"
         '
@@ -969,7 +969,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel5.Location = New System.Drawing.Point(3, 3)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(717, 125)
+        Me.Panel5.Size = New System.Drawing.Size(178, 0)
         Me.Panel5.TabIndex = 1
         '
         'DgvTrnJurnaldetil
@@ -978,7 +978,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.DgvTrnJurnaldetil.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnaldetil.Location = New System.Drawing.Point(0, 0)
         Me.DgvTrnJurnaldetil.Name = "DgvTrnJurnaldetil"
-        Me.DgvTrnJurnaldetil.Size = New System.Drawing.Size(717, 125)
+        Me.DgvTrnJurnaldetil.Size = New System.Drawing.Size(178, 0)
         Me.DgvTrnJurnaldetil.TabIndex = 0
         '
         'ftabDataDetil_Reference
@@ -988,7 +988,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.ftabDataDetil_Reference.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Reference.Name = "ftabDataDetil_Reference"
         Me.ftabDataDetil_Reference.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Reference.Size = New System.Drawing.Size(723, 131)
+        Me.ftabDataDetil_Reference.Size = New System.Drawing.Size(184, 0)
         Me.ftabDataDetil_Reference.TabIndex = 1
         Me.ftabDataDetil_Reference.Text = "Reference"
         '
@@ -1007,7 +1007,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.ftabDataDetil_Response.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Response.Name = "ftabDataDetil_Response"
         Me.ftabDataDetil_Response.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Response.Size = New System.Drawing.Size(723, 131)
+        Me.ftabDataDetil_Response.Size = New System.Drawing.Size(184, 0)
         Me.ftabDataDetil_Response.TabIndex = 2
         Me.ftabDataDetil_Response.Text = "Response"
         '
@@ -1017,7 +1017,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.DgvTrnJurnalresponse.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnalresponse.Location = New System.Drawing.Point(3, 3)
         Me.DgvTrnJurnalresponse.Name = "DgvTrnJurnalresponse"
-        Me.DgvTrnJurnalresponse.Size = New System.Drawing.Size(717, 125)
+        Me.DgvTrnJurnalresponse.Size = New System.Drawing.Size(178, 0)
         Me.DgvTrnJurnalresponse.TabIndex = 1
         '
         'Panel2
@@ -1239,329 +1239,6 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.dgvTrnOrder.Size = New System.Drawing.Size(731, 239)
         Me.dgvTrnOrder.TabIndex = 6
         '
-        'obj_Budget_id
-        '
-        Me.obj_Budget_id.Enabled = False
-        Me.obj_Budget_id.Location = New System.Drawing.Point(446, 113)
-        Me.obj_Budget_id.Name = "obj_Budget_id"
-        Me.obj_Budget_id.Size = New System.Drawing.Size(217, 21)
-        Me.obj_Budget_id.TabIndex = 361
-        '
-        'obj_Employee_id_owner
-        '
-        Me.obj_Employee_id_owner.Location = New System.Drawing.Point(446, 65)
-        Me.obj_Employee_id_owner.Name = "obj_Employee_id_owner"
-        Me.obj_Employee_id_owner.Size = New System.Drawing.Size(217, 21)
-        Me.obj_Employee_id_owner.TabIndex = 360
-        '
-        'obj_Rekanan_id
-        '
-        Me.obj_Rekanan_id.Enabled = False
-        Me.obj_Rekanan_id.Location = New System.Drawing.Point(446, 41)
-        Me.obj_Rekanan_id.Name = "obj_Rekanan_id"
-        Me.obj_Rekanan_id.Size = New System.Drawing.Size(272, 21)
-        Me.obj_Rekanan_id.TabIndex = 359
-        '
-        'obj_Terimajasa_statusrealization
-        '
-        Me.obj_Terimajasa_statusrealization.Items.AddRange(New Object() {"-- Pilih --", "Telat & Sesuai", "Telat & Tidak Sesuai", "Tepat Waktu & Sesuai", "Tepat Waktu & Tidak Sesuai"})
-        Me.obj_Terimajasa_statusrealization.Location = New System.Drawing.Point(109, 112)
-        Me.obj_Terimajasa_statusrealization.Name = "obj_Terimajasa_statusrealization"
-        Me.obj_Terimajasa_statusrealization.Size = New System.Drawing.Size(170, 21)
-        Me.obj_Terimajasa_statusrealization.TabIndex = 349
-        '
-        'obj_Terimajasa_status
-        '
-        Me.obj_Terimajasa_status.Enabled = False
-        Me.obj_Terimajasa_status.Items.AddRange(New Object() {"-- Pilih --", "COMPLETE", "INCOMPLETE"})
-        Me.obj_Terimajasa_status.Location = New System.Drawing.Point(109, 89)
-        Me.obj_Terimajasa_status.Name = "obj_Terimajasa_status"
-        Me.obj_Terimajasa_status.Size = New System.Drawing.Size(100, 21)
-        Me.obj_Terimajasa_status.TabIndex = 348
-        '
-        'btn_order
-        '
-        Me.btn_order.BackColor = System.Drawing.Color.AntiqueWhite
-        Me.btn_order.Font = New System.Drawing.Font("Verdana", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_order.ForeColor = System.Drawing.Color.Red
-        Me.btn_order.Location = New System.Drawing.Point(215, 67)
-        Me.btn_order.Name = "btn_order"
-        Me.btn_order.Size = New System.Drawing.Size(28, 19)
-        Me.btn_order.TabIndex = 347
-        Me.btn_order.TabStop = False
-        Me.btn_order.Text = "RO"
-        Me.btn_order.UseVisualStyleBackColor = False
-        '
-        'obj_Terimajasa_date
-        '
-        Me.obj_Terimajasa_date.BackColor = System.Drawing.SystemColors.Info
-        Me.obj_Terimajasa_date.Location = New System.Drawing.Point(287, 9)
-        Me.obj_Terimajasa_date.Mask = "00/00/0000"
-        Me.obj_Terimajasa_date.Name = "obj_Terimajasa_date"
-        Me.obj_Terimajasa_date.ReadOnly = True
-        Me.obj_Terimajasa_date.Size = New System.Drawing.Size(73, 21)
-        Me.obj_Terimajasa_date.TabIndex = 41
-        Me.obj_Terimajasa_date.TabStop = False
-        '
-        'obj_Terimajasa_id
-        '
-        Me.obj_Terimajasa_id.BackColor = System.Drawing.SystemColors.Info
-        Me.obj_Terimajasa_id.Location = New System.Drawing.Point(109, 9)
-        Me.obj_Terimajasa_id.Name = "obj_Terimajasa_id"
-        Me.obj_Terimajasa_id.ReadOnly = True
-        Me.obj_Terimajasa_id.Size = New System.Drawing.Size(100, 21)
-        Me.obj_Terimajasa_id.TabIndex = 1
-        '
-        'lbl_Terimajasa_id
-        '
-        Me.lbl_Terimajasa_id.AutoSize = True
-        Me.lbl_Terimajasa_id.Location = New System.Drawing.Point(11, 12)
-        Me.lbl_Terimajasa_id.Name = "lbl_Terimajasa_id"
-        Me.lbl_Terimajasa_id.Size = New System.Drawing.Size(65, 13)
-        Me.lbl_Terimajasa_id.TabIndex = 0
-        Me.lbl_Terimajasa_id.Text = "Receive No."
-        '
-        'lbl_Terimajasa_date
-        '
-        Me.lbl_Terimajasa_date.AutoSize = True
-        Me.lbl_Terimajasa_date.Location = New System.Drawing.Point(215, 12)
-        Me.lbl_Terimajasa_date.Name = "lbl_Terimajasa_date"
-        Me.lbl_Terimajasa_date.Size = New System.Drawing.Size(71, 13)
-        Me.lbl_Terimajasa_date.TabIndex = 0
-        Me.lbl_Terimajasa_date.Text = "Receive Date"
-        '
-        'obj_Terimajasa_type
-        '
-        Me.obj_Terimajasa_type.BackColor = System.Drawing.SystemColors.Info
-        Me.obj_Terimajasa_type.Location = New System.Drawing.Point(109, 43)
-        Me.obj_Terimajasa_type.Name = "obj_Terimajasa_type"
-        Me.obj_Terimajasa_type.ReadOnly = True
-        Me.obj_Terimajasa_type.Size = New System.Drawing.Size(100, 21)
-        Me.obj_Terimajasa_type.TabIndex = 1
-        '
-        'lbl_Terimajasa_type
-        '
-        Me.lbl_Terimajasa_type.AutoSize = True
-        Me.lbl_Terimajasa_type.Location = New System.Drawing.Point(11, 46)
-        Me.lbl_Terimajasa_type.Name = "lbl_Terimajasa_type"
-        Me.lbl_Terimajasa_type.Size = New System.Drawing.Size(72, 13)
-        Me.lbl_Terimajasa_type.TabIndex = 0
-        Me.lbl_Terimajasa_type.Text = "Receive Type"
-        '
-        'obj_Order_id
-        '
-        Me.obj_Order_id.BackColor = System.Drawing.SystemColors.Info
-        Me.obj_Order_id.Location = New System.Drawing.Point(109, 66)
-        Me.obj_Order_id.Name = "obj_Order_id"
-        Me.obj_Order_id.ReadOnly = True
-        Me.obj_Order_id.Size = New System.Drawing.Size(100, 21)
-        Me.obj_Order_id.TabIndex = 1
-        '
-        'lbl_Order_id
-        '
-        Me.lbl_Order_id.AutoSize = True
-        Me.lbl_Order_id.Location = New System.Drawing.Point(11, 70)
-        Me.lbl_Order_id.Name = "lbl_Order_id"
-        Me.lbl_Order_id.Size = New System.Drawing.Size(55, 13)
-        Me.lbl_Order_id.TabIndex = 0
-        Me.lbl_Order_id.Text = "Order No."
-        '
-        'lbl_Budget_id
-        '
-        Me.lbl_Budget_id.AutoSize = True
-        Me.lbl_Budget_id.Location = New System.Drawing.Point(366, 116)
-        Me.lbl_Budget_id.Name = "lbl_Budget_id"
-        Me.lbl_Budget_id.Size = New System.Drawing.Size(41, 13)
-        Me.lbl_Budget_id.TabIndex = 0
-        Me.lbl_Budget_id.Text = "Budget"
-        '
-        'lbl_Rekanan_id
-        '
-        Me.lbl_Rekanan_id.AutoSize = True
-        Me.lbl_Rekanan_id.Location = New System.Drawing.Point(366, 46)
-        Me.lbl_Rekanan_id.Name = "lbl_Rekanan_id"
-        Me.lbl_Rekanan_id.Size = New System.Drawing.Size(43, 13)
-        Me.lbl_Rekanan_id.TabIndex = 0
-        Me.lbl_Rekanan_id.Text = "Partner"
-        '
-        'lbl_Employee_id_owner
-        '
-        Me.lbl_Employee_id_owner.AutoSize = True
-        Me.lbl_Employee_id_owner.Location = New System.Drawing.Point(366, 69)
-        Me.lbl_Employee_id_owner.Name = "lbl_Employee_id_owner"
-        Me.lbl_Employee_id_owner.Size = New System.Drawing.Size(66, 13)
-        Me.lbl_Employee_id_owner.TabIndex = 0
-        Me.lbl_Employee_id_owner.Text = "Received By"
-        '
-        'obj_Terimajasa_qtyitem
-        '
-        Me.obj_Terimajasa_qtyitem.BackColor = System.Drawing.SystemColors.Info
-        Me.obj_Terimajasa_qtyitem.Location = New System.Drawing.Point(446, 9)
-        Me.obj_Terimajasa_qtyitem.Name = "obj_Terimajasa_qtyitem"
-        Me.obj_Terimajasa_qtyitem.ReadOnly = True
-        Me.obj_Terimajasa_qtyitem.Size = New System.Drawing.Size(43, 21)
-        Me.obj_Terimajasa_qtyitem.TabIndex = 1
-        '
-        'lbl_Terimajasa_qtyitem
-        '
-        Me.lbl_Terimajasa_qtyitem.AutoSize = True
-        Me.lbl_Terimajasa_qtyitem.Location = New System.Drawing.Point(366, 12)
-        Me.lbl_Terimajasa_qtyitem.Name = "lbl_Terimajasa_qtyitem"
-        Me.lbl_Terimajasa_qtyitem.Size = New System.Drawing.Size(50, 13)
-        Me.lbl_Terimajasa_qtyitem.TabIndex = 0
-        Me.lbl_Terimajasa_qtyitem.Text = "Qty Item"
-        '
-        'obj_Terimajasa_qtyrealization
-        '
-        Me.obj_Terimajasa_qtyrealization.BackColor = System.Drawing.SystemColors.Info
-        Me.obj_Terimajasa_qtyrealization.Location = New System.Drawing.Point(109, 159)
-        Me.obj_Terimajasa_qtyrealization.Name = "obj_Terimajasa_qtyrealization"
-        Me.obj_Terimajasa_qtyrealization.ReadOnly = True
-        Me.obj_Terimajasa_qtyrealization.Size = New System.Drawing.Size(55, 21)
-        Me.obj_Terimajasa_qtyrealization.TabIndex = 1
-        '
-        'lbl_Terimajasa_qtyrealization
-        '
-        Me.lbl_Terimajasa_qtyrealization.AutoSize = True
-        Me.lbl_Terimajasa_qtyrealization.Location = New System.Drawing.Point(11, 162)
-        Me.lbl_Terimajasa_qtyrealization.Name = "lbl_Terimajasa_qtyrealization"
-        Me.lbl_Terimajasa_qtyrealization.Size = New System.Drawing.Size(80, 13)
-        Me.lbl_Terimajasa_qtyrealization.TabIndex = 0
-        Me.lbl_Terimajasa_qtyrealization.Text = "Qty Realization"
-        '
-        'obj_Order_qty
-        '
-        Me.obj_Order_qty.BackColor = System.Drawing.SystemColors.Info
-        Me.obj_Order_qty.Location = New System.Drawing.Point(240, 159)
-        Me.obj_Order_qty.Name = "obj_Order_qty"
-        Me.obj_Order_qty.ReadOnly = True
-        Me.obj_Order_qty.Size = New System.Drawing.Size(48, 21)
-        Me.obj_Order_qty.TabIndex = 1
-        '
-        'lbl_Order_qty
-        '
-        Me.lbl_Order_qty.AutoSize = True
-        Me.lbl_Order_qty.Location = New System.Drawing.Point(182, 162)
-        Me.lbl_Order_qty.Name = "lbl_Order_qty"
-        Me.lbl_Order_qty.Size = New System.Drawing.Size(56, 13)
-        Me.lbl_Order_qty.TabIndex = 0
-        Me.lbl_Order_qty.Text = "Qty Order"
-        '
-        'lbl_Terimajasa_status
-        '
-        Me.lbl_Terimajasa_status.AutoSize = True
-        Me.lbl_Terimajasa_status.Location = New System.Drawing.Point(11, 92)
-        Me.lbl_Terimajasa_status.Name = "lbl_Terimajasa_status"
-        Me.lbl_Terimajasa_status.Size = New System.Drawing.Size(38, 13)
-        Me.lbl_Terimajasa_status.TabIndex = 0
-        Me.lbl_Terimajasa_status.Text = "Status"
-        '
-        'lbl_Terimajasa_statusrealization
-        '
-        Me.lbl_Terimajasa_statusrealization.AutoSize = True
-        Me.lbl_Terimajasa_statusrealization.Location = New System.Drawing.Point(11, 116)
-        Me.lbl_Terimajasa_statusrealization.Name = "lbl_Terimajasa_statusrealization"
-        Me.lbl_Terimajasa_statusrealization.Size = New System.Drawing.Size(93, 13)
-        Me.lbl_Terimajasa_statusrealization.TabIndex = 0
-        Me.lbl_Terimajasa_statusrealization.Text = "Realization Status"
-        '
-        'obj_Terimajasa_location
-        '
-        Me.obj_Terimajasa_location.Location = New System.Drawing.Point(446, 89)
-        Me.obj_Terimajasa_location.Name = "obj_Terimajasa_location"
-        Me.obj_Terimajasa_location.Size = New System.Drawing.Size(272, 21)
-        Me.obj_Terimajasa_location.TabIndex = 1
-        '
-        'lbl_Terimajasa_location
-        '
-        Me.lbl_Terimajasa_location.AutoSize = True
-        Me.lbl_Terimajasa_location.Location = New System.Drawing.Point(366, 92)
-        Me.lbl_Terimajasa_location.Name = "lbl_Terimajasa_location"
-        Me.lbl_Terimajasa_location.Size = New System.Drawing.Size(47, 13)
-        Me.lbl_Terimajasa_location.TabIndex = 0
-        Me.lbl_Terimajasa_location.Text = "Location"
-        '
-        'obj_Terimajasa_notes
-        '
-        Me.obj_Terimajasa_notes.Location = New System.Drawing.Point(446, 136)
-        Me.obj_Terimajasa_notes.Multiline = True
-        Me.obj_Terimajasa_notes.Name = "obj_Terimajasa_notes"
-        Me.obj_Terimajasa_notes.Size = New System.Drawing.Size(272, 43)
-        Me.obj_Terimajasa_notes.TabIndex = 1
-        '
-        'lbl_Terimajasa_notes
-        '
-        Me.lbl_Terimajasa_notes.AutoSize = True
-        Me.lbl_Terimajasa_notes.Location = New System.Drawing.Point(366, 139)
-        Me.lbl_Terimajasa_notes.Name = "lbl_Terimajasa_notes"
-        Me.lbl_Terimajasa_notes.Size = New System.Drawing.Size(35, 13)
-        Me.lbl_Terimajasa_notes.TabIndex = 0
-        Me.lbl_Terimajasa_notes.Text = "Notes"
-        '
-        'obj_Terimajasa_nosuratjalan
-        '
-        Me.obj_Terimajasa_nosuratjalan.Location = New System.Drawing.Point(109, 136)
-        Me.obj_Terimajasa_nosuratjalan.Name = "obj_Terimajasa_nosuratjalan"
-        Me.obj_Terimajasa_nosuratjalan.Size = New System.Drawing.Size(100, 21)
-        Me.obj_Terimajasa_nosuratjalan.TabIndex = 1
-        '
-        'lbl_Terimajasa_nosuratjalan
-        '
-        Me.lbl_Terimajasa_nosuratjalan.AutoSize = True
-        Me.lbl_Terimajasa_nosuratjalan.Location = New System.Drawing.Point(11, 139)
-        Me.lbl_Terimajasa_nosuratjalan.Name = "lbl_Terimajasa_nosuratjalan"
-        Me.lbl_Terimajasa_nosuratjalan.Size = New System.Drawing.Size(97, 13)
-        Me.lbl_Terimajasa_nosuratjalan.TabIndex = 0
-        Me.lbl_Terimajasa_nosuratjalan.Text = "Delivery Order No."
-        '
-        'obj_Channel_id
-        '
-        Me.obj_Channel_id.BackColor = System.Drawing.SystemColors.Info
-        Me.obj_Channel_id.Location = New System.Drawing.Point(563, 10)
-        Me.obj_Channel_id.Name = "obj_Channel_id"
-        Me.obj_Channel_id.ReadOnly = True
-        Me.obj_Channel_id.Size = New System.Drawing.Size(100, 21)
-        Me.obj_Channel_id.TabIndex = 1
-        '
-        'lbl_Channel_id
-        '
-        Me.lbl_Channel_id.AutoSize = True
-        Me.lbl_Channel_id.Location = New System.Drawing.Point(511, 13)
-        Me.lbl_Channel_id.Name = "lbl_Channel_id"
-        Me.lbl_Channel_id.Size = New System.Drawing.Size(46, 13)
-        Me.lbl_Channel_id.TabIndex = 0
-        Me.lbl_Channel_id.Text = "Company"
-        '
-        'PnlDataFooter
-        '
-        Me.PnlDataFooter.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PnlDataFooter.Location = New System.Drawing.Point(3, 464)
-        Me.PnlDataFooter.Name = "PnlDataFooter"
-        Me.PnlDataFooter.Size = New System.Drawing.Size(739, 27)
-        Me.PnlDataFooter.TabIndex = 2
-        '
-        'BackgroundWorker1
-        '
-        '
-        'ImageList1
-        '
-        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList1.Images.SetKeyName(0, "Spell.ico")
-        Me.ImageList1.Images.SetKeyName(1, "Stop 2.ico")
-        '
-        'ContextMenuStrip1
-        '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btn_BuiltJurnal})
-        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(133, 26)
-        '
-        'btn_BuiltJurnal
-        '
-        Me.btn_BuiltJurnal.Name = "btn_BuiltJurnal"
-        Me.btn_BuiltJurnal.Size = New System.Drawing.Size(132, 22)
-        Me.btn_BuiltJurnal.Text = "Built Jurnal"
-        '
         'PnlDataMaster
         '
         Me.PnlDataMaster.Controls.Add(Me.obj_Budget_id)
@@ -1602,6 +1279,329 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.PnlDataMaster.Name = "PnlDataMaster"
         Me.PnlDataMaster.Size = New System.Drawing.Size(739, 193)
         Me.PnlDataMaster.TabIndex = 4
+        '
+        'obj_Budget_id
+        '
+        Me.obj_Budget_id.Enabled = False
+        Me.obj_Budget_id.Location = New System.Drawing.Point(446, 113)
+        Me.obj_Budget_id.Name = "obj_Budget_id"
+        Me.obj_Budget_id.Size = New System.Drawing.Size(217, 21)
+        Me.obj_Budget_id.TabIndex = 361
+        '
+        'lbl_Terimajasa_id
+        '
+        Me.lbl_Terimajasa_id.AutoSize = True
+        Me.lbl_Terimajasa_id.Location = New System.Drawing.Point(11, 12)
+        Me.lbl_Terimajasa_id.Name = "lbl_Terimajasa_id"
+        Me.lbl_Terimajasa_id.Size = New System.Drawing.Size(65, 13)
+        Me.lbl_Terimajasa_id.TabIndex = 0
+        Me.lbl_Terimajasa_id.Text = "Receive No."
+        '
+        'obj_Employee_id_owner
+        '
+        Me.obj_Employee_id_owner.Location = New System.Drawing.Point(446, 65)
+        Me.obj_Employee_id_owner.Name = "obj_Employee_id_owner"
+        Me.obj_Employee_id_owner.Size = New System.Drawing.Size(217, 21)
+        Me.obj_Employee_id_owner.TabIndex = 360
+        '
+        'lbl_Channel_id
+        '
+        Me.lbl_Channel_id.AutoSize = True
+        Me.lbl_Channel_id.Location = New System.Drawing.Point(511, 13)
+        Me.lbl_Channel_id.Name = "lbl_Channel_id"
+        Me.lbl_Channel_id.Size = New System.Drawing.Size(52, 13)
+        Me.lbl_Channel_id.TabIndex = 0
+        Me.lbl_Channel_id.Text = "Company"
+        '
+        'obj_Rekanan_id
+        '
+        Me.obj_Rekanan_id.Enabled = False
+        Me.obj_Rekanan_id.Location = New System.Drawing.Point(446, 41)
+        Me.obj_Rekanan_id.Name = "obj_Rekanan_id"
+        Me.obj_Rekanan_id.Size = New System.Drawing.Size(272, 21)
+        Me.obj_Rekanan_id.TabIndex = 359
+        '
+        'obj_Channel_id
+        '
+        Me.obj_Channel_id.BackColor = System.Drawing.SystemColors.Info
+        Me.obj_Channel_id.Location = New System.Drawing.Point(563, 10)
+        Me.obj_Channel_id.Name = "obj_Channel_id"
+        Me.obj_Channel_id.ReadOnly = True
+        Me.obj_Channel_id.Size = New System.Drawing.Size(100, 21)
+        Me.obj_Channel_id.TabIndex = 1
+        '
+        'obj_Terimajasa_statusrealization
+        '
+        Me.obj_Terimajasa_statusrealization.Items.AddRange(New Object() {"-- Pilih --", "Telat & Sesuai", "Telat & Tidak Sesuai", "Tepat Waktu & Sesuai", "Tepat Waktu & Tidak Sesuai"})
+        Me.obj_Terimajasa_statusrealization.Location = New System.Drawing.Point(109, 112)
+        Me.obj_Terimajasa_statusrealization.Name = "obj_Terimajasa_statusrealization"
+        Me.obj_Terimajasa_statusrealization.Size = New System.Drawing.Size(170, 21)
+        Me.obj_Terimajasa_statusrealization.TabIndex = 349
+        '
+        'lbl_Terimajasa_nosuratjalan
+        '
+        Me.lbl_Terimajasa_nosuratjalan.AutoSize = True
+        Me.lbl_Terimajasa_nosuratjalan.Location = New System.Drawing.Point(11, 139)
+        Me.lbl_Terimajasa_nosuratjalan.Name = "lbl_Terimajasa_nosuratjalan"
+        Me.lbl_Terimajasa_nosuratjalan.Size = New System.Drawing.Size(97, 13)
+        Me.lbl_Terimajasa_nosuratjalan.TabIndex = 0
+        Me.lbl_Terimajasa_nosuratjalan.Text = "Delivery Order No."
+        '
+        'obj_Terimajasa_status
+        '
+        Me.obj_Terimajasa_status.Enabled = False
+        Me.obj_Terimajasa_status.Items.AddRange(New Object() {"-- Pilih --", "COMPLETE", "INCOMPLETE"})
+        Me.obj_Terimajasa_status.Location = New System.Drawing.Point(109, 89)
+        Me.obj_Terimajasa_status.Name = "obj_Terimajasa_status"
+        Me.obj_Terimajasa_status.Size = New System.Drawing.Size(100, 21)
+        Me.obj_Terimajasa_status.TabIndex = 348
+        '
+        'obj_Terimajasa_nosuratjalan
+        '
+        Me.obj_Terimajasa_nosuratjalan.Location = New System.Drawing.Point(109, 136)
+        Me.obj_Terimajasa_nosuratjalan.Name = "obj_Terimajasa_nosuratjalan"
+        Me.obj_Terimajasa_nosuratjalan.Size = New System.Drawing.Size(100, 21)
+        Me.obj_Terimajasa_nosuratjalan.TabIndex = 1
+        '
+        'btn_order
+        '
+        Me.btn_order.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.btn_order.Font = New System.Drawing.Font("Verdana", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_order.ForeColor = System.Drawing.Color.Red
+        Me.btn_order.Location = New System.Drawing.Point(215, 67)
+        Me.btn_order.Name = "btn_order"
+        Me.btn_order.Size = New System.Drawing.Size(28, 19)
+        Me.btn_order.TabIndex = 347
+        Me.btn_order.TabStop = False
+        Me.btn_order.Text = "RO"
+        Me.btn_order.UseVisualStyleBackColor = False
+        '
+        'lbl_Terimajasa_notes
+        '
+        Me.lbl_Terimajasa_notes.AutoSize = True
+        Me.lbl_Terimajasa_notes.Location = New System.Drawing.Point(366, 139)
+        Me.lbl_Terimajasa_notes.Name = "lbl_Terimajasa_notes"
+        Me.lbl_Terimajasa_notes.Size = New System.Drawing.Size(35, 13)
+        Me.lbl_Terimajasa_notes.TabIndex = 0
+        Me.lbl_Terimajasa_notes.Text = "Notes"
+        '
+        'obj_Terimajasa_date
+        '
+        Me.obj_Terimajasa_date.BackColor = System.Drawing.SystemColors.Info
+        Me.obj_Terimajasa_date.Location = New System.Drawing.Point(287, 9)
+        Me.obj_Terimajasa_date.Mask = "00/00/0000"
+        Me.obj_Terimajasa_date.Name = "obj_Terimajasa_date"
+        Me.obj_Terimajasa_date.ReadOnly = True
+        Me.obj_Terimajasa_date.Size = New System.Drawing.Size(73, 21)
+        Me.obj_Terimajasa_date.TabIndex = 41
+        Me.obj_Terimajasa_date.TabStop = False
+        '
+        'obj_Terimajasa_notes
+        '
+        Me.obj_Terimajasa_notes.Location = New System.Drawing.Point(446, 136)
+        Me.obj_Terimajasa_notes.Multiline = True
+        Me.obj_Terimajasa_notes.Name = "obj_Terimajasa_notes"
+        Me.obj_Terimajasa_notes.Size = New System.Drawing.Size(272, 43)
+        Me.obj_Terimajasa_notes.TabIndex = 1
+        '
+        'obj_Terimajasa_id
+        '
+        Me.obj_Terimajasa_id.BackColor = System.Drawing.SystemColors.Info
+        Me.obj_Terimajasa_id.Location = New System.Drawing.Point(109, 9)
+        Me.obj_Terimajasa_id.Name = "obj_Terimajasa_id"
+        Me.obj_Terimajasa_id.ReadOnly = True
+        Me.obj_Terimajasa_id.Size = New System.Drawing.Size(100, 21)
+        Me.obj_Terimajasa_id.TabIndex = 1
+        '
+        'lbl_Terimajasa_location
+        '
+        Me.lbl_Terimajasa_location.AutoSize = True
+        Me.lbl_Terimajasa_location.Location = New System.Drawing.Point(366, 92)
+        Me.lbl_Terimajasa_location.Name = "lbl_Terimajasa_location"
+        Me.lbl_Terimajasa_location.Size = New System.Drawing.Size(47, 13)
+        Me.lbl_Terimajasa_location.TabIndex = 0
+        Me.lbl_Terimajasa_location.Text = "Location"
+        '
+        'obj_Terimajasa_location
+        '
+        Me.obj_Terimajasa_location.Location = New System.Drawing.Point(446, 89)
+        Me.obj_Terimajasa_location.Name = "obj_Terimajasa_location"
+        Me.obj_Terimajasa_location.Size = New System.Drawing.Size(272, 21)
+        Me.obj_Terimajasa_location.TabIndex = 1
+        '
+        'lbl_Terimajasa_date
+        '
+        Me.lbl_Terimajasa_date.AutoSize = True
+        Me.lbl_Terimajasa_date.Location = New System.Drawing.Point(215, 12)
+        Me.lbl_Terimajasa_date.Name = "lbl_Terimajasa_date"
+        Me.lbl_Terimajasa_date.Size = New System.Drawing.Size(71, 13)
+        Me.lbl_Terimajasa_date.TabIndex = 0
+        Me.lbl_Terimajasa_date.Text = "Receive Date"
+        '
+        'lbl_Terimajasa_statusrealization
+        '
+        Me.lbl_Terimajasa_statusrealization.AutoSize = True
+        Me.lbl_Terimajasa_statusrealization.Location = New System.Drawing.Point(11, 116)
+        Me.lbl_Terimajasa_statusrealization.Name = "lbl_Terimajasa_statusrealization"
+        Me.lbl_Terimajasa_statusrealization.Size = New System.Drawing.Size(93, 13)
+        Me.lbl_Terimajasa_statusrealization.TabIndex = 0
+        Me.lbl_Terimajasa_statusrealization.Text = "Realization Status"
+        '
+        'obj_Terimajasa_type
+        '
+        Me.obj_Terimajasa_type.BackColor = System.Drawing.SystemColors.Info
+        Me.obj_Terimajasa_type.Location = New System.Drawing.Point(109, 43)
+        Me.obj_Terimajasa_type.Name = "obj_Terimajasa_type"
+        Me.obj_Terimajasa_type.ReadOnly = True
+        Me.obj_Terimajasa_type.Size = New System.Drawing.Size(100, 21)
+        Me.obj_Terimajasa_type.TabIndex = 1
+        '
+        'lbl_Terimajasa_status
+        '
+        Me.lbl_Terimajasa_status.AutoSize = True
+        Me.lbl_Terimajasa_status.Location = New System.Drawing.Point(11, 92)
+        Me.lbl_Terimajasa_status.Name = "lbl_Terimajasa_status"
+        Me.lbl_Terimajasa_status.Size = New System.Drawing.Size(38, 13)
+        Me.lbl_Terimajasa_status.TabIndex = 0
+        Me.lbl_Terimajasa_status.Text = "Status"
+        '
+        'lbl_Terimajasa_type
+        '
+        Me.lbl_Terimajasa_type.AutoSize = True
+        Me.lbl_Terimajasa_type.Location = New System.Drawing.Point(11, 46)
+        Me.lbl_Terimajasa_type.Name = "lbl_Terimajasa_type"
+        Me.lbl_Terimajasa_type.Size = New System.Drawing.Size(72, 13)
+        Me.lbl_Terimajasa_type.TabIndex = 0
+        Me.lbl_Terimajasa_type.Text = "Receive Type"
+        '
+        'lbl_Order_qty
+        '
+        Me.lbl_Order_qty.AutoSize = True
+        Me.lbl_Order_qty.Location = New System.Drawing.Point(182, 162)
+        Me.lbl_Order_qty.Name = "lbl_Order_qty"
+        Me.lbl_Order_qty.Size = New System.Drawing.Size(56, 13)
+        Me.lbl_Order_qty.TabIndex = 0
+        Me.lbl_Order_qty.Text = "Qty Order"
+        '
+        'obj_Order_id
+        '
+        Me.obj_Order_id.BackColor = System.Drawing.SystemColors.Info
+        Me.obj_Order_id.Location = New System.Drawing.Point(109, 66)
+        Me.obj_Order_id.Name = "obj_Order_id"
+        Me.obj_Order_id.ReadOnly = True
+        Me.obj_Order_id.Size = New System.Drawing.Size(100, 21)
+        Me.obj_Order_id.TabIndex = 1
+        '
+        'obj_Order_qty
+        '
+        Me.obj_Order_qty.BackColor = System.Drawing.SystemColors.Info
+        Me.obj_Order_qty.Location = New System.Drawing.Point(240, 159)
+        Me.obj_Order_qty.Name = "obj_Order_qty"
+        Me.obj_Order_qty.ReadOnly = True
+        Me.obj_Order_qty.Size = New System.Drawing.Size(48, 21)
+        Me.obj_Order_qty.TabIndex = 1
+        '
+        'lbl_Order_id
+        '
+        Me.lbl_Order_id.AutoSize = True
+        Me.lbl_Order_id.Location = New System.Drawing.Point(11, 70)
+        Me.lbl_Order_id.Name = "lbl_Order_id"
+        Me.lbl_Order_id.Size = New System.Drawing.Size(55, 13)
+        Me.lbl_Order_id.TabIndex = 0
+        Me.lbl_Order_id.Text = "Order No."
+        '
+        'lbl_Terimajasa_qtyrealization
+        '
+        Me.lbl_Terimajasa_qtyrealization.AutoSize = True
+        Me.lbl_Terimajasa_qtyrealization.Location = New System.Drawing.Point(11, 162)
+        Me.lbl_Terimajasa_qtyrealization.Name = "lbl_Terimajasa_qtyrealization"
+        Me.lbl_Terimajasa_qtyrealization.Size = New System.Drawing.Size(80, 13)
+        Me.lbl_Terimajasa_qtyrealization.TabIndex = 0
+        Me.lbl_Terimajasa_qtyrealization.Text = "Qty Realization"
+        '
+        'lbl_Budget_id
+        '
+        Me.lbl_Budget_id.AutoSize = True
+        Me.lbl_Budget_id.Location = New System.Drawing.Point(366, 116)
+        Me.lbl_Budget_id.Name = "lbl_Budget_id"
+        Me.lbl_Budget_id.Size = New System.Drawing.Size(41, 13)
+        Me.lbl_Budget_id.TabIndex = 0
+        Me.lbl_Budget_id.Text = "Budget"
+        '
+        'obj_Terimajasa_qtyrealization
+        '
+        Me.obj_Terimajasa_qtyrealization.BackColor = System.Drawing.SystemColors.Info
+        Me.obj_Terimajasa_qtyrealization.Location = New System.Drawing.Point(109, 159)
+        Me.obj_Terimajasa_qtyrealization.Name = "obj_Terimajasa_qtyrealization"
+        Me.obj_Terimajasa_qtyrealization.ReadOnly = True
+        Me.obj_Terimajasa_qtyrealization.Size = New System.Drawing.Size(55, 21)
+        Me.obj_Terimajasa_qtyrealization.TabIndex = 1
+        '
+        'lbl_Rekanan_id
+        '
+        Me.lbl_Rekanan_id.AutoSize = True
+        Me.lbl_Rekanan_id.Location = New System.Drawing.Point(366, 46)
+        Me.lbl_Rekanan_id.Name = "lbl_Rekanan_id"
+        Me.lbl_Rekanan_id.Size = New System.Drawing.Size(43, 13)
+        Me.lbl_Rekanan_id.TabIndex = 0
+        Me.lbl_Rekanan_id.Text = "Partner"
+        '
+        'lbl_Terimajasa_qtyitem
+        '
+        Me.lbl_Terimajasa_qtyitem.AutoSize = True
+        Me.lbl_Terimajasa_qtyitem.Location = New System.Drawing.Point(366, 12)
+        Me.lbl_Terimajasa_qtyitem.Name = "lbl_Terimajasa_qtyitem"
+        Me.lbl_Terimajasa_qtyitem.Size = New System.Drawing.Size(50, 13)
+        Me.lbl_Terimajasa_qtyitem.TabIndex = 0
+        Me.lbl_Terimajasa_qtyitem.Text = "Qty Item"
+        '
+        'lbl_Employee_id_owner
+        '
+        Me.lbl_Employee_id_owner.AutoSize = True
+        Me.lbl_Employee_id_owner.Location = New System.Drawing.Point(366, 69)
+        Me.lbl_Employee_id_owner.Name = "lbl_Employee_id_owner"
+        Me.lbl_Employee_id_owner.Size = New System.Drawing.Size(66, 13)
+        Me.lbl_Employee_id_owner.TabIndex = 0
+        Me.lbl_Employee_id_owner.Text = "Received By"
+        '
+        'obj_Terimajasa_qtyitem
+        '
+        Me.obj_Terimajasa_qtyitem.BackColor = System.Drawing.SystemColors.Info
+        Me.obj_Terimajasa_qtyitem.Location = New System.Drawing.Point(446, 9)
+        Me.obj_Terimajasa_qtyitem.Name = "obj_Terimajasa_qtyitem"
+        Me.obj_Terimajasa_qtyitem.ReadOnly = True
+        Me.obj_Terimajasa_qtyitem.Size = New System.Drawing.Size(43, 21)
+        Me.obj_Terimajasa_qtyitem.TabIndex = 1
+        '
+        'PnlDataFooter
+        '
+        Me.PnlDataFooter.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.PnlDataFooter.Location = New System.Drawing.Point(3, 464)
+        Me.PnlDataFooter.Name = "PnlDataFooter"
+        Me.PnlDataFooter.Size = New System.Drawing.Size(739, 27)
+        Me.PnlDataFooter.TabIndex = 2
+        '
+        'BackgroundWorker1
+        '
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "Spell.ico")
+        Me.ImageList1.Images.SetKeyName(1, "Stop 2.ico")
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btn_BuiltJurnal})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(133, 26)
+        '
+        'btn_BuiltJurnal
+        '
+        Me.btn_BuiltJurnal.Name = "btn_BuiltJurnal"
+        Me.btn_BuiltJurnal.Size = New System.Drawing.Size(132, 22)
+        Me.btn_BuiltJurnal.Text = "Built Jurnal"
         '
         'uiTrnTerimaJasa_Rental
         '
@@ -1645,10 +1645,10 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Panel2.PerformLayout()
         Me.ftabDataDetil_Order.ResumeLayout(False)
         CType(Me.dgvTrnOrder, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ContextMenuStrip1.ResumeLayout(False)
         CType(Me.PnlDataMaster, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDataMaster.ResumeLayout(False)
         Me.PnlDataMaster.PerformLayout()
+        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
