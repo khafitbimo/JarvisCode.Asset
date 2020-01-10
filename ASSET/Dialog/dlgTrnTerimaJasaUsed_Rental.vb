@@ -260,7 +260,7 @@ Public Class dlgTrnTerimaJasaUsed_Rental
 
 
         cChannel_id.Name = "channel_id"
-        cChannel_id.HeaderText = "Channel"
+        cChannel_id.HeaderText = "Company"
         cChannel_id.DataPropertyName = "channel_id"
         cChannel_id.Width = 80
         cChannel_id.DefaultCellStyle.Alignment = DataGridViewContentAlignment.NotSet

@@ -145,7 +145,7 @@ Partial Class dlgTrnPenerimaanBarang_Select_PV
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(51, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Rekanan"
+        Me.Label1.Text = "Partner"
         '
         'Panel2
         '
@@ -184,7 +184,7 @@ Partial Class dlgTrnPenerimaanBarang_Select_PV
         'DataGridViewTextBoxColumn3
         '
         Me.DataGridViewTextBoxColumn3.DataPropertyName = "rekanan_name"
-        Me.DataGridViewTextBoxColumn3.HeaderText = "Rekanan"
+        Me.DataGridViewTextBoxColumn3.HeaderText = "Partner"
         Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
         Me.DataGridViewTextBoxColumn3.ReadOnly = True
         '
@@ -214,7 +214,7 @@ Partial Class dlgTrnPenerimaanBarang_Select_PV
         'colRekanan
         '
         Me.colRekanan.DataPropertyName = "rekanan_name"
-        Me.colRekanan.HeaderText = "Rekanan"
+        Me.colRekanan.HeaderText = "Partner"
         Me.colRekanan.Name = "colRekanan"
         Me.colRekanan.ReadOnly = True
         Me.colRekanan.Width = 200

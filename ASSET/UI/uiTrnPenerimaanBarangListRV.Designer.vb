@@ -1960,7 +1960,7 @@ Partial Class uiTrnPenerimaanBarangListRV
         '
         'colRekananResponse_Name
         '
-        Me.colRekananResponse_Name.Caption = "Rekanan"
+        Me.colRekananResponse_Name.Caption = "Partner"
         Me.colRekananResponse_Name.FieldName = "rekanan_name"
         Me.colRekananResponse_Name.Name = "colRekananResponse_Name"
         Me.colRekananResponse_Name.Visible = True
@@ -1968,7 +1968,7 @@ Partial Class uiTrnPenerimaanBarangListRV
         '
         'colChannelRepsonse_Id
         '
-        Me.colChannelRepsonse_Id.Caption = "Channel"
+        Me.colChannelRepsonse_Id.Caption = "Company"
         Me.colChannelRepsonse_Id.FieldName = "channel_id"
         Me.colChannelRepsonse_Id.Name = "colChannelRepsonse_Id"
         Me.colChannelRepsonse_Id.Visible = True

@@ -206,7 +206,7 @@ Public Class dlgListEditing_eps_shift
         cBoot3.DisplayStyleForCurrentCellOnly = True
 
         cChannel_id.Name = "channel_id"
-        cChannel_id.HeaderText = "Channel"
+        cChannel_id.HeaderText = "Company"
         cChannel_id.DataPropertyName = "channel_id"
         cChannel_id.Width = 100
         cChannel_id.DefaultCellStyle.Alignment = DataGridViewContentAlignment.NotSet

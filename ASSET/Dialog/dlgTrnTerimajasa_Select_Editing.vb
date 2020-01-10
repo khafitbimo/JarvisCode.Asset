@@ -181,7 +181,7 @@ Public Class dlgTrnTerimajasa_Select_Editing
         cOrder_canceled.ReadOnly = True
 
         cRekanan_name.Name = "rekanan_name"
-        cRekanan_name.HeaderText = "Rekanan"
+        cRekanan_name.HeaderText = "Partner"
         cRekanan_name.DataPropertyName = "rekanan_name"
         cRekanan_name.Width = 200
         cRekanan_name.Visible = True

@@ -262,7 +262,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lblLoading.AutoSize = True
         Me.lblLoading.Location = New System.Drawing.Point(55, 41)
         Me.lblLoading.Name = "lblLoading"
-        Me.lblLoading.Size = New System.Drawing.Size(147, 13)
+        Me.lblLoading.Size = New System.Drawing.Size(152, 13)
         Me.lblLoading.TabIndex = 59
         Me.lblLoading.Text = "Please Wait... Loading data..."
         Me.lblLoading.UseWaitCursor = True
@@ -283,7 +283,7 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         Me.obj_Rekanan_id_search.Location = New System.Drawing.Point(95, 30)
         Me.obj_Rekanan_id_search.Name = "obj_Rekanan_id_search"
-        Me.obj_Rekanan_id_search.Size = New System.Drawing.Size(121, 20)
+        Me.obj_Rekanan_id_search.Size = New System.Drawing.Size(121, 21)
         Me.obj_Rekanan_id_search.TabIndex = 205
         '
         'btn_Rekanan
@@ -299,7 +299,7 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         Me.obj_RvID_search.Location = New System.Drawing.Point(479, 55)
         Me.obj_RvID_search.Name = "obj_RvID_search"
-        Me.obj_RvID_search.Size = New System.Drawing.Size(233, 20)
+        Me.obj_RvID_search.Size = New System.Drawing.Size(233, 21)
         Me.obj_RvID_search.TabIndex = 28
         '
         'chk_RvID_search
@@ -307,7 +307,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.chk_RvID_search.AutoSize = True
         Me.chk_RvID_search.Location = New System.Drawing.Point(375, 58)
         Me.chk_RvID_search.Name = "chk_RvID_search"
-        Me.chk_RvID_search.Size = New System.Drawing.Size(61, 17)
+        Me.chk_RvID_search.Size = New System.Drawing.Size(59, 17)
         Me.chk_RvID_search.TabIndex = 27
         Me.chk_RvID_search.TabStop = False
         Me.chk_RvID_search.Text = "RV No."
@@ -316,7 +316,7 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         Me.obj_orderID_search.Location = New System.Drawing.Point(95, 55)
         Me.obj_orderID_search.Name = "obj_orderID_search"
-        Me.obj_orderID_search.Size = New System.Drawing.Size(233, 20)
+        Me.obj_orderID_search.Size = New System.Drawing.Size(233, 21)
         Me.obj_orderID_search.TabIndex = 26
         '
         'chk_orderID_search
@@ -324,7 +324,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.chk_orderID_search.AutoSize = True
         Me.chk_orderID_search.Location = New System.Drawing.Point(8, 57)
         Me.chk_orderID_search.Name = "chk_orderID_search"
-        Me.chk_orderID_search.Size = New System.Drawing.Size(72, 17)
+        Me.chk_orderID_search.Size = New System.Drawing.Size(74, 17)
         Me.chk_orderID_search.TabIndex = 25
         Me.chk_orderID_search.TabStop = False
         Me.chk_orderID_search.Text = "Order No."
@@ -341,7 +341,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.chk_User_search.AutoSize = True
         Me.chk_User_search.Location = New System.Drawing.Point(375, 32)
         Me.chk_User_search.Name = "chk_User_search"
-        Me.chk_User_search.Size = New System.Drawing.Size(97, 17)
+        Me.chk_User_search.Size = New System.Drawing.Size(98, 17)
         Me.chk_User_search.TabIndex = 23
         Me.chk_User_search.TabStop = False
         Me.chk_User_search.Text = "Approved User"
@@ -358,7 +358,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.chk_Strukturunit_id_pemilik_search.AutoSize = True
         Me.chk_Strukturunit_id_pemilik_search.Location = New System.Drawing.Point(375, 7)
         Me.chk_Strukturunit_id_pemilik_search.Name = "chk_Strukturunit_id_pemilik_search"
-        Me.chk_Strukturunit_id_pemilik_search.Size = New System.Drawing.Size(81, 17)
+        Me.chk_Strukturunit_id_pemilik_search.Size = New System.Drawing.Size(83, 17)
         Me.chk_Strukturunit_id_pemilik_search.TabIndex = 21
         Me.chk_Strukturunit_id_pemilik_search.TabStop = False
         Me.chk_Strukturunit_id_pemilik_search.Text = "Department"
@@ -368,10 +368,10 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.chk_Rekanan_id_search.AutoSize = True
         Me.chk_Rekanan_id_search.Location = New System.Drawing.Point(8, 32)
         Me.chk_Rekanan_id_search.Name = "chk_Rekanan_id_search"
-        Me.chk_Rekanan_id_search.Size = New System.Drawing.Size(70, 17)
+        Me.chk_Rekanan_id_search.Size = New System.Drawing.Size(68, 17)
         Me.chk_Rekanan_id_search.TabIndex = 20
         Me.chk_Rekanan_id_search.TabStop = False
-        Me.chk_Rekanan_id_search.Text = "Rekanan"
+        Me.chk_Rekanan_id_search.Text = "Partner"
         '
         'cboSearchChannel
         '
@@ -386,7 +386,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.chkSearchChannel.AutoSize = True
         Me.chkSearchChannel.Location = New System.Drawing.Point(8, 7)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(71, 17)
         Me.chkSearchChannel.TabIndex = 0
         Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
@@ -440,7 +440,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Label43.BackColor = System.Drawing.Color.Transparent
         Me.Label43.Location = New System.Drawing.Point(178, 11)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(73, 13)
+        Me.Label43.Size = New System.Drawing.Size(74, 13)
         Me.Label43.TabIndex = 59
         Me.Label43.Text = "Not Approved"
         '
@@ -449,7 +449,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Label41.AutoSize = True
         Me.Label41.Location = New System.Drawing.Point(11, 12)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(42, 13)
+        Me.Label41.Size = New System.Drawing.Size(41, 13)
         Me.Label41.TabIndex = 57
         Me.Label41.Text = "Record"
         '
@@ -458,7 +458,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_top.Location = New System.Drawing.Point(59, 7)
         Me.obj_top.Maximum = New Decimal(New Integer() {100000, 0, 0, 0})
         Me.obj_top.Name = "obj_top"
-        Me.obj_top.Size = New System.Drawing.Size(71, 20)
+        Me.obj_top.Size = New System.Drawing.Size(71, 21)
         Me.obj_top.TabIndex = 56
         Me.obj_top.Value = New Decimal(New Integer() {100, 0, 0, 0})
         '
@@ -468,7 +468,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Label39.BackColor = System.Drawing.Color.Transparent
         Me.Label39.Location = New System.Drawing.Point(423, 9)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(153, 13)
+        Me.Label39.Size = New System.Drawing.Size(148, 13)
         Me.Label39.TabIndex = 55
         Me.Label39.Text = "Approved SPV / Section Head"
         '
@@ -486,7 +486,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Label36.BackColor = System.Drawing.Color.Transparent
         Me.Label36.Location = New System.Drawing.Point(608, 9)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(79, 13)
+        Me.Label36.Size = New System.Drawing.Size(78, 13)
         Me.Label36.TabIndex = 53
         Me.Label36.Text = "Approved BMA"
         '
@@ -496,7 +496,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Label35.BackColor = System.Drawing.Color.Transparent
         Me.Label35.Location = New System.Drawing.Point(297, 9)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(78, 13)
+        Me.Label35.Size = New System.Drawing.Size(79, 13)
         Me.Label35.TabIndex = 52
         Me.Label35.Text = "Approved User"
         '
@@ -643,7 +643,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_createdt.Location = New System.Drawing.Point(88, 32)
         Me.obj_Terimajasa_createdt.Name = "obj_Terimajasa_createdt"
         Me.obj_Terimajasa_createdt.ReadOnly = True
-        Me.obj_Terimajasa_createdt.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_createdt.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_createdt.TabIndex = 1
         '
         'lbl_Terimajasa_createdt
@@ -651,7 +651,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_createdt.AutoSize = True
         Me.lbl_Terimajasa_createdt.Location = New System.Drawing.Point(9, 35)
         Me.lbl_Terimajasa_createdt.Name = "lbl_Terimajasa_createdt"
-        Me.lbl_Terimajasa_createdt.Size = New System.Drawing.Size(64, 13)
+        Me.lbl_Terimajasa_createdt.Size = New System.Drawing.Size(66, 13)
         Me.lbl_Terimajasa_createdt.TabIndex = 0
         Me.lbl_Terimajasa_createdt.Text = "Create Date"
         '
@@ -660,7 +660,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_createby.AutoSize = True
         Me.lbl_Terimajasa_createby.Location = New System.Drawing.Point(9, 12)
         Me.lbl_Terimajasa_createby.Name = "lbl_Terimajasa_createby"
-        Me.lbl_Terimajasa_createby.Size = New System.Drawing.Size(53, 13)
+        Me.lbl_Terimajasa_createby.Size = New System.Drawing.Size(55, 13)
         Me.lbl_Terimajasa_createby.TabIndex = 0
         Me.lbl_Terimajasa_createby.Text = "Create By"
         '
@@ -670,7 +670,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_createby.Location = New System.Drawing.Point(88, 9)
         Me.obj_Terimajasa_createby.Name = "obj_Terimajasa_createby"
         Me.obj_Terimajasa_createby.ReadOnly = True
-        Me.obj_Terimajasa_createby.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_createby.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_createby.TabIndex = 1
         '
         'obj_Terimajasa_cetakbpj
@@ -679,7 +679,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_cetakbpj.Location = New System.Drawing.Point(280, 189)
         Me.obj_Terimajasa_cetakbpj.Name = "obj_Terimajasa_cetakbpj"
         Me.obj_Terimajasa_cetakbpj.ReadOnly = True
-        Me.obj_Terimajasa_cetakbpj.Size = New System.Drawing.Size(43, 20)
+        Me.obj_Terimajasa_cetakbpj.Size = New System.Drawing.Size(43, 21)
         Me.obj_Terimajasa_cetakbpj.TabIndex = 1
         '
         'obj_Terimajasa_modifieddt
@@ -688,7 +688,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_modifieddt.Location = New System.Drawing.Point(88, 77)
         Me.obj_Terimajasa_modifieddt.Name = "obj_Terimajasa_modifieddt"
         Me.obj_Terimajasa_modifieddt.ReadOnly = True
-        Me.obj_Terimajasa_modifieddt.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_modifieddt.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_modifieddt.TabIndex = 1
         '
         'lbl_Terimajasa_modifieddt
@@ -705,7 +705,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_cetakbpj.AutoSize = True
         Me.lbl_Terimajasa_cetakbpj.Location = New System.Drawing.Point(200, 192)
         Me.lbl_Terimajasa_cetakbpj.Name = "lbl_Terimajasa_cetakbpj"
-        Me.lbl_Terimajasa_cetakbpj.Size = New System.Drawing.Size(57, 13)
+        Me.lbl_Terimajasa_cetakbpj.Size = New System.Drawing.Size(55, 13)
         Me.lbl_Terimajasa_cetakbpj.TabIndex = 0
         Me.lbl_Terimajasa_cetakbpj.Text = "Cetak BPJ"
         '
@@ -724,7 +724,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_modifiedby.Location = New System.Drawing.Point(88, 55)
         Me.obj_Terimajasa_modifiedby.Name = "obj_Terimajasa_modifiedby"
         Me.obj_Terimajasa_modifiedby.ReadOnly = True
-        Me.obj_Terimajasa_modifiedby.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_modifiedby.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_modifiedby.TabIndex = 1
         '
         'obj_Strukturunit_id
@@ -733,7 +733,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Strukturunit_id.Location = New System.Drawing.Point(88, 189)
         Me.obj_Strukturunit_id.Name = "obj_Strukturunit_id"
         Me.obj_Strukturunit_id.ReadOnly = True
-        Me.obj_Strukturunit_id.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Strukturunit_id.Size = New System.Drawing.Size(100, 21)
         Me.obj_Strukturunit_id.TabIndex = 1
         '
         'obj_Terimajasa_appuser_dt
@@ -742,7 +742,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_appuser_dt.Location = New System.Drawing.Point(88, 149)
         Me.obj_Terimajasa_appuser_dt.Name = "obj_Terimajasa_appuser_dt"
         Me.obj_Terimajasa_appuser_dt.ReadOnly = True
-        Me.obj_Terimajasa_appuser_dt.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_appuser_dt.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_appuser_dt.TabIndex = 1
         '
         'lbl_Strukturunit_id
@@ -750,7 +750,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Strukturunit_id.AutoSize = True
         Me.lbl_Strukturunit_id.Location = New System.Drawing.Point(9, 192)
         Me.lbl_Strukturunit_id.Name = "lbl_Strukturunit_id"
-        Me.lbl_Strukturunit_id.Size = New System.Drawing.Size(62, 13)
+        Me.lbl_Strukturunit_id.Size = New System.Drawing.Size(64, 13)
         Me.lbl_Strukturunit_id.TabIndex = 0
         Me.lbl_Strukturunit_id.Text = "Department"
         '
@@ -778,7 +778,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_appuser_by.Location = New System.Drawing.Point(88, 126)
         Me.obj_Terimajasa_appuser_by.Name = "obj_Terimajasa_appuser_by"
         Me.obj_Terimajasa_appuser_by.ReadOnly = True
-        Me.obj_Terimajasa_appuser_by.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_appuser_by.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_appuser_by.TabIndex = 1
         '
         'obj_Terimajasa_appuser
@@ -798,7 +798,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_appspv_dt.Location = New System.Drawing.Point(280, 55)
         Me.obj_Terimajasa_appspv_dt.Name = "obj_Terimajasa_appspv_dt"
         Me.obj_Terimajasa_appspv_dt.ReadOnly = True
-        Me.obj_Terimajasa_appspv_dt.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_appspv_dt.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_appspv_dt.TabIndex = 1
         '
         'lbl_Terimajasa_appspv_dt
@@ -806,7 +806,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_appspv_dt.AutoSize = True
         Me.lbl_Terimajasa_appspv_dt.Location = New System.Drawing.Point(200, 58)
         Me.lbl_Terimajasa_appspv_dt.Name = "lbl_Terimajasa_appspv_dt"
-        Me.lbl_Terimajasa_appspv_dt.Size = New System.Drawing.Size(74, 13)
+        Me.lbl_Terimajasa_appspv_dt.Size = New System.Drawing.Size(73, 13)
         Me.lbl_Terimajasa_appspv_dt.TabIndex = 0
         Me.lbl_Terimajasa_appspv_dt.Text = "App Spv Date"
         '
@@ -815,7 +815,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_appspv_by.AutoSize = True
         Me.lbl_Terimajasa_appspv_by.Location = New System.Drawing.Point(200, 35)
         Me.lbl_Terimajasa_appspv_by.Name = "lbl_Terimajasa_appspv_by"
-        Me.lbl_Terimajasa_appspv_by.Size = New System.Drawing.Size(63, 13)
+        Me.lbl_Terimajasa_appspv_by.Size = New System.Drawing.Size(62, 13)
         Me.lbl_Terimajasa_appspv_by.TabIndex = 0
         Me.lbl_Terimajasa_appspv_by.Text = "App Spv By"
         '
@@ -825,7 +825,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_appspv_by.Location = New System.Drawing.Point(280, 32)
         Me.obj_Terimajasa_appspv_by.Name = "obj_Terimajasa_appspv_by"
         Me.obj_Terimajasa_appspv_by.ReadOnly = True
-        Me.obj_Terimajasa_appspv_by.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_appspv_by.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_appspv_by.TabIndex = 1
         '
         'obj_Terimajasa_appspv
@@ -845,7 +845,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_appbma_by.Location = New System.Drawing.Point(280, 126)
         Me.obj_Terimajasa_appbma_by.Name = "obj_Terimajasa_appbma_by"
         Me.obj_Terimajasa_appbma_by.ReadOnly = True
-        Me.obj_Terimajasa_appbma_by.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_appbma_by.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_appbma_by.TabIndex = 1
         '
         'lbl_Terimajasa_appbma_dt
@@ -853,7 +853,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_appbma_dt.AutoSize = True
         Me.lbl_Terimajasa_appbma_dt.Location = New System.Drawing.Point(200, 152)
         Me.lbl_Terimajasa_appbma_dt.Name = "lbl_Terimajasa_appbma_dt"
-        Me.lbl_Terimajasa_appbma_dt.Size = New System.Drawing.Size(76, 13)
+        Me.lbl_Terimajasa_appbma_dt.Size = New System.Drawing.Size(75, 13)
         Me.lbl_Terimajasa_appbma_dt.TabIndex = 0
         Me.lbl_Terimajasa_appbma_dt.Text = "App Bma Date"
         '
@@ -863,7 +863,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_appbma_dt.Location = New System.Drawing.Point(280, 149)
         Me.obj_Terimajasa_appbma_dt.Name = "obj_Terimajasa_appbma_dt"
         Me.obj_Terimajasa_appbma_dt.ReadOnly = True
-        Me.obj_Terimajasa_appbma_dt.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_appbma_dt.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_appbma_dt.TabIndex = 1
         '
         'lbl_Terimajasa_appbma_by
@@ -871,7 +871,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_appbma_by.AutoSize = True
         Me.lbl_Terimajasa_appbma_by.Location = New System.Drawing.Point(200, 129)
         Me.lbl_Terimajasa_appbma_by.Name = "lbl_Terimajasa_appbma_by"
-        Me.lbl_Terimajasa_appbma_by.Size = New System.Drawing.Size(65, 13)
+        Me.lbl_Terimajasa_appbma_by.Size = New System.Drawing.Size(64, 13)
         Me.lbl_Terimajasa_appbma_by.TabIndex = 0
         Me.lbl_Terimajasa_appbma_by.Text = "App Bma By"
         '
@@ -881,7 +881,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_appbma.Enabled = False
         Me.obj_Terimajasa_appbma.Location = New System.Drawing.Point(280, 106)
         Me.obj_Terimajasa_appbma.Name = "obj_Terimajasa_appbma"
-        Me.obj_Terimajasa_appbma.Size = New System.Drawing.Size(69, 17)
+        Me.obj_Terimajasa_appbma.Size = New System.Drawing.Size(68, 17)
         Me.obj_Terimajasa_appbma.TabIndex = 2
         Me.obj_Terimajasa_appbma.Text = "App Bma"
         Me.obj_Terimajasa_appbma.UseVisualStyleBackColor = True
@@ -892,7 +892,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_isdisabled.Enabled = False
         Me.obj_Terimajasa_isdisabled.Location = New System.Drawing.Point(348, 191)
         Me.obj_Terimajasa_isdisabled.Name = "obj_Terimajasa_isdisabled"
-        Me.obj_Terimajasa_isdisabled.Size = New System.Drawing.Size(67, 17)
+        Me.obj_Terimajasa_isdisabled.Size = New System.Drawing.Size(66, 17)
         Me.obj_Terimajasa_isdisabled.TabIndex = 2
         Me.obj_Terimajasa_isdisabled.Text = "Disabled"
         Me.obj_Terimajasa_isdisabled.UseVisualStyleBackColor = True
@@ -1062,7 +1062,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Jurnal_bookdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.obj_Jurnal_bookdate.Location = New System.Drawing.Point(238, 51)
         Me.obj_Jurnal_bookdate.Name = "obj_Jurnal_bookdate"
-        Me.obj_Jurnal_bookdate.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Jurnal_bookdate.Size = New System.Drawing.Size(100, 21)
         Me.obj_Jurnal_bookdate.TabIndex = 356
         '
         'lbl_Jurnal_bookdate
@@ -1070,7 +1070,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Jurnal_bookdate.AutoSize = True
         Me.lbl_Jurnal_bookdate.Location = New System.Drawing.Point(161, 55)
         Me.lbl_Jurnal_bookdate.Name = "lbl_Jurnal_bookdate"
-        Me.lbl_Jurnal_bookdate.Size = New System.Drawing.Size(58, 13)
+        Me.lbl_Jurnal_bookdate.Size = New System.Drawing.Size(56, 13)
         Me.lbl_Jurnal_bookdate.TabIndex = 355
         Me.lbl_Jurnal_bookdate.Text = "&Book Date"
         '
@@ -1088,7 +1088,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_disc.AutoSize = True
         Me.lbl_Terimajasa_disc.Location = New System.Drawing.Point(560, 9)
         Me.lbl_Terimajasa_disc.Name = "lbl_Terimajasa_disc"
-        Me.lbl_Terimajasa_disc.Size = New System.Drawing.Size(28, 13)
+        Me.lbl_Terimajasa_disc.Size = New System.Drawing.Size(26, 13)
         Me.lbl_Terimajasa_disc.TabIndex = 12
         Me.lbl_Terimajasa_disc.Text = "Disc"
         '
@@ -1098,7 +1098,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_disc.Location = New System.Drawing.Point(594, 6)
         Me.obj_Terimajasa_disc.Name = "obj_Terimajasa_disc"
         Me.obj_Terimajasa_disc.ReadOnly = True
-        Me.obj_Terimajasa_disc.Size = New System.Drawing.Size(118, 20)
+        Me.obj_Terimajasa_disc.Size = New System.Drawing.Size(118, 21)
         Me.obj_Terimajasa_disc.TabIndex = 14
         '
         'lbl_Terimajasa_ppn
@@ -1106,7 +1106,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_ppn.AutoSize = True
         Me.lbl_Terimajasa_ppn.Location = New System.Drawing.Point(366, 32)
         Me.lbl_Terimajasa_ppn.Name = "lbl_Terimajasa_ppn"
-        Me.lbl_Terimajasa_ppn.Size = New System.Drawing.Size(68, 13)
+        Me.lbl_Terimajasa_ppn.Size = New System.Drawing.Size(66, 13)
         Me.lbl_Terimajasa_ppn.TabIndex = 10
         Me.lbl_Terimajasa_ppn.Text = "PPN Amount"
         '
@@ -1116,7 +1116,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_ppn.Location = New System.Drawing.Point(438, 28)
         Me.obj_Terimajasa_ppn.Name = "obj_Terimajasa_ppn"
         Me.obj_Terimajasa_ppn.ReadOnly = True
-        Me.obj_Terimajasa_ppn.Size = New System.Drawing.Size(117, 20)
+        Me.obj_Terimajasa_ppn.Size = New System.Drawing.Size(117, 21)
         Me.obj_Terimajasa_ppn.TabIndex = 15
         '
         'lbl_Terimajasa_pph
@@ -1124,7 +1124,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_pph.AutoSize = True
         Me.lbl_Terimajasa_pph.Location = New System.Drawing.Point(366, 9)
         Me.lbl_Terimajasa_pph.Name = "lbl_Terimajasa_pph"
-        Me.lbl_Terimajasa_pph.Size = New System.Drawing.Size(66, 13)
+        Me.lbl_Terimajasa_pph.Size = New System.Drawing.Size(65, 13)
         Me.lbl_Terimajasa_pph.TabIndex = 11
         Me.lbl_Terimajasa_pph.Text = "PPh Amount"
         '
@@ -1134,7 +1134,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_pph.Location = New System.Drawing.Point(438, 6)
         Me.obj_Terimajasa_pph.Name = "obj_Terimajasa_pph"
         Me.obj_Terimajasa_pph.ReadOnly = True
-        Me.obj_Terimajasa_pph.Size = New System.Drawing.Size(117, 20)
+        Me.obj_Terimajasa_pph.Size = New System.Drawing.Size(117, 21)
         Me.obj_Terimajasa_pph.TabIndex = 13
         '
         'obj_Terimajasa_idrreal
@@ -1143,7 +1143,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_idrreal.Location = New System.Drawing.Point(238, 29)
         Me.obj_Terimajasa_idrreal.Name = "obj_Terimajasa_idrreal"
         Me.obj_Terimajasa_idrreal.ReadOnly = True
-        Me.obj_Terimajasa_idrreal.Size = New System.Drawing.Size(116, 20)
+        Me.obj_Terimajasa_idrreal.Size = New System.Drawing.Size(116, 21)
         Me.obj_Terimajasa_idrreal.TabIndex = 8
         '
         'lbl_Terimajasa_idrreal
@@ -1151,7 +1151,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_idrreal.AutoSize = True
         Me.lbl_Terimajasa_idrreal.Location = New System.Drawing.Point(161, 32)
         Me.lbl_Terimajasa_idrreal.Name = "lbl_Terimajasa_idrreal"
-        Me.lbl_Terimajasa_idrreal.Size = New System.Drawing.Size(71, 13)
+        Me.lbl_Terimajasa_idrreal.Size = New System.Drawing.Size(73, 13)
         Me.lbl_Terimajasa_idrreal.TabIndex = 5
         Me.lbl_Terimajasa_idrreal.Text = "Amount (IDR)"
         '
@@ -1170,7 +1170,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_foreignrate.Location = New System.Drawing.Point(65, 29)
         Me.obj_Terimajasa_foreignrate.Name = "obj_Terimajasa_foreignrate"
         Me.obj_Terimajasa_foreignrate.ReadOnly = True
-        Me.obj_Terimajasa_foreignrate.Size = New System.Drawing.Size(76, 20)
+        Me.obj_Terimajasa_foreignrate.Size = New System.Drawing.Size(76, 21)
         Me.obj_Terimajasa_foreignrate.TabIndex = 9
         '
         'lbl_Currency_id
@@ -1178,7 +1178,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Currency_id.AutoSize = True
         Me.lbl_Currency_id.Location = New System.Drawing.Point(10, 9)
         Me.lbl_Currency_id.Name = "lbl_Currency_id"
-        Me.lbl_Currency_id.Size = New System.Drawing.Size(49, 13)
+        Me.lbl_Currency_id.Size = New System.Drawing.Size(51, 13)
         Me.lbl_Currency_id.TabIndex = 2
         Me.lbl_Currency_id.Text = "Currency"
         '
@@ -1187,7 +1187,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_foreign.AutoSize = True
         Me.lbl_Terimajasa_foreign.Location = New System.Drawing.Point(161, 9)
         Me.lbl_Terimajasa_foreign.Name = "lbl_Terimajasa_foreign"
-        Me.lbl_Terimajasa_foreign.Size = New System.Drawing.Size(43, 13)
+        Me.lbl_Terimajasa_foreign.Size = New System.Drawing.Size(44, 13)
         Me.lbl_Terimajasa_foreign.TabIndex = 3
         Me.lbl_Terimajasa_foreign.Text = "Amount"
         '
@@ -1197,7 +1197,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_foreign.Location = New System.Drawing.Point(238, 6)
         Me.obj_Terimajasa_foreign.Name = "obj_Terimajasa_foreign"
         Me.obj_Terimajasa_foreign.ReadOnly = True
-        Me.obj_Terimajasa_foreign.Size = New System.Drawing.Size(116, 20)
+        Me.obj_Terimajasa_foreign.Size = New System.Drawing.Size(116, 21)
         Me.obj_Terimajasa_foreign.TabIndex = 6
         '
         'Label1
@@ -1299,7 +1299,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_date.Mask = "00/00/0000"
         Me.obj_Terimajasa_date.Name = "obj_Terimajasa_date"
         Me.obj_Terimajasa_date.ReadOnly = True
-        Me.obj_Terimajasa_date.Size = New System.Drawing.Size(73, 20)
+        Me.obj_Terimajasa_date.Size = New System.Drawing.Size(73, 21)
         Me.obj_Terimajasa_date.TabIndex = 41
         Me.obj_Terimajasa_date.TabStop = False
         '
@@ -1309,7 +1309,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_id.Location = New System.Drawing.Point(109, 9)
         Me.obj_Terimajasa_id.Name = "obj_Terimajasa_id"
         Me.obj_Terimajasa_id.ReadOnly = True
-        Me.obj_Terimajasa_id.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_id.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_id.TabIndex = 1
         '
         'lbl_Terimajasa_id
@@ -1317,7 +1317,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_id.AutoSize = True
         Me.lbl_Terimajasa_id.Location = New System.Drawing.Point(11, 12)
         Me.lbl_Terimajasa_id.Name = "lbl_Terimajasa_id"
-        Me.lbl_Terimajasa_id.Size = New System.Drawing.Size(67, 13)
+        Me.lbl_Terimajasa_id.Size = New System.Drawing.Size(65, 13)
         Me.lbl_Terimajasa_id.TabIndex = 0
         Me.lbl_Terimajasa_id.Text = "Receive No."
         '
@@ -1326,7 +1326,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_date.AutoSize = True
         Me.lbl_Terimajasa_date.Location = New System.Drawing.Point(215, 12)
         Me.lbl_Terimajasa_date.Name = "lbl_Terimajasa_date"
-        Me.lbl_Terimajasa_date.Size = New System.Drawing.Size(73, 13)
+        Me.lbl_Terimajasa_date.Size = New System.Drawing.Size(71, 13)
         Me.lbl_Terimajasa_date.TabIndex = 0
         Me.lbl_Terimajasa_date.Text = "Receive Date"
         '
@@ -1336,7 +1336,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_type.Location = New System.Drawing.Point(109, 43)
         Me.obj_Terimajasa_type.Name = "obj_Terimajasa_type"
         Me.obj_Terimajasa_type.ReadOnly = True
-        Me.obj_Terimajasa_type.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_type.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_type.TabIndex = 1
         '
         'lbl_Terimajasa_type
@@ -1344,7 +1344,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_type.AutoSize = True
         Me.lbl_Terimajasa_type.Location = New System.Drawing.Point(11, 46)
         Me.lbl_Terimajasa_type.Name = "lbl_Terimajasa_type"
-        Me.lbl_Terimajasa_type.Size = New System.Drawing.Size(74, 13)
+        Me.lbl_Terimajasa_type.Size = New System.Drawing.Size(72, 13)
         Me.lbl_Terimajasa_type.TabIndex = 0
         Me.lbl_Terimajasa_type.Text = "Receive Type"
         '
@@ -1354,7 +1354,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Order_id.Location = New System.Drawing.Point(109, 66)
         Me.obj_Order_id.Name = "obj_Order_id"
         Me.obj_Order_id.ReadOnly = True
-        Me.obj_Order_id.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Order_id.Size = New System.Drawing.Size(100, 21)
         Me.obj_Order_id.TabIndex = 1
         '
         'lbl_Order_id
@@ -1362,7 +1362,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Order_id.AutoSize = True
         Me.lbl_Order_id.Location = New System.Drawing.Point(11, 70)
         Me.lbl_Order_id.Name = "lbl_Order_id"
-        Me.lbl_Order_id.Size = New System.Drawing.Size(53, 13)
+        Me.lbl_Order_id.Size = New System.Drawing.Size(55, 13)
         Me.lbl_Order_id.TabIndex = 0
         Me.lbl_Order_id.Text = "Order No."
         '
@@ -1380,16 +1380,16 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Rekanan_id.AutoSize = True
         Me.lbl_Rekanan_id.Location = New System.Drawing.Point(366, 46)
         Me.lbl_Rekanan_id.Name = "lbl_Rekanan_id"
-        Me.lbl_Rekanan_id.Size = New System.Drawing.Size(51, 13)
+        Me.lbl_Rekanan_id.Size = New System.Drawing.Size(43, 13)
         Me.lbl_Rekanan_id.TabIndex = 0
-        Me.lbl_Rekanan_id.Text = "Rekanan"
+        Me.lbl_Rekanan_id.Text = "Partner"
         '
         'lbl_Employee_id_owner
         '
         Me.lbl_Employee_id_owner.AutoSize = True
         Me.lbl_Employee_id_owner.Location = New System.Drawing.Point(366, 69)
         Me.lbl_Employee_id_owner.Name = "lbl_Employee_id_owner"
-        Me.lbl_Employee_id_owner.Size = New System.Drawing.Size(68, 13)
+        Me.lbl_Employee_id_owner.Size = New System.Drawing.Size(66, 13)
         Me.lbl_Employee_id_owner.TabIndex = 0
         Me.lbl_Employee_id_owner.Text = "Received By"
         '
@@ -1399,7 +1399,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_qtyitem.Location = New System.Drawing.Point(446, 9)
         Me.obj_Terimajasa_qtyitem.Name = "obj_Terimajasa_qtyitem"
         Me.obj_Terimajasa_qtyitem.ReadOnly = True
-        Me.obj_Terimajasa_qtyitem.Size = New System.Drawing.Size(43, 20)
+        Me.obj_Terimajasa_qtyitem.Size = New System.Drawing.Size(43, 21)
         Me.obj_Terimajasa_qtyitem.TabIndex = 1
         '
         'lbl_Terimajasa_qtyitem
@@ -1407,7 +1407,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_qtyitem.AutoSize = True
         Me.lbl_Terimajasa_qtyitem.Location = New System.Drawing.Point(366, 12)
         Me.lbl_Terimajasa_qtyitem.Name = "lbl_Terimajasa_qtyitem"
-        Me.lbl_Terimajasa_qtyitem.Size = New System.Drawing.Size(46, 13)
+        Me.lbl_Terimajasa_qtyitem.Size = New System.Drawing.Size(50, 13)
         Me.lbl_Terimajasa_qtyitem.TabIndex = 0
         Me.lbl_Terimajasa_qtyitem.Text = "Qty Item"
         '
@@ -1417,7 +1417,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Terimajasa_qtyrealization.Location = New System.Drawing.Point(109, 159)
         Me.obj_Terimajasa_qtyrealization.Name = "obj_Terimajasa_qtyrealization"
         Me.obj_Terimajasa_qtyrealization.ReadOnly = True
-        Me.obj_Terimajasa_qtyrealization.Size = New System.Drawing.Size(55, 20)
+        Me.obj_Terimajasa_qtyrealization.Size = New System.Drawing.Size(55, 21)
         Me.obj_Terimajasa_qtyrealization.TabIndex = 1
         '
         'lbl_Terimajasa_qtyrealization
@@ -1425,7 +1425,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_qtyrealization.AutoSize = True
         Me.lbl_Terimajasa_qtyrealization.Location = New System.Drawing.Point(11, 162)
         Me.lbl_Terimajasa_qtyrealization.Name = "lbl_Terimajasa_qtyrealization"
-        Me.lbl_Terimajasa_qtyrealization.Size = New System.Drawing.Size(78, 13)
+        Me.lbl_Terimajasa_qtyrealization.Size = New System.Drawing.Size(80, 13)
         Me.lbl_Terimajasa_qtyrealization.TabIndex = 0
         Me.lbl_Terimajasa_qtyrealization.Text = "Qty Realization"
         '
@@ -1435,7 +1435,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Order_qty.Location = New System.Drawing.Point(240, 159)
         Me.obj_Order_qty.Name = "obj_Order_qty"
         Me.obj_Order_qty.ReadOnly = True
-        Me.obj_Order_qty.Size = New System.Drawing.Size(48, 20)
+        Me.obj_Order_qty.Size = New System.Drawing.Size(48, 21)
         Me.obj_Order_qty.TabIndex = 1
         '
         'lbl_Order_qty
@@ -1443,7 +1443,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Order_qty.AutoSize = True
         Me.lbl_Order_qty.Location = New System.Drawing.Point(182, 162)
         Me.lbl_Order_qty.Name = "lbl_Order_qty"
-        Me.lbl_Order_qty.Size = New System.Drawing.Size(52, 13)
+        Me.lbl_Order_qty.Size = New System.Drawing.Size(56, 13)
         Me.lbl_Order_qty.TabIndex = 0
         Me.lbl_Order_qty.Text = "Qty Order"
         '
@@ -1452,7 +1452,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_status.AutoSize = True
         Me.lbl_Terimajasa_status.Location = New System.Drawing.Point(11, 92)
         Me.lbl_Terimajasa_status.Name = "lbl_Terimajasa_status"
-        Me.lbl_Terimajasa_status.Size = New System.Drawing.Size(37, 13)
+        Me.lbl_Terimajasa_status.Size = New System.Drawing.Size(38, 13)
         Me.lbl_Terimajasa_status.TabIndex = 0
         Me.lbl_Terimajasa_status.Text = "Status"
         '
@@ -1461,7 +1461,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_statusrealization.AutoSize = True
         Me.lbl_Terimajasa_statusrealization.Location = New System.Drawing.Point(11, 116)
         Me.lbl_Terimajasa_statusrealization.Name = "lbl_Terimajasa_statusrealization"
-        Me.lbl_Terimajasa_statusrealization.Size = New System.Drawing.Size(92, 13)
+        Me.lbl_Terimajasa_statusrealization.Size = New System.Drawing.Size(93, 13)
         Me.lbl_Terimajasa_statusrealization.TabIndex = 0
         Me.lbl_Terimajasa_statusrealization.Text = "Realization Status"
         '
@@ -1469,7 +1469,7 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         Me.obj_Terimajasa_location.Location = New System.Drawing.Point(446, 89)
         Me.obj_Terimajasa_location.Name = "obj_Terimajasa_location"
-        Me.obj_Terimajasa_location.Size = New System.Drawing.Size(272, 20)
+        Me.obj_Terimajasa_location.Size = New System.Drawing.Size(272, 21)
         Me.obj_Terimajasa_location.TabIndex = 1
         '
         'lbl_Terimajasa_location
@@ -1477,7 +1477,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_location.AutoSize = True
         Me.lbl_Terimajasa_location.Location = New System.Drawing.Point(366, 92)
         Me.lbl_Terimajasa_location.Name = "lbl_Terimajasa_location"
-        Me.lbl_Terimajasa_location.Size = New System.Drawing.Size(48, 13)
+        Me.lbl_Terimajasa_location.Size = New System.Drawing.Size(47, 13)
         Me.lbl_Terimajasa_location.TabIndex = 0
         Me.lbl_Terimajasa_location.Text = "Location"
         '
@@ -1502,7 +1502,7 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         Me.obj_Terimajasa_nosuratjalan.Location = New System.Drawing.Point(109, 136)
         Me.obj_Terimajasa_nosuratjalan.Name = "obj_Terimajasa_nosuratjalan"
-        Me.obj_Terimajasa_nosuratjalan.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimajasa_nosuratjalan.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimajasa_nosuratjalan.TabIndex = 1
         '
         'lbl_Terimajasa_nosuratjalan
@@ -1510,7 +1510,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Terimajasa_nosuratjalan.AutoSize = True
         Me.lbl_Terimajasa_nosuratjalan.Location = New System.Drawing.Point(11, 139)
         Me.lbl_Terimajasa_nosuratjalan.Name = "lbl_Terimajasa_nosuratjalan"
-        Me.lbl_Terimajasa_nosuratjalan.Size = New System.Drawing.Size(94, 13)
+        Me.lbl_Terimajasa_nosuratjalan.Size = New System.Drawing.Size(97, 13)
         Me.lbl_Terimajasa_nosuratjalan.TabIndex = 0
         Me.lbl_Terimajasa_nosuratjalan.Text = "Delivery Order No."
         '
@@ -1520,7 +1520,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.obj_Channel_id.Location = New System.Drawing.Point(563, 10)
         Me.obj_Channel_id.Name = "obj_Channel_id"
         Me.obj_Channel_id.ReadOnly = True
-        Me.obj_Channel_id.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Channel_id.Size = New System.Drawing.Size(100, 21)
         Me.obj_Channel_id.TabIndex = 1
         '
         'lbl_Channel_id
@@ -1530,7 +1530,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.lbl_Channel_id.Name = "lbl_Channel_id"
         Me.lbl_Channel_id.Size = New System.Drawing.Size(46, 13)
         Me.lbl_Channel_id.TabIndex = 0
-        Me.lbl_Channel_id.Text = "Channel"
+        Me.lbl_Channel_id.Text = "Company"
         '
         'PnlDataFooter
         '
@@ -1607,6 +1607,7 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.Controls.Add(Me.ftabMain)
+        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "uiTrnTerimaJasa_Rental"
         Me.Controls.SetChildIndex(Me.ftabMain, 0)
         Me.ftabMain.ResumeLayout(False)

@@ -532,7 +532,7 @@ Partial Class uiTrnTerimaJasa_Talent
         Me.chk_Rekanan_id_search.Size = New System.Drawing.Size(70, 17)
         Me.chk_Rekanan_id_search.TabIndex = 20
         Me.chk_Rekanan_id_search.TabStop = False
-        Me.chk_Rekanan_id_search.Text = "Rekanan"
+        Me.chk_Rekanan_id_search.Text = "Partner"
         '
         'cboSearchChannel
         '
@@ -1522,7 +1522,7 @@ Partial Class uiTrnTerimaJasa_Talent
         Me.lbl_Rekanan_id.Name = "lbl_Rekanan_id"
         Me.lbl_Rekanan_id.Size = New System.Drawing.Size(51, 13)
         Me.lbl_Rekanan_id.TabIndex = 0
-        Me.lbl_Rekanan_id.Text = "Rekanan"
+        Me.lbl_Rekanan_id.Text = "Partner"
         '
         'lbl_Employee_id_owner
         '
@@ -1673,7 +1673,7 @@ Partial Class uiTrnTerimaJasa_Talent
         Me.lbl_Channel_id.Name = "lbl_Channel_id"
         Me.lbl_Channel_id.Size = New System.Drawing.Size(46, 13)
         Me.lbl_Channel_id.TabIndex = 0
-        Me.lbl_Channel_id.Text = "Channel"
+        Me.lbl_Channel_id.Text = "Company"
         '
         'PnlDataFooter
         '

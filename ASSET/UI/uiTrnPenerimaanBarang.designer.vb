@@ -20,9 +20,9 @@ Partial Class uiTrnPenerimaanBarang
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject3 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject10 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject11 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject12 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(uiTrnPenerimaanBarang))
         Me.ftabMain = New FlatTabControl.FlatTabControl()
         Me.ftabMain_List = New System.Windows.Forms.TabPage()
@@ -417,6 +417,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         Me.ftabMain.Controls.Add(Me.ftabMain_List)
         Me.ftabMain.Controls.Add(Me.ftabMain_Data)
+        Me.ftabMain.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ftabMain.Location = New System.Drawing.Point(17, 51)
         Me.ftabMain.myBackColor = System.Drawing.Color.White
         Me.ftabMain.Name = "ftabMain"
@@ -427,8 +428,8 @@ Partial Class uiTrnPenerimaanBarang
         'ftabMain_List
         '
         Me.ftabMain_List.BackColor = System.Drawing.SystemColors.Control
-        Me.ftabMain_List.Controls.Add(Me.Panel1)
         Me.ftabMain_List.Controls.Add(Me.PnlDfMain)
+        Me.ftabMain_List.Controls.Add(Me.Panel1)
         Me.ftabMain_List.Controls.Add(Me.PnlDfFooter)
         Me.ftabMain_List.Controls.Add(Me.PnlDfSearch)
         Me.ftabMain_List.Location = New System.Drawing.Point(4, 25)
@@ -440,12 +441,13 @@ Partial Class uiTrnPenerimaanBarang
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.Moccasin
+        Me.Panel1.BackColor = System.Drawing.SystemColors.Control
         Me.Panel1.Controls.Add(Me.lblLoading)
         Me.Panel1.Controls.Add(Me.obj_ProgressBar_backGroundWorker)
-        Me.Panel1.Location = New System.Drawing.Point(191, 198)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(3, 181)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(360, 82)
+        Me.Panel1.Size = New System.Drawing.Size(733, 43)
         Me.Panel1.TabIndex = 5
         Me.Panel1.UseWaitCursor = True
         Me.Panel1.Visible = False
@@ -453,9 +455,10 @@ Partial Class uiTrnPenerimaanBarang
         'lblLoading
         '
         Me.lblLoading.AutoSize = True
-        Me.lblLoading.Location = New System.Drawing.Point(55, 41)
+        Me.lblLoading.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLoading.Location = New System.Drawing.Point(3, 21)
         Me.lblLoading.Name = "lblLoading"
-        Me.lblLoading.Size = New System.Drawing.Size(147, 13)
+        Me.lblLoading.Size = New System.Drawing.Size(152, 13)
         Me.lblLoading.TabIndex = 59
         Me.lblLoading.Text = "Please Wait... Loading data..."
         Me.lblLoading.UseWaitCursor = True
@@ -463,10 +466,10 @@ Partial Class uiTrnPenerimaanBarang
         'obj_ProgressBar_backGroundWorker
         '
         Me.obj_ProgressBar_backGroundWorker.ForeColor = System.Drawing.Color.Magenta
-        Me.obj_ProgressBar_backGroundWorker.Location = New System.Drawing.Point(59, 29)
+        Me.obj_ProgressBar_backGroundWorker.Location = New System.Drawing.Point(6, 8)
         Me.obj_ProgressBar_backGroundWorker.Name = "obj_ProgressBar_backGroundWorker"
         Me.obj_ProgressBar_backGroundWorker.RightToLeftLayout = True
-        Me.obj_ProgressBar_backGroundWorker.Size = New System.Drawing.Size(252, 12)
+        Me.obj_ProgressBar_backGroundWorker.Size = New System.Drawing.Size(577, 10)
         Me.obj_ProgressBar_backGroundWorker.Step = 5
         Me.obj_ProgressBar_backGroundWorker.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.obj_ProgressBar_backGroundWorker.TabIndex = 58
@@ -475,9 +478,10 @@ Partial Class uiTrnPenerimaanBarang
         'PnlDfMain
         '
         Me.PnlDfMain.Controls.Add(Me.DgvTrnPenerimaanbarang)
-        Me.PnlDfMain.Location = New System.Drawing.Point(20, 193)
+        Me.PnlDfMain.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PnlDfMain.Location = New System.Drawing.Point(3, 224)
         Me.PnlDfMain.Name = "PnlDfMain"
-        Me.PnlDfMain.Size = New System.Drawing.Size(704, 296)
+        Me.PnlDfMain.Size = New System.Drawing.Size(733, 156)
         Me.PnlDfMain.TabIndex = 1
         '
         'DgvTrnPenerimaanbarang
@@ -487,7 +491,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.DgvTrnPenerimaanbarang.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnPenerimaanbarang.Location = New System.Drawing.Point(0, 0)
         Me.DgvTrnPenerimaanbarang.Name = "DgvTrnPenerimaanbarang"
-        Me.DgvTrnPenerimaanbarang.Size = New System.Drawing.Size(704, 296)
+        Me.DgvTrnPenerimaanbarang.Size = New System.Drawing.Size(733, 156)
         Me.DgvTrnPenerimaanbarang.TabIndex = 0
         '
         'PnlDfFooter
@@ -513,7 +517,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Label43.BackColor = System.Drawing.Color.Transparent
         Me.Label43.Location = New System.Drawing.Point(185, 13)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(73, 13)
+        Me.Label43.Size = New System.Drawing.Size(74, 13)
         Me.Label43.TabIndex = 68
         Me.Label43.Text = "Not Approved"
         '
@@ -522,7 +526,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Label41.AutoSize = True
         Me.Label41.Location = New System.Drawing.Point(18, 14)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(42, 13)
+        Me.Label41.Size = New System.Drawing.Size(41, 13)
         Me.Label41.TabIndex = 67
         Me.Label41.Text = "Record"
         '
@@ -531,7 +535,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_top.Location = New System.Drawing.Point(66, 9)
         Me.obj_top.Maximum = New Decimal(New Integer() {100000, 0, 0, 0})
         Me.obj_top.Name = "obj_top"
-        Me.obj_top.Size = New System.Drawing.Size(71, 20)
+        Me.obj_top.Size = New System.Drawing.Size(71, 21)
         Me.obj_top.TabIndex = 66
         Me.obj_top.Value = New Decimal(New Integer() {1000, 0, 0, 0})
         '
@@ -541,7 +545,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Label39.BackColor = System.Drawing.Color.Transparent
         Me.Label39.Location = New System.Drawing.Point(430, 11)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(153, 13)
+        Me.Label39.Size = New System.Drawing.Size(148, 13)
         Me.Label39.TabIndex = 65
         Me.Label39.Text = "Approved SPV / Section Head"
         '
@@ -569,7 +573,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Label35.BackColor = System.Drawing.Color.Transparent
         Me.Label35.Location = New System.Drawing.Point(304, 11)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(78, 13)
+        Me.Label35.Size = New System.Drawing.Size(79, 13)
         Me.Label35.TabIndex = 62
         Me.Label35.Text = "Approved User"
         '
@@ -614,10 +618,10 @@ Partial Class uiTrnPenerimaanBarang
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Tahoma", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(485, 157)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(258, 12)
+        Me.Label6.Size = New System.Drawing.Size(261, 11)
         Me.Label6.TabIndex = 217
         Me.Label6.Text = "Use semicolon (;) to enter more than one references in textbox"
         '
@@ -625,7 +629,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         Me.obj_Rekanan_id_search.Location = New System.Drawing.Point(104, 38)
         Me.obj_Rekanan_id_search.Name = "obj_Rekanan_id_search"
-        Me.obj_Rekanan_id_search.Size = New System.Drawing.Size(121, 20)
+        Me.obj_Rekanan_id_search.Size = New System.Drawing.Size(121, 21)
         Me.obj_Rekanan_id_search.TabIndex = 216
         '
         'btn_Rekanan
@@ -648,9 +652,10 @@ Partial Class uiTrnPenerimaanBarang
         'chk_RvID_search
         '
         Me.chk_RvID_search.AutoSize = True
+        Me.chk_RvID_search.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chk_RvID_search.Location = New System.Drawing.Point(384, 66)
         Me.chk_RvID_search.Name = "chk_RvID_search"
-        Me.chk_RvID_search.Size = New System.Drawing.Size(61, 17)
+        Me.chk_RvID_search.Size = New System.Drawing.Size(59, 17)
         Me.chk_RvID_search.TabIndex = 213
         Me.chk_RvID_search.TabStop = False
         Me.chk_RvID_search.Text = "RV No."
@@ -659,15 +664,16 @@ Partial Class uiTrnPenerimaanBarang
         '
         Me.obj_orderID_search.Location = New System.Drawing.Point(104, 63)
         Me.obj_orderID_search.Name = "obj_orderID_search"
-        Me.obj_orderID_search.Size = New System.Drawing.Size(233, 20)
+        Me.obj_orderID_search.Size = New System.Drawing.Size(233, 21)
         Me.obj_orderID_search.TabIndex = 212
         '
         'chk_orderID_search
         '
         Me.chk_orderID_search.AutoSize = True
+        Me.chk_orderID_search.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chk_orderID_search.Location = New System.Drawing.Point(17, 65)
         Me.chk_orderID_search.Name = "chk_orderID_search"
-        Me.chk_orderID_search.Size = New System.Drawing.Size(72, 17)
+        Me.chk_orderID_search.Size = New System.Drawing.Size(74, 17)
         Me.chk_orderID_search.TabIndex = 211
         Me.chk_orderID_search.TabStop = False
         Me.chk_orderID_search.Text = "Order No."
@@ -683,9 +689,10 @@ Partial Class uiTrnPenerimaanBarang
         'chk_User_search
         '
         Me.chk_User_search.AutoSize = True
+        Me.chk_User_search.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chk_User_search.Location = New System.Drawing.Point(384, 40)
         Me.chk_User_search.Name = "chk_User_search"
-        Me.chk_User_search.Size = New System.Drawing.Size(97, 17)
+        Me.chk_User_search.Size = New System.Drawing.Size(98, 17)
         Me.chk_User_search.TabIndex = 209
         Me.chk_User_search.TabStop = False
         Me.chk_User_search.Text = "Approved User"
@@ -700,9 +707,10 @@ Partial Class uiTrnPenerimaanBarang
         'chk_Strukturunit_id_pemilik_search
         '
         Me.chk_Strukturunit_id_pemilik_search.AutoSize = True
+        Me.chk_Strukturunit_id_pemilik_search.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chk_Strukturunit_id_pemilik_search.Location = New System.Drawing.Point(384, 15)
         Me.chk_Strukturunit_id_pemilik_search.Name = "chk_Strukturunit_id_pemilik_search"
-        Me.chk_Strukturunit_id_pemilik_search.Size = New System.Drawing.Size(81, 17)
+        Me.chk_Strukturunit_id_pemilik_search.Size = New System.Drawing.Size(83, 17)
         Me.chk_Strukturunit_id_pemilik_search.TabIndex = 207
         Me.chk_Strukturunit_id_pemilik_search.TabStop = False
         Me.chk_Strukturunit_id_pemilik_search.Text = "Department"
@@ -710,12 +718,13 @@ Partial Class uiTrnPenerimaanBarang
         'chk_Rekanan_id_search
         '
         Me.chk_Rekanan_id_search.AutoSize = True
+        Me.chk_Rekanan_id_search.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chk_Rekanan_id_search.Location = New System.Drawing.Point(17, 40)
         Me.chk_Rekanan_id_search.Name = "chk_Rekanan_id_search"
-        Me.chk_Rekanan_id_search.Size = New System.Drawing.Size(70, 17)
+        Me.chk_Rekanan_id_search.Size = New System.Drawing.Size(68, 17)
         Me.chk_Rekanan_id_search.TabIndex = 206
         Me.chk_Rekanan_id_search.TabStop = False
-        Me.chk_Rekanan_id_search.Text = "Rekanan"
+        Me.chk_Rekanan_id_search.Text = "Partner"
         '
         'cboSearchChannel
         '
@@ -730,9 +739,10 @@ Partial Class uiTrnPenerimaanBarang
         Me.chkSearchChannel.AutoSize = True
         Me.chkSearchChannel.Checked = True
         Me.chkSearchChannel.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.chkSearchChannel.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chkSearchChannel.Location = New System.Drawing.Point(17, 15)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(71, 17)
         Me.chkSearchChannel.TabIndex = 0
         Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
@@ -813,7 +823,7 @@ Partial Class uiTrnPenerimaanBarang
         'btnBrowseDetil
         '
         Me.btnBrowseDetil.AutoHeight = False
-        Me.btnBrowseDetil.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "...", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, "", Nothing, Nothing, True)})
+        Me.btnBrowseDetil.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "...", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject10, "", Nothing, Nothing, True)})
         Me.btnBrowseDetil.Name = "btnBrowseDetil"
         Me.btnBrowseDetil.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
@@ -865,9 +875,9 @@ Partial Class uiTrnPenerimaanBarang
         'RepositoryItemButtonPrint
         '
         Me.RepositoryItemButtonPrint.AutoHeight = False
-        SerializableAppearanceObject2.BackColor = System.Drawing.Color.Gainsboro
-        SerializableAppearanceObject2.Options.UseBackColor = True
-        Me.RepositoryItemButtonPrint.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "Print", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject2, "", Nothing, Nothing, True)})
+        SerializableAppearanceObject11.BackColor = System.Drawing.Color.Gainsboro
+        SerializableAppearanceObject11.Options.UseBackColor = True
+        Me.RepositoryItemButtonPrint.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "Print", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject11, "", Nothing, Nothing, True)})
         Me.RepositoryItemButtonPrint.Name = "RepositoryItemButtonPrint"
         Me.RepositoryItemButtonPrint.NullText = "Print"
         Me.RepositoryItemButtonPrint.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
@@ -1502,7 +1512,7 @@ Partial Class uiTrnPenerimaanBarang
         'RepositoryItemButtonEdit1
         '
         Me.RepositoryItemButtonEdit1.AutoHeight = False
-        Me.RepositoryItemButtonEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Test", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject3, "", Nothing, Nothing, True)})
+        Me.RepositoryItemButtonEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Test", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject12, "", Nothing, Nothing, True)})
         Me.RepositoryItemButtonEdit1.Name = "RepositoryItemButtonEdit1"
         Me.RepositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
@@ -1580,7 +1590,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Strukturunit_id.Location = New System.Drawing.Point(109, 201)
         Me.obj_Strukturunit_id.Name = "obj_Strukturunit_id"
         Me.obj_Strukturunit_id.ReadOnly = True
-        Me.obj_Strukturunit_id.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Strukturunit_id.Size = New System.Drawing.Size(122, 21)
         Me.obj_Strukturunit_id.TabIndex = 1
         Me.obj_Strukturunit_id.Visible = False
         '
@@ -1589,7 +1599,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Strukturunit_id.AutoSize = True
         Me.lbl_Strukturunit_id.Location = New System.Drawing.Point(12, 204)
         Me.lbl_Strukturunit_id.Name = "lbl_Strukturunit_id"
-        Me.lbl_Strukturunit_id.Size = New System.Drawing.Size(62, 13)
+        Me.lbl_Strukturunit_id.Size = New System.Drawing.Size(64, 13)
         Me.lbl_Strukturunit_id.TabIndex = 0
         Me.lbl_Strukturunit_id.Text = "Department"
         Me.lbl_Strukturunit_id.Visible = False
@@ -1600,7 +1610,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_isdisabled.Enabled = False
         Me.obj_Terimabarang_isdisabled.Location = New System.Drawing.Point(390, 203)
         Me.obj_Terimabarang_isdisabled.Name = "obj_Terimabarang_isdisabled"
-        Me.obj_Terimabarang_isdisabled.Size = New System.Drawing.Size(67, 17)
+        Me.obj_Terimabarang_isdisabled.Size = New System.Drawing.Size(66, 17)
         Me.obj_Terimabarang_isdisabled.TabIndex = 2
         Me.obj_Terimabarang_isdisabled.Text = "Disabled"
         Me.obj_Terimabarang_isdisabled.UseVisualStyleBackColor = True
@@ -1612,7 +1622,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_modifiedby.Location = New System.Drawing.Point(109, 53)
         Me.obj_Terimabarang_modifiedby.Name = "obj_Terimabarang_modifiedby"
         Me.obj_Terimabarang_modifiedby.ReadOnly = True
-        Me.obj_Terimabarang_modifiedby.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_modifiedby.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_modifiedby.TabIndex = 1
         '
         'lbl_Terimabarang_modifieddt
@@ -1630,7 +1640,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_modifieddt.Location = New System.Drawing.Point(109, 75)
         Me.obj_Terimabarang_modifieddt.Name = "obj_Terimabarang_modifieddt"
         Me.obj_Terimabarang_modifieddt.ReadOnly = True
-        Me.obj_Terimabarang_modifieddt.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_modifieddt.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_modifieddt.TabIndex = 1
         '
         'lbl_Terimabarang_modifiedby
@@ -1647,7 +1657,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_createdt.AutoSize = True
         Me.lbl_Terimabarang_createdt.Location = New System.Drawing.Point(12, 34)
         Me.lbl_Terimabarang_createdt.Name = "lbl_Terimabarang_createdt"
-        Me.lbl_Terimabarang_createdt.Size = New System.Drawing.Size(64, 13)
+        Me.lbl_Terimabarang_createdt.Size = New System.Drawing.Size(66, 13)
         Me.lbl_Terimabarang_createdt.TabIndex = 0
         Me.lbl_Terimabarang_createdt.Text = "Create Date"
         '
@@ -1657,7 +1667,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_createdt.Location = New System.Drawing.Point(109, 31)
         Me.obj_Terimabarang_createdt.Name = "obj_Terimabarang_createdt"
         Me.obj_Terimabarang_createdt.ReadOnly = True
-        Me.obj_Terimabarang_createdt.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_createdt.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_createdt.TabIndex = 1
         '
         'lbl_Terimabarang_createby
@@ -1665,7 +1675,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_createby.AutoSize = True
         Me.lbl_Terimabarang_createby.Location = New System.Drawing.Point(12, 11)
         Me.lbl_Terimabarang_createby.Name = "lbl_Terimabarang_createby"
-        Me.lbl_Terimabarang_createby.Size = New System.Drawing.Size(53, 13)
+        Me.lbl_Terimabarang_createby.Size = New System.Drawing.Size(55, 13)
         Me.lbl_Terimabarang_createby.TabIndex = 0
         Me.lbl_Terimabarang_createby.Text = "Create By"
         '
@@ -1675,7 +1685,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_createby.Location = New System.Drawing.Point(109, 8)
         Me.obj_Terimabarang_createby.Name = "obj_Terimabarang_createby"
         Me.obj_Terimabarang_createby.ReadOnly = True
-        Me.obj_Terimabarang_createby.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_createby.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_createby.TabIndex = 1
         '
         'obj_Terimabarang_cetakbpb
@@ -1684,7 +1694,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_cetakbpb.Location = New System.Drawing.Point(335, 201)
         Me.obj_Terimabarang_cetakbpb.Name = "obj_Terimabarang_cetakbpb"
         Me.obj_Terimabarang_cetakbpb.ReadOnly = True
-        Me.obj_Terimabarang_cetakbpb.Size = New System.Drawing.Size(49, 20)
+        Me.obj_Terimabarang_cetakbpb.Size = New System.Drawing.Size(49, 21)
         Me.obj_Terimabarang_cetakbpb.TabIndex = 1
         Me.obj_Terimabarang_cetakbpb.Visible = False
         '
@@ -1693,7 +1703,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_cetakbpb.AutoSize = True
         Me.lbl_Terimabarang_cetakbpb.Location = New System.Drawing.Point(255, 204)
         Me.lbl_Terimabarang_cetakbpb.Name = "lbl_Terimabarang_cetakbpb"
-        Me.lbl_Terimabarang_cetakbpb.Size = New System.Drawing.Size(57, 13)
+        Me.lbl_Terimabarang_cetakbpb.Size = New System.Drawing.Size(55, 13)
         Me.lbl_Terimabarang_cetakbpb.TabIndex = 0
         Me.lbl_Terimabarang_cetakbpb.Text = "Cetak BPJ"
         Me.lbl_Terimabarang_cetakbpb.Visible = False
@@ -1704,7 +1714,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_appuser_dt.Location = New System.Drawing.Point(109, 150)
         Me.obj_Terimabarang_appuser_dt.Name = "obj_Terimabarang_appuser_dt"
         Me.obj_Terimabarang_appuser_dt.ReadOnly = True
-        Me.obj_Terimabarang_appuser_dt.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_appuser_dt.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_appuser_dt.TabIndex = 1
         '
         'lbl_Terimabarang_appspv_dt
@@ -1712,7 +1722,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_appspv_dt.AutoSize = True
         Me.lbl_Terimabarang_appspv_dt.Location = New System.Drawing.Point(255, 56)
         Me.lbl_Terimabarang_appspv_dt.Name = "lbl_Terimabarang_appspv_dt"
-        Me.lbl_Terimabarang_appspv_dt.Size = New System.Drawing.Size(74, 13)
+        Me.lbl_Terimabarang_appspv_dt.Size = New System.Drawing.Size(73, 13)
         Me.lbl_Terimabarang_appspv_dt.TabIndex = 0
         Me.lbl_Terimabarang_appspv_dt.Text = "App Spv Date"
         '
@@ -1722,7 +1732,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_appspv_dt.Location = New System.Drawing.Point(335, 53)
         Me.obj_Terimabarang_appspv_dt.Name = "obj_Terimabarang_appspv_dt"
         Me.obj_Terimabarang_appspv_dt.ReadOnly = True
-        Me.obj_Terimabarang_appspv_dt.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_appspv_dt.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_appspv_dt.TabIndex = 1
         '
         'lbl_Terimabarang_appspv_by
@@ -1730,7 +1740,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_appspv_by.AutoSize = True
         Me.lbl_Terimabarang_appspv_by.Location = New System.Drawing.Point(255, 34)
         Me.lbl_Terimabarang_appspv_by.Name = "lbl_Terimabarang_appspv_by"
-        Me.lbl_Terimabarang_appspv_by.Size = New System.Drawing.Size(63, 13)
+        Me.lbl_Terimabarang_appspv_by.Size = New System.Drawing.Size(62, 13)
         Me.lbl_Terimabarang_appspv_by.TabIndex = 0
         Me.lbl_Terimabarang_appspv_by.Text = "App Spv By"
         '
@@ -1740,7 +1750,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_appspv_by.Location = New System.Drawing.Point(335, 31)
         Me.obj_Terimabarang_appspv_by.Name = "obj_Terimabarang_appspv_by"
         Me.obj_Terimabarang_appspv_by.ReadOnly = True
-        Me.obj_Terimabarang_appspv_by.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_appspv_by.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_appspv_by.TabIndex = 1
         '
         'obj_Terimabarang_appspv
@@ -1749,7 +1759,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_appspv.Enabled = False
         Me.obj_Terimabarang_appspv.Location = New System.Drawing.Point(335, 11)
         Me.obj_Terimabarang_appspv.Name = "obj_Terimabarang_appspv"
-        Me.obj_Terimabarang_appspv.Size = New System.Drawing.Size(67, 17)
+        Me.obj_Terimabarang_appspv.Size = New System.Drawing.Size(66, 17)
         Me.obj_Terimabarang_appspv.TabIndex = 2
         Me.obj_Terimabarang_appspv.Text = "App Spv"
         Me.obj_Terimabarang_appspv.UseVisualStyleBackColor = True
@@ -1778,7 +1788,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_appuser_by.Location = New System.Drawing.Point(109, 127)
         Me.obj_Terimabarang_appuser_by.Name = "obj_Terimabarang_appuser_by"
         Me.obj_Terimabarang_appuser_by.ReadOnly = True
-        Me.obj_Terimabarang_appuser_by.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_appuser_by.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_appuser_by.TabIndex = 1
         '
         'obj_Terimabarang_appuser
@@ -1798,7 +1808,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_appacc_dt.Location = New System.Drawing.Point(335, 150)
         Me.obj_Terimabarang_appacc_dt.Name = "obj_Terimabarang_appacc_dt"
         Me.obj_Terimabarang_appacc_dt.ReadOnly = True
-        Me.obj_Terimabarang_appacc_dt.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_appacc_dt.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_appacc_dt.TabIndex = 1
         '
         'lbl_Terimabarang_appacc_dt
@@ -1806,7 +1816,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_appacc_dt.AutoSize = True
         Me.lbl_Terimabarang_appacc_dt.Location = New System.Drawing.Point(255, 153)
         Me.lbl_Terimabarang_appacc_dt.Name = "lbl_Terimabarang_appacc_dt"
-        Me.lbl_Terimabarang_appacc_dt.Size = New System.Drawing.Size(74, 13)
+        Me.lbl_Terimabarang_appacc_dt.Size = New System.Drawing.Size(72, 13)
         Me.lbl_Terimabarang_appacc_dt.TabIndex = 0
         Me.lbl_Terimabarang_appacc_dt.Text = "App Acc Date"
         '
@@ -1815,7 +1825,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_appacc_by.AutoSize = True
         Me.lbl_Terimabarang_appacc_by.Location = New System.Drawing.Point(255, 130)
         Me.lbl_Terimabarang_appacc_by.Name = "lbl_Terimabarang_appacc_by"
-        Me.lbl_Terimabarang_appacc_by.Size = New System.Drawing.Size(63, 13)
+        Me.lbl_Terimabarang_appacc_by.Size = New System.Drawing.Size(61, 13)
         Me.lbl_Terimabarang_appacc_by.TabIndex = 0
         Me.lbl_Terimabarang_appacc_by.Text = "App Acc By"
         '
@@ -1825,7 +1835,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_appacc_by.Location = New System.Drawing.Point(335, 127)
         Me.obj_Terimabarang_appacc_by.Name = "obj_Terimabarang_appacc_by"
         Me.obj_Terimabarang_appacc_by.ReadOnly = True
-        Me.obj_Terimabarang_appacc_by.Size = New System.Drawing.Size(122, 20)
+        Me.obj_Terimabarang_appacc_by.Size = New System.Drawing.Size(122, 21)
         Me.obj_Terimabarang_appacc_by.TabIndex = 1
         '
         'obj_Terimabarang_appacc
@@ -1834,7 +1844,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_appacc.Enabled = False
         Me.obj_Terimabarang_appacc.Location = New System.Drawing.Point(335, 109)
         Me.obj_Terimabarang_appacc.Name = "obj_Terimabarang_appacc"
-        Me.obj_Terimabarang_appacc.Size = New System.Drawing.Size(67, 17)
+        Me.obj_Terimabarang_appacc.Size = New System.Drawing.Size(65, 17)
         Me.obj_Terimabarang_appacc.TabIndex = 2
         Me.obj_Terimabarang_appacc.Text = "App Acc"
         Me.obj_Terimabarang_appacc.UseVisualStyleBackColor = True
@@ -2003,7 +2013,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Jurnal_bookdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.obj_Jurnal_bookdate.Location = New System.Drawing.Point(238, 51)
         Me.obj_Jurnal_bookdate.Name = "obj_Jurnal_bookdate"
-        Me.obj_Jurnal_bookdate.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Jurnal_bookdate.Size = New System.Drawing.Size(100, 21)
         Me.obj_Jurnal_bookdate.TabIndex = 358
         '
         'lbl_Jurnal_bookdate
@@ -2011,7 +2021,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Jurnal_bookdate.AutoSize = True
         Me.lbl_Jurnal_bookdate.Location = New System.Drawing.Point(161, 55)
         Me.lbl_Jurnal_bookdate.Name = "lbl_Jurnal_bookdate"
-        Me.lbl_Jurnal_bookdate.Size = New System.Drawing.Size(58, 13)
+        Me.lbl_Jurnal_bookdate.Size = New System.Drawing.Size(56, 13)
         Me.lbl_Jurnal_bookdate.TabIndex = 357
         Me.lbl_Jurnal_bookdate.Text = "&Book Date"
         '
@@ -2030,7 +2040,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_ppn.Location = New System.Drawing.Point(437, 30)
         Me.obj_Terimabarang_ppn.Name = "obj_Terimabarang_ppn"
         Me.obj_Terimabarang_ppn.ReadOnly = True
-        Me.obj_Terimabarang_ppn.Size = New System.Drawing.Size(117, 20)
+        Me.obj_Terimabarang_ppn.Size = New System.Drawing.Size(117, 21)
         Me.obj_Terimabarang_ppn.TabIndex = 1
         '
         'obj_Terimabarang_pph
@@ -2038,7 +2048,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_pph.Location = New System.Drawing.Point(437, 8)
         Me.obj_Terimabarang_pph.Name = "obj_Terimabarang_pph"
         Me.obj_Terimabarang_pph.ReadOnly = True
-        Me.obj_Terimabarang_pph.Size = New System.Drawing.Size(117, 20)
+        Me.obj_Terimabarang_pph.Size = New System.Drawing.Size(117, 21)
         Me.obj_Terimabarang_pph.TabIndex = 1
         '
         'obj_Terimabarang_disc
@@ -2047,7 +2057,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_disc.Location = New System.Drawing.Point(593, 8)
         Me.obj_Terimabarang_disc.Name = "obj_Terimabarang_disc"
         Me.obj_Terimabarang_disc.ReadOnly = True
-        Me.obj_Terimabarang_disc.Size = New System.Drawing.Size(118, 20)
+        Me.obj_Terimabarang_disc.Size = New System.Drawing.Size(118, 21)
         Me.obj_Terimabarang_disc.TabIndex = 1
         '
         'lbl_Terimabarang_ppn
@@ -2055,7 +2065,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_ppn.AutoSize = True
         Me.lbl_Terimabarang_ppn.Location = New System.Drawing.Point(365, 34)
         Me.lbl_Terimabarang_ppn.Name = "lbl_Terimabarang_ppn"
-        Me.lbl_Terimabarang_ppn.Size = New System.Drawing.Size(68, 13)
+        Me.lbl_Terimabarang_ppn.Size = New System.Drawing.Size(66, 13)
         Me.lbl_Terimabarang_ppn.TabIndex = 0
         Me.lbl_Terimabarang_ppn.Text = "PPN Amount"
         '
@@ -2064,7 +2074,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_disc.AutoSize = True
         Me.lbl_Terimabarang_disc.Location = New System.Drawing.Point(559, 11)
         Me.lbl_Terimabarang_disc.Name = "lbl_Terimabarang_disc"
-        Me.lbl_Terimabarang_disc.Size = New System.Drawing.Size(28, 13)
+        Me.lbl_Terimabarang_disc.Size = New System.Drawing.Size(26, 13)
         Me.lbl_Terimabarang_disc.TabIndex = 0
         Me.lbl_Terimabarang_disc.Text = "Disc"
         '
@@ -2073,7 +2083,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_foreign.Location = New System.Drawing.Point(237, 8)
         Me.obj_Terimabarang_foreign.Name = "obj_Terimabarang_foreign"
         Me.obj_Terimabarang_foreign.ReadOnly = True
-        Me.obj_Terimabarang_foreign.Size = New System.Drawing.Size(116, 20)
+        Me.obj_Terimabarang_foreign.Size = New System.Drawing.Size(116, 21)
         Me.obj_Terimabarang_foreign.TabIndex = 1
         '
         'lbl_Terimabarang_pph
@@ -2081,7 +2091,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_pph.AutoSize = True
         Me.lbl_Terimabarang_pph.Location = New System.Drawing.Point(365, 11)
         Me.lbl_Terimabarang_pph.Name = "lbl_Terimabarang_pph"
-        Me.lbl_Terimabarang_pph.Size = New System.Drawing.Size(66, 13)
+        Me.lbl_Terimabarang_pph.Size = New System.Drawing.Size(65, 13)
         Me.lbl_Terimabarang_pph.TabIndex = 0
         Me.lbl_Terimabarang_pph.Text = "PPh Amount"
         '
@@ -2090,7 +2100,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_foreign.AutoSize = True
         Me.lbl_Terimabarang_foreign.Location = New System.Drawing.Point(160, 11)
         Me.lbl_Terimabarang_foreign.Name = "lbl_Terimabarang_foreign"
-        Me.lbl_Terimabarang_foreign.Size = New System.Drawing.Size(43, 13)
+        Me.lbl_Terimabarang_foreign.Size = New System.Drawing.Size(44, 13)
         Me.lbl_Terimabarang_foreign.TabIndex = 0
         Me.lbl_Terimabarang_foreign.Text = "Amount"
         '
@@ -2099,7 +2109,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_idrreal.AutoSize = True
         Me.lbl_Terimabarang_idrreal.Location = New System.Drawing.Point(160, 32)
         Me.lbl_Terimabarang_idrreal.Name = "lbl_Terimabarang_idrreal"
-        Me.lbl_Terimabarang_idrreal.Size = New System.Drawing.Size(71, 13)
+        Me.lbl_Terimabarang_idrreal.Size = New System.Drawing.Size(73, 13)
         Me.lbl_Terimabarang_idrreal.TabIndex = 0
         Me.lbl_Terimabarang_idrreal.Text = "Amount (IDR)"
         '
@@ -2108,7 +2118,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Currency_id.AutoSize = True
         Me.lbl_Currency_id.Location = New System.Drawing.Point(11, 10)
         Me.lbl_Currency_id.Name = "lbl_Currency_id"
-        Me.lbl_Currency_id.Size = New System.Drawing.Size(49, 13)
+        Me.lbl_Currency_id.Size = New System.Drawing.Size(51, 13)
         Me.lbl_Currency_id.TabIndex = 0
         Me.lbl_Currency_id.Text = "Currency"
         '
@@ -2117,7 +2127,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_idrreal.Location = New System.Drawing.Point(237, 30)
         Me.obj_Terimabarang_idrreal.Name = "obj_Terimabarang_idrreal"
         Me.obj_Terimabarang_idrreal.ReadOnly = True
-        Me.obj_Terimabarang_idrreal.Size = New System.Drawing.Size(116, 20)
+        Me.obj_Terimabarang_idrreal.Size = New System.Drawing.Size(116, 21)
         Me.obj_Terimabarang_idrreal.TabIndex = 1
         '
         'obj_Terimabarang_foreignrate
@@ -2125,7 +2135,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_foreignrate.Location = New System.Drawing.Point(66, 29)
         Me.obj_Terimabarang_foreignrate.Name = "obj_Terimabarang_foreignrate"
         Me.obj_Terimabarang_foreignrate.ReadOnly = True
-        Me.obj_Terimabarang_foreignrate.Size = New System.Drawing.Size(76, 20)
+        Me.obj_Terimabarang_foreignrate.Size = New System.Drawing.Size(76, 21)
         Me.obj_Terimabarang_foreignrate.TabIndex = 1
         '
         'lbl_Terimabarang_foreignrate
@@ -2172,7 +2182,6 @@ Partial Class uiTrnPenerimaanBarang
         Me.PnlDataMaster.Controls.Add(Me.btn_order)
         Me.PnlDataMaster.Controls.Add(Me.obj_Terimabarang_id)
         Me.PnlDataMaster.Controls.Add(Me.lbl_Terimabarang_id)
-        Me.PnlDataMaster.Controls.Add(Me.lbl_Terimabarang_date)
         Me.PnlDataMaster.Controls.Add(Me.obj_Terimabarang_type)
         Me.PnlDataMaster.Controls.Add(Me.lbl_Terimabarang_type)
         Me.PnlDataMaster.Controls.Add(Me.obj_Order_id)
@@ -2197,6 +2206,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.PnlDataMaster.Controls.Add(Me.obj_Channel_id)
         Me.PnlDataMaster.Controls.Add(Me.lbl_Channel_id)
         Me.PnlDataMaster.Controls.Add(Me.obj_Terimabarang_date)
+        Me.PnlDataMaster.Controls.Add(Me.lbl_Terimabarang_date)
         Me.PnlDataMaster.Dock = System.Windows.Forms.DockStyle.Top
         Me.PnlDataMaster.Location = New System.Drawing.Point(3, 3)
         Me.PnlDataMaster.Name = "PnlDataMaster"
@@ -2218,7 +2228,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(17, 155)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(100, 13)
+        Me.Label7.Size = New System.Drawing.Size(103, 13)
         Me.Label7.TabIndex = 369
         Me.Label7.Text = "Delivery Order Date"
         '
@@ -2227,7 +2237,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_strukturunit_name.Location = New System.Drawing.Point(441, 174)
         Me.obj_strukturunit_name.Name = "obj_strukturunit_name"
         Me.obj_strukturunit_name.ReadOnly = True
-        Me.obj_strukturunit_name.Size = New System.Drawing.Size(272, 20)
+        Me.obj_strukturunit_name.Size = New System.Drawing.Size(272, 21)
         Me.obj_strukturunit_name.TabIndex = 367
         Me.obj_strukturunit_name.TabStop = False
         '
@@ -2236,7 +2246,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(370, 176)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(62, 13)
+        Me.Label3.Size = New System.Drawing.Size(64, 13)
         Me.Label3.TabIndex = 366
         Me.Label3.Text = "Department"
         '
@@ -2298,7 +2308,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_id.Location = New System.Drawing.Point(119, 7)
         Me.obj_Terimabarang_id.Name = "obj_Terimabarang_id"
         Me.obj_Terimabarang_id.ReadOnly = True
-        Me.obj_Terimabarang_id.Size = New System.Drawing.Size(94, 20)
+        Me.obj_Terimabarang_id.Size = New System.Drawing.Size(94, 21)
         Me.obj_Terimabarang_id.TabIndex = 1
         '
         'lbl_Terimabarang_id
@@ -2306,7 +2316,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_id.AutoSize = True
         Me.lbl_Terimabarang_id.Location = New System.Drawing.Point(17, 10)
         Me.lbl_Terimabarang_id.Name = "lbl_Terimabarang_id"
-        Me.lbl_Terimabarang_id.Size = New System.Drawing.Size(67, 13)
+        Me.lbl_Terimabarang_id.Size = New System.Drawing.Size(65, 13)
         Me.lbl_Terimabarang_id.TabIndex = 0
         Me.lbl_Terimabarang_id.Text = "Receive No."
         '
@@ -2315,7 +2325,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_date.AutoSize = True
         Me.lbl_Terimabarang_date.Location = New System.Drawing.Point(73, 10)
         Me.lbl_Terimabarang_date.Name = "lbl_Terimabarang_date"
-        Me.lbl_Terimabarang_date.Size = New System.Drawing.Size(73, 13)
+        Me.lbl_Terimabarang_date.Size = New System.Drawing.Size(71, 13)
         Me.lbl_Terimabarang_date.TabIndex = 0
         Me.lbl_Terimabarang_date.Text = "Receive Date"
         Me.lbl_Terimabarang_date.Visible = False
@@ -2326,7 +2336,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_type.Location = New System.Drawing.Point(119, 39)
         Me.obj_Terimabarang_type.Name = "obj_Terimabarang_type"
         Me.obj_Terimabarang_type.ReadOnly = True
-        Me.obj_Terimabarang_type.Size = New System.Drawing.Size(94, 20)
+        Me.obj_Terimabarang_type.Size = New System.Drawing.Size(94, 21)
         Me.obj_Terimabarang_type.TabIndex = 1
         '
         'lbl_Terimabarang_type
@@ -2334,7 +2344,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_type.AutoSize = True
         Me.lbl_Terimabarang_type.Location = New System.Drawing.Point(17, 42)
         Me.lbl_Terimabarang_type.Name = "lbl_Terimabarang_type"
-        Me.lbl_Terimabarang_type.Size = New System.Drawing.Size(74, 13)
+        Me.lbl_Terimabarang_type.Size = New System.Drawing.Size(72, 13)
         Me.lbl_Terimabarang_type.TabIndex = 0
         Me.lbl_Terimabarang_type.Text = "Receive Type"
         '
@@ -2344,7 +2354,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Order_id.Location = New System.Drawing.Point(119, 61)
         Me.obj_Order_id.Name = "obj_Order_id"
         Me.obj_Order_id.ReadOnly = True
-        Me.obj_Order_id.Size = New System.Drawing.Size(94, 20)
+        Me.obj_Order_id.Size = New System.Drawing.Size(94, 21)
         Me.obj_Order_id.TabIndex = 1
         '
         'lbl_Order_id
@@ -2352,7 +2362,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Order_id.AutoSize = True
         Me.lbl_Order_id.Location = New System.Drawing.Point(17, 64)
         Me.lbl_Order_id.Name = "lbl_Order_id"
-        Me.lbl_Order_id.Size = New System.Drawing.Size(53, 13)
+        Me.lbl_Order_id.Size = New System.Drawing.Size(55, 13)
         Me.lbl_Order_id.TabIndex = 0
         Me.lbl_Order_id.Text = "Order No."
         '
@@ -2370,16 +2380,16 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Rekanan_id.AutoSize = True
         Me.lbl_Rekanan_id.Location = New System.Drawing.Point(370, 42)
         Me.lbl_Rekanan_id.Name = "lbl_Rekanan_id"
-        Me.lbl_Rekanan_id.Size = New System.Drawing.Size(51, 13)
+        Me.lbl_Rekanan_id.Size = New System.Drawing.Size(49, 13)
         Me.lbl_Rekanan_id.TabIndex = 0
-        Me.lbl_Rekanan_id.Text = "Rekanan"
+        Me.lbl_Rekanan_id.Text = "Partner"
         '
         'lbl_Employee_id_owner
         '
         Me.lbl_Employee_id_owner.AutoSize = True
         Me.lbl_Employee_id_owner.Location = New System.Drawing.Point(370, 65)
         Me.lbl_Employee_id_owner.Name = "lbl_Employee_id_owner"
-        Me.lbl_Employee_id_owner.Size = New System.Drawing.Size(68, 13)
+        Me.lbl_Employee_id_owner.Size = New System.Drawing.Size(66, 13)
         Me.lbl_Employee_id_owner.TabIndex = 0
         Me.lbl_Employee_id_owner.Text = "Received By"
         '
@@ -2389,7 +2399,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_qtyitem.Location = New System.Drawing.Point(441, 7)
         Me.obj_Terimabarang_qtyitem.Name = "obj_Terimabarang_qtyitem"
         Me.obj_Terimabarang_qtyitem.ReadOnly = True
-        Me.obj_Terimabarang_qtyitem.Size = New System.Drawing.Size(51, 20)
+        Me.obj_Terimabarang_qtyitem.Size = New System.Drawing.Size(51, 21)
         Me.obj_Terimabarang_qtyitem.TabIndex = 1
         '
         'lbl_Terimabarang_qtyitem
@@ -2397,7 +2407,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_qtyitem.AutoSize = True
         Me.lbl_Terimabarang_qtyitem.Location = New System.Drawing.Point(370, 10)
         Me.lbl_Terimabarang_qtyitem.Name = "lbl_Terimabarang_qtyitem"
-        Me.lbl_Terimabarang_qtyitem.Size = New System.Drawing.Size(46, 13)
+        Me.lbl_Terimabarang_qtyitem.Size = New System.Drawing.Size(50, 13)
         Me.lbl_Terimabarang_qtyitem.TabIndex = 0
         Me.lbl_Terimabarang_qtyitem.Text = "Qty Item"
         '
@@ -2407,7 +2417,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_qtyrealization.Location = New System.Drawing.Point(119, 178)
         Me.obj_Terimabarang_qtyrealization.Name = "obj_Terimabarang_qtyrealization"
         Me.obj_Terimabarang_qtyrealization.ReadOnly = True
-        Me.obj_Terimabarang_qtyrealization.Size = New System.Drawing.Size(55, 20)
+        Me.obj_Terimabarang_qtyrealization.Size = New System.Drawing.Size(55, 21)
         Me.obj_Terimabarang_qtyrealization.TabIndex = 1
         '
         'lbl_Terimabarang_qtyrealization
@@ -2415,7 +2425,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_qtyrealization.AutoSize = True
         Me.lbl_Terimabarang_qtyrealization.Location = New System.Drawing.Point(17, 181)
         Me.lbl_Terimabarang_qtyrealization.Name = "lbl_Terimabarang_qtyrealization"
-        Me.lbl_Terimabarang_qtyrealization.Size = New System.Drawing.Size(78, 13)
+        Me.lbl_Terimabarang_qtyrealization.Size = New System.Drawing.Size(80, 13)
         Me.lbl_Terimabarang_qtyrealization.TabIndex = 0
         Me.lbl_Terimabarang_qtyrealization.Text = "Qty Realization"
         '
@@ -2425,7 +2435,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Order_qty.Location = New System.Drawing.Point(247, 178)
         Me.obj_Order_qty.Name = "obj_Order_qty"
         Me.obj_Order_qty.ReadOnly = True
-        Me.obj_Order_qty.Size = New System.Drawing.Size(42, 20)
+        Me.obj_Order_qty.Size = New System.Drawing.Size(42, 21)
         Me.obj_Order_qty.TabIndex = 1
         '
         'lbl_Order_qty
@@ -2433,7 +2443,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Order_qty.AutoSize = True
         Me.lbl_Order_qty.Location = New System.Drawing.Point(189, 181)
         Me.lbl_Order_qty.Name = "lbl_Order_qty"
-        Me.lbl_Order_qty.Size = New System.Drawing.Size(52, 13)
+        Me.lbl_Order_qty.Size = New System.Drawing.Size(56, 13)
         Me.lbl_Order_qty.TabIndex = 0
         Me.lbl_Order_qty.Text = "Qty Order"
         '
@@ -2442,7 +2452,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_status.AutoSize = True
         Me.lbl_Terimabarang_status.Location = New System.Drawing.Point(17, 86)
         Me.lbl_Terimabarang_status.Name = "lbl_Terimabarang_status"
-        Me.lbl_Terimabarang_status.Size = New System.Drawing.Size(37, 13)
+        Me.lbl_Terimabarang_status.Size = New System.Drawing.Size(38, 13)
         Me.lbl_Terimabarang_status.TabIndex = 0
         Me.lbl_Terimabarang_status.Text = "Status"
         '
@@ -2451,7 +2461,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_statusrealization.AutoSize = True
         Me.lbl_Terimabarang_statusrealization.Location = New System.Drawing.Point(17, 108)
         Me.lbl_Terimabarang_statusrealization.Name = "lbl_Terimabarang_statusrealization"
-        Me.lbl_Terimabarang_statusrealization.Size = New System.Drawing.Size(92, 13)
+        Me.lbl_Terimabarang_statusrealization.Size = New System.Drawing.Size(93, 13)
         Me.lbl_Terimabarang_statusrealization.TabIndex = 0
         Me.lbl_Terimabarang_statusrealization.Text = "Realization Status"
         '
@@ -2459,7 +2469,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         Me.obj_Terimabarang_location.Location = New System.Drawing.Point(441, 83)
         Me.obj_Terimabarang_location.Name = "obj_Terimabarang_location"
-        Me.obj_Terimabarang_location.Size = New System.Drawing.Size(272, 20)
+        Me.obj_Terimabarang_location.Size = New System.Drawing.Size(272, 21)
         Me.obj_Terimabarang_location.TabIndex = 1
         '
         'lbl_Terimabarang_location
@@ -2467,7 +2477,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_location.AutoSize = True
         Me.lbl_Terimabarang_location.Location = New System.Drawing.Point(370, 86)
         Me.lbl_Terimabarang_location.Name = "lbl_Terimabarang_location"
-        Me.lbl_Terimabarang_location.Size = New System.Drawing.Size(48, 13)
+        Me.lbl_Terimabarang_location.Size = New System.Drawing.Size(47, 13)
         Me.lbl_Terimabarang_location.TabIndex = 0
         Me.lbl_Terimabarang_location.Text = "Location"
         '
@@ -2492,7 +2502,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         Me.obj_Terimabarang_nosuratjalan.Location = New System.Drawing.Point(119, 130)
         Me.obj_Terimabarang_nosuratjalan.Name = "obj_Terimabarang_nosuratjalan"
-        Me.obj_Terimabarang_nosuratjalan.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Terimabarang_nosuratjalan.Size = New System.Drawing.Size(100, 21)
         Me.obj_Terimabarang_nosuratjalan.TabIndex = 1
         '
         'lbl_Terimabarang_nosuratjalan
@@ -2500,7 +2510,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarang_nosuratjalan.AutoSize = True
         Me.lbl_Terimabarang_nosuratjalan.Location = New System.Drawing.Point(17, 133)
         Me.lbl_Terimabarang_nosuratjalan.Name = "lbl_Terimabarang_nosuratjalan"
-        Me.lbl_Terimabarang_nosuratjalan.Size = New System.Drawing.Size(94, 13)
+        Me.lbl_Terimabarang_nosuratjalan.Size = New System.Drawing.Size(97, 13)
         Me.lbl_Terimabarang_nosuratjalan.TabIndex = 0
         Me.lbl_Terimabarang_nosuratjalan.Text = "Delivery Order No."
         '
@@ -2510,7 +2520,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Channel_id.Location = New System.Drawing.Point(558, 7)
         Me.obj_Channel_id.Name = "obj_Channel_id"
         Me.obj_Channel_id.ReadOnly = True
-        Me.obj_Channel_id.Size = New System.Drawing.Size(100, 20)
+        Me.obj_Channel_id.Size = New System.Drawing.Size(100, 21)
         Me.obj_Channel_id.TabIndex = 1
         '
         'lbl_Channel_id
@@ -2518,7 +2528,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Channel_id.AutoSize = True
         Me.lbl_Channel_id.Location = New System.Drawing.Point(506, 10)
         Me.lbl_Channel_id.Name = "lbl_Channel_id"
-        Me.lbl_Channel_id.Size = New System.Drawing.Size(51, 13)
+        Me.lbl_Channel_id.Size = New System.Drawing.Size(52, 13)
         Me.lbl_Channel_id.TabIndex = 0
         Me.lbl_Channel_id.Text = "Company"
         '
@@ -2529,7 +2539,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_date.Mask = "00/00/0000"
         Me.obj_Terimabarang_date.Name = "obj_Terimabarang_date"
         Me.obj_Terimabarang_date.ReadOnly = True
-        Me.obj_Terimabarang_date.Size = New System.Drawing.Size(73, 20)
+        Me.obj_Terimabarang_date.Size = New System.Drawing.Size(73, 21)
         Me.obj_Terimabarang_date.TabIndex = 42
         Me.obj_Terimabarang_date.TabStop = False
         '
@@ -2551,6 +2561,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.FlatTabControl1.Controls.Add(Me.TabDetail)
         Me.FlatTabControl1.Controls.Add(Me.TabAccounting)
         Me.FlatTabControl1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FlatTabControl1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FlatTabControl1.Location = New System.Drawing.Point(0, 0)
         Me.FlatTabControl1.myBackColor = System.Drawing.SystemColors.Control
         Me.FlatTabControl1.Name = "FlatTabControl1"
@@ -2670,7 +2681,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(5, 142)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(84, 13)
+        Me.Label2.Size = New System.Drawing.Size(87, 13)
         Me.Label2.TabIndex = 487
         Me.Label2.Text = "Asset Cat.Depre"
         '
@@ -3100,7 +3111,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_budget_name.Location = New System.Drawing.Point(402, 436)
         Me.obj_budget_name.Name = "obj_budget_name"
         Me.obj_budget_name.ReadOnly = True
-        Me.obj_budget_name.Size = New System.Drawing.Size(193, 20)
+        Me.obj_budget_name.Size = New System.Drawing.Size(193, 21)
         Me.obj_budget_name.TabIndex = 482
         Me.obj_budget_name.TabStop = False
         '
@@ -3118,7 +3129,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lblQtyTotal.AutoSize = True
         Me.lblQtyTotal.Location = New System.Drawing.Point(315, 188)
         Me.lblQtyTotal.Name = "lblQtyTotal"
-        Me.lblQtyTotal.Size = New System.Drawing.Size(50, 13)
+        Me.lblQtyTotal.Size = New System.Drawing.Size(52, 13)
         Me.lblQtyTotal.TabIndex = 451
         Me.lblQtyTotal.Text = "Qty Total"
         '
@@ -3137,14 +3148,14 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_depre_enddt.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.obj_Terimabarangdetil_depre_enddt.Location = New System.Drawing.Point(505, 476)
         Me.obj_Terimabarangdetil_depre_enddt.Name = "obj_Terimabarangdetil_depre_enddt"
-        Me.obj_Terimabarangdetil_depre_enddt.Size = New System.Drawing.Size(33, 20)
+        Me.obj_Terimabarangdetil_depre_enddt.Size = New System.Drawing.Size(33, 21)
         Me.obj_Terimabarangdetil_depre_enddt.TabIndex = 454
         '
         'obj_Terimabarangdetil_qtytotal
         '
         Me.obj_Terimabarangdetil_qtytotal.Location = New System.Drawing.Point(403, 184)
         Me.obj_Terimabarangdetil_qtytotal.Name = "obj_Terimabarangdetil_qtytotal"
-        Me.obj_Terimabarangdetil_qtytotal.Size = New System.Drawing.Size(62, 20)
+        Me.obj_Terimabarangdetil_qtytotal.Size = New System.Drawing.Size(62, 21)
         Me.obj_Terimabarangdetil_qtytotal.TabIndex = 450
         Me.obj_Terimabarangdetil_qtytotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3153,7 +3164,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Acc_id.AutoSize = True
         Me.lbl_Acc_id.Location = New System.Drawing.Point(315, 361)
         Me.lbl_Acc_id.Name = "lbl_Acc_id"
-        Me.lbl_Acc_id.Size = New System.Drawing.Size(47, 13)
+        Me.lbl_Acc_id.Size = New System.Drawing.Size(46, 13)
         Me.lbl_Acc_id.TabIndex = 479
         Me.lbl_Acc_id.Text = "Account"
         '
@@ -3179,7 +3190,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         Me.obj_Terimabarangdetil_qtydetail.Location = New System.Drawing.Point(403, 160)
         Me.obj_Terimabarangdetil_qtydetail.Name = "obj_Terimabarangdetil_qtydetail"
-        Me.obj_Terimabarangdetil_qtydetail.Size = New System.Drawing.Size(62, 20)
+        Me.obj_Terimabarangdetil_qtydetail.Size = New System.Drawing.Size(62, 21)
         Me.obj_Terimabarangdetil_qtydetail.TabIndex = 449
         Me.obj_Terimabarangdetil_qtydetail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3189,7 +3200,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Orderdetil_line.MaxLength = 20
         Me.obj_Orderdetil_line.Name = "obj_Orderdetil_line"
         Me.obj_Orderdetil_line.ReadOnly = True
-        Me.obj_Orderdetil_line.Size = New System.Drawing.Size(138, 20)
+        Me.obj_Orderdetil_line.Size = New System.Drawing.Size(138, 21)
         Me.obj_Orderdetil_line.TabIndex = 472
         '
         'btn_Parent
@@ -3206,7 +3217,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Orderdetil_line.AutoSize = True
         Me.lbl_Orderdetil_line.Location = New System.Drawing.Point(315, 414)
         Me.lbl_Orderdetil_line.Name = "lbl_Orderdetil_line"
-        Me.lbl_Orderdetil_line.Size = New System.Drawing.Size(56, 13)
+        Me.lbl_Orderdetil_line.Size = New System.Drawing.Size(57, 13)
         Me.lbl_Orderdetil_line.TabIndex = 473
         Me.lbl_Orderdetil_line.Text = "Order Line"
         '
@@ -3215,7 +3226,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lblQtyDetail.AutoSize = True
         Me.lblQtyDetail.Location = New System.Drawing.Point(315, 164)
         Me.lblQtyDetail.Name = "lblQtyDetail"
-        Me.lblQtyDetail.Size = New System.Drawing.Size(53, 13)
+        Me.lblQtyDetail.Size = New System.Drawing.Size(55, 13)
         Me.lblQtyDetail.TabIndex = 448
         Me.lblQtyDetail.Text = "Qty Detail"
         '
@@ -3225,7 +3236,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Orderdetil_id.MaxLength = 20
         Me.obj_Orderdetil_id.Name = "obj_Orderdetil_id"
         Me.obj_Orderdetil_id.ReadOnly = True
-        Me.obj_Orderdetil_id.Size = New System.Drawing.Size(138, 20)
+        Me.obj_Orderdetil_id.Size = New System.Drawing.Size(138, 21)
         Me.obj_Orderdetil_id.TabIndex = 470
         '
         'obj_Terimabarangdetil_line
@@ -3234,7 +3245,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_line.MaxLength = 30
         Me.obj_Terimabarangdetil_line.Name = "obj_Terimabarangdetil_line"
         Me.obj_Terimabarangdetil_line.ReadOnly = True
-        Me.obj_Terimabarangdetil_line.Size = New System.Drawing.Size(49, 20)
+        Me.obj_Terimabarangdetil_line.Size = New System.Drawing.Size(49, 21)
         Me.obj_Terimabarangdetil_line.TabIndex = 369
         '
         'lbl_Orderdetil_id
@@ -3242,7 +3253,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Orderdetil_id.AutoSize = True
         Me.lbl_Orderdetil_id.Location = New System.Drawing.Point(315, 388)
         Me.lbl_Orderdetil_id.Name = "lbl_Orderdetil_id"
-        Me.lbl_Orderdetil_id.Size = New System.Drawing.Size(47, 13)
+        Me.lbl_Orderdetil_id.Size = New System.Drawing.Size(49, 13)
         Me.lbl_Orderdetil_id.TabIndex = 471
         Me.lbl_Orderdetil_id.Text = "Order ID"
         '
@@ -3250,7 +3261,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         Me.obj_Itemtype_id.Location = New System.Drawing.Point(95, 283)
         Me.obj_Itemtype_id.Name = "obj_Itemtype_id"
-        Me.obj_Itemtype_id.Size = New System.Drawing.Size(163, 20)
+        Me.obj_Itemtype_id.Size = New System.Drawing.Size(163, 21)
         Me.obj_Itemtype_id.TabIndex = 447
         '
         'obj_Terimabarang_parentbarcode
@@ -3259,7 +3270,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_parentbarcode.MaxLength = 20
         Me.obj_Terimabarang_parentbarcode.Name = "obj_Terimabarang_parentbarcode"
         Me.obj_Terimabarang_parentbarcode.ReadOnly = True
-        Me.obj_Terimabarang_parentbarcode.Size = New System.Drawing.Size(107, 20)
+        Me.obj_Terimabarang_parentbarcode.Size = New System.Drawing.Size(107, 21)
         Me.obj_Terimabarang_parentbarcode.TabIndex = 384
         Me.obj_Terimabarang_parentbarcode.TabStop = False
         '
@@ -3278,7 +3289,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarang_barcode.MaxLength = 20
         Me.obj_Terimabarang_barcode.Name = "obj_Terimabarang_barcode"
         Me.obj_Terimabarang_barcode.ReadOnly = True
-        Me.obj_Terimabarang_barcode.Size = New System.Drawing.Size(107, 20)
+        Me.obj_Terimabarang_barcode.Size = New System.Drawing.Size(107, 21)
         Me.obj_Terimabarang_barcode.TabIndex = 381
         Me.obj_Terimabarang_barcode.TabStop = False
         '
@@ -3295,7 +3306,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_eps.Location = New System.Drawing.Point(95, 435)
         Me.obj_Terimabarangdetil_eps.MaxLength = 20
         Me.obj_Terimabarangdetil_eps.Name = "obj_Terimabarangdetil_eps"
-        Me.obj_Terimabarangdetil_eps.Size = New System.Drawing.Size(91, 20)
+        Me.obj_Terimabarangdetil_eps.Size = New System.Drawing.Size(91, 21)
         Me.obj_Terimabarangdetil_eps.TabIndex = 464
         '
         'lbl_Asset_barcode
@@ -3303,7 +3314,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Asset_barcode.AutoSize = True
         Me.lbl_Asset_barcode.Location = New System.Drawing.Point(5, 41)
         Me.lbl_Asset_barcode.Name = "lbl_Asset_barcode"
-        Me.lbl_Asset_barcode.Size = New System.Drawing.Size(47, 13)
+        Me.lbl_Asset_barcode.Size = New System.Drawing.Size(46, 13)
         Me.lbl_Asset_barcode.TabIndex = 382
         Me.lbl_Asset_barcode.Text = "Barcode"
         '
@@ -3312,7 +3323,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_eps.AutoSize = True
         Me.lbl_Terimabarangdetil_eps.Location = New System.Drawing.Point(6, 439)
         Me.lbl_Terimabarangdetil_eps.Name = "lbl_Terimabarangdetil_eps"
-        Me.lbl_Terimabarangdetil_eps.Size = New System.Drawing.Size(25, 13)
+        Me.lbl_Terimabarangdetil_eps.Size = New System.Drawing.Size(24, 13)
         Me.lbl_Terimabarangdetil_eps.TabIndex = 465
         Me.lbl_Terimabarangdetil_eps.Text = "Eps"
         '
@@ -3321,7 +3332,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_qty.AutoSize = True
         Me.lbl_Terimabarangdetil_qty.Location = New System.Drawing.Point(315, 140)
         Me.lbl_Terimabarangdetil_qty.Name = "lbl_Terimabarangdetil_qty"
-        Me.lbl_Terimabarangdetil_qty.Size = New System.Drawing.Size(23, 13)
+        Me.lbl_Terimabarangdetil_qty.Size = New System.Drawing.Size(25, 13)
         Me.lbl_Terimabarangdetil_qty.TabIndex = 435
         Me.lbl_Terimabarangdetil_qty.Text = "Qty"
         '
@@ -3330,7 +3341,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Show_id_cont.AutoSize = True
         Me.lbl_Show_id_cont.Location = New System.Drawing.Point(6, 413)
         Me.lbl_Show_id_cont.Name = "lbl_Show_id_cont"
-        Me.lbl_Show_id_cont.Size = New System.Drawing.Size(62, 13)
+        Me.lbl_Show_id_cont.Size = New System.Drawing.Size(64, 13)
         Me.lbl_Show_id_cont.TabIndex = 463
         Me.lbl_Show_id_cont.Text = "Show(Cont)"
         '
@@ -3339,7 +3350,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Asset_barcodeinduk.AutoSize = True
         Me.lbl_Asset_barcodeinduk.Location = New System.Drawing.Point(315, 41)
         Me.lbl_Asset_barcodeinduk.Name = "lbl_Asset_barcodeinduk"
-        Me.lbl_Asset_barcodeinduk.Size = New System.Drawing.Size(87, 13)
+        Me.lbl_Asset_barcodeinduk.Size = New System.Drawing.Size(89, 13)
         Me.lbl_Asset_barcodeinduk.TabIndex = 383
         Me.lbl_Asset_barcodeinduk.Text = "Barcode (Parent)"
         '
@@ -3356,7 +3367,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_qty.Location = New System.Drawing.Point(403, 136)
         Me.obj_Terimabarangdetil_qty.MaxLength = 30
         Me.obj_Terimabarangdetil_qty.Name = "obj_Terimabarangdetil_qty"
-        Me.obj_Terimabarangdetil_qty.Size = New System.Drawing.Size(62, 20)
+        Me.obj_Terimabarangdetil_qty.Size = New System.Drawing.Size(62, 21)
         Me.obj_Terimabarangdetil_qty.TabIndex = 434
         Me.obj_Terimabarangdetil_qty.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3365,7 +3376,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Show_id.AutoSize = True
         Me.lbl_Show_id.Location = New System.Drawing.Point(6, 386)
         Me.lbl_Show_id.Name = "lbl_Show_id"
-        Me.lbl_Show_id.Size = New System.Drawing.Size(34, 13)
+        Me.lbl_Show_id.Size = New System.Drawing.Size(33, 13)
         Me.lbl_Show_id.TabIndex = 461
         Me.lbl_Show_id.Text = "Show"
         '
@@ -3401,7 +3412,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_rack.AutoSize = True
         Me.lbl_Terimabarangdetil_rack.Location = New System.Drawing.Point(315, 335)
         Me.lbl_Terimabarangdetil_rack.Name = "lbl_Terimabarangdetil_rack"
-        Me.lbl_Terimabarangdetil_rack.Size = New System.Drawing.Size(33, 13)
+        Me.lbl_Terimabarangdetil_rack.Size = New System.Drawing.Size(30, 13)
         Me.lbl_Terimabarangdetil_rack.TabIndex = 433
         Me.lbl_Terimabarangdetil_rack.Text = "Rack"
         '
@@ -3410,7 +3421,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_desc.AutoSize = True
         Me.lbl_Terimabarangdetil_desc.Location = New System.Drawing.Point(6, 166)
         Me.lbl_Terimabarangdetil_desc.Name = "lbl_Terimabarangdetil_desc"
-        Me.lbl_Terimabarangdetil_desc.Size = New System.Drawing.Size(32, 13)
+        Me.lbl_Terimabarangdetil_desc.Size = New System.Drawing.Size(30, 13)
         Me.lbl_Terimabarangdetil_desc.TabIndex = 376
         Me.lbl_Terimabarangdetil_desc.Text = "Desc"
         '
@@ -3419,7 +3430,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_rack.Location = New System.Drawing.Point(403, 331)
         Me.obj_Terimabarangdetil_rack.MaxLength = 30
         Me.obj_Terimabarangdetil_rack.Name = "obj_Terimabarangdetil_rack"
-        Me.obj_Terimabarangdetil_rack.Size = New System.Drawing.Size(164, 20)
+        Me.obj_Terimabarangdetil_rack.Size = New System.Drawing.Size(164, 21)
         Me.obj_Terimabarangdetil_rack.TabIndex = 432
         '
         'lbl_Terimabarangdetil_lineparent
@@ -3427,7 +3438,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_lineparent.AutoSize = True
         Me.lbl_Terimabarangdetil_lineparent.Location = New System.Drawing.Point(315, 66)
         Me.lbl_Terimabarangdetil_lineparent.Name = "lbl_Terimabarangdetil_lineparent"
-        Me.lbl_Terimabarangdetil_lineparent.Size = New System.Drawing.Size(67, 13)
+        Me.lbl_Terimabarangdetil_lineparent.Size = New System.Drawing.Size(69, 13)
         Me.lbl_Terimabarangdetil_lineparent.TabIndex = 374
         Me.lbl_Terimabarangdetil_lineparent.Text = "Line (Parent)"
         '
@@ -3436,7 +3447,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Room_id.AutoSize = True
         Me.lbl_Room_id.Location = New System.Drawing.Point(315, 285)
         Me.lbl_Room_id.Name = "lbl_Room_id"
-        Me.lbl_Room_id.Size = New System.Drawing.Size(35, 13)
+        Me.lbl_Room_id.Size = New System.Drawing.Size(34, 13)
         Me.lbl_Room_id.TabIndex = 431
         Me.lbl_Room_id.Text = "Room"
         '
@@ -3445,7 +3456,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_parentline.Location = New System.Drawing.Point(403, 62)
         Me.obj_Terimabarangdetil_parentline.MaxLength = 30
         Me.obj_Terimabarangdetil_parentline.Name = "obj_Terimabarangdetil_parentline"
-        Me.obj_Terimabarangdetil_parentline.Size = New System.Drawing.Size(49, 20)
+        Me.obj_Terimabarangdetil_parentline.Size = New System.Drawing.Size(49, 21)
         Me.obj_Terimabarangdetil_parentline.TabIndex = 373
         '
         'obj_Room_id
@@ -3461,7 +3472,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_line.AutoSize = True
         Me.lbl_Terimabarangdetil_line.Location = New System.Drawing.Point(315, 16)
         Me.lbl_Terimabarangdetil_line.Name = "lbl_Terimabarangdetil_line"
-        Me.lbl_Terimabarangdetil_line.Size = New System.Drawing.Size(27, 13)
+        Me.lbl_Terimabarangdetil_line.Size = New System.Drawing.Size(26, 13)
         Me.lbl_Terimabarangdetil_line.TabIndex = 372
         Me.lbl_Terimabarangdetil_line.Text = "Line"
         '
@@ -3480,7 +3491,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_asset_terimabarangdetil_id.MaxLength = 20
         Me.obj_asset_terimabarangdetil_id.Name = "obj_asset_terimabarangdetil_id"
         Me.obj_asset_terimabarangdetil_id.ReadOnly = True
-        Me.obj_asset_terimabarangdetil_id.Size = New System.Drawing.Size(107, 20)
+        Me.obj_asset_terimabarangdetil_id.Size = New System.Drawing.Size(107, 21)
         Me.obj_asset_terimabarangdetil_id.TabIndex = 370
         '
         'obj_Sex_id
@@ -3496,7 +3507,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_id.AutoSize = True
         Me.lbl_Terimabarangdetil_id.Location = New System.Drawing.Point(5, 16)
         Me.lbl_Terimabarangdetil_id.Name = "lbl_Terimabarangdetil_id"
-        Me.lbl_Terimabarangdetil_id.Size = New System.Drawing.Size(67, 13)
+        Me.lbl_Terimabarangdetil_id.Size = New System.Drawing.Size(65, 13)
         Me.lbl_Terimabarangdetil_id.TabIndex = 371
         Me.lbl_Terimabarangdetil_id.Text = "Receive No."
         '
@@ -3505,7 +3516,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Size_id.AutoSize = True
         Me.lbl_Size_id.Location = New System.Drawing.Point(315, 237)
         Me.lbl_Size_id.Name = "lbl_Size_id"
-        Me.lbl_Size_id.Size = New System.Drawing.Size(27, 13)
+        Me.lbl_Size_id.Size = New System.Drawing.Size(26, 13)
         Me.lbl_Size_id.TabIndex = 427
         Me.lbl_Size_id.Text = "Size"
         '
@@ -3514,7 +3525,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_nonfixasset.AutoSize = True
         Me.obj_Terimabarangdetil_nonfixasset.Location = New System.Drawing.Point(403, 89)
         Me.obj_Terimabarangdetil_nonfixasset.Name = "obj_Terimabarangdetil_nonfixasset"
-        Me.obj_Terimabarangdetil_nonfixasset.Size = New System.Drawing.Size(79, 17)
+        Me.obj_Terimabarangdetil_nonfixasset.Size = New System.Drawing.Size(80, 17)
         Me.obj_Terimabarangdetil_nonfixasset.TabIndex = 451
         Me.obj_Terimabarangdetil_nonfixasset.TabStop = False
         Me.obj_Terimabarangdetil_nonfixasset.Text = "Not Printed"
@@ -3533,7 +3544,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_product_no.AutoSize = True
         Me.lbl_Terimabarangdetil_product_no.Location = New System.Drawing.Point(5, 66)
         Me.lbl_Terimabarangdetil_product_no.Name = "lbl_Terimabarangdetil_product_no"
-        Me.lbl_Terimabarangdetil_product_no.Size = New System.Drawing.Size(74, 13)
+        Me.lbl_Terimabarangdetil_product_no.Size = New System.Drawing.Size(73, 13)
         Me.lbl_Terimabarangdetil_product_no.TabIndex = 419
         Me.lbl_Terimabarangdetil_product_no.Text = "Barcode Type"
         '
@@ -3542,7 +3553,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Colour_id.AutoSize = True
         Me.lbl_Colour_id.Location = New System.Drawing.Point(315, 213)
         Me.lbl_Colour_id.Name = "lbl_Colour_id"
-        Me.lbl_Colour_id.Size = New System.Drawing.Size(37, 13)
+        Me.lbl_Colour_id.Size = New System.Drawing.Size(38, 13)
         Me.lbl_Colour_id.TabIndex = 425
         Me.lbl_Colour_id.Text = "Colour"
         '
@@ -3568,7 +3579,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Tipeasset_id.AutoSize = True
         Me.lbl_Tipeasset_id.Location = New System.Drawing.Point(5, 91)
         Me.lbl_Tipeasset_id.Name = "lbl_Tipeasset_id"
-        Me.lbl_Tipeasset_id.Size = New System.Drawing.Size(60, 13)
+        Me.lbl_Tipeasset_id.Size = New System.Drawing.Size(61, 13)
         Me.lbl_Tipeasset_id.TabIndex = 449
         Me.lbl_Tipeasset_id.Text = "Asset Type"
         '
@@ -3577,7 +3588,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Material_id.AutoSize = True
         Me.lbl_Material_id.Location = New System.Drawing.Point(6, 361)
         Me.lbl_Material_id.Name = "lbl_Material_id"
-        Me.lbl_Material_id.Size = New System.Drawing.Size(44, 13)
+        Me.lbl_Material_id.Size = New System.Drawing.Size(45, 13)
         Me.lbl_Material_id.TabIndex = 423
         Me.lbl_Material_id.Text = "Material"
         '
@@ -3586,7 +3597,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Kategoriasset_id.AutoSize = True
         Me.lbl_Kategoriasset_id.Location = New System.Drawing.Point(5, 116)
         Me.lbl_Kategoriasset_id.Name = "lbl_Kategoriasset_id"
-        Me.lbl_Kategoriasset_id.Size = New System.Drawing.Size(78, 13)
+        Me.lbl_Kategoriasset_id.Size = New System.Drawing.Size(82, 13)
         Me.lbl_Kategoriasset_id.TabIndex = 450
         Me.lbl_Kategoriasset_id.Text = "Asset Category"
         '
@@ -3604,7 +3615,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Assetcategory_id.MaxLength = 20
         Me.obj_Assetcategory_id.Name = "obj_Assetcategory_id"
         Me.obj_Assetcategory_id.ReadOnly = True
-        Me.obj_Assetcategory_id.Size = New System.Drawing.Size(164, 20)
+        Me.obj_Assetcategory_id.Size = New System.Drawing.Size(164, 21)
         Me.obj_Assetcategory_id.TabIndex = 420
         '
         'obj_Terimabarangdetil_model
@@ -3612,7 +3623,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_model.Location = New System.Drawing.Point(403, 307)
         Me.obj_Terimabarangdetil_model.MaxLength = 20
         Me.obj_Terimabarangdetil_model.Name = "obj_Terimabarangdetil_model"
-        Me.obj_Terimabarangdetil_model.Size = New System.Drawing.Size(164, 20)
+        Me.obj_Terimabarangdetil_model.Size = New System.Drawing.Size(164, 21)
         Me.obj_Terimabarangdetil_model.TabIndex = 420
         '
         'lbl_Item_id
@@ -3620,7 +3631,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Item_id.AutoSize = True
         Me.lbl_Item_id.Location = New System.Drawing.Point(6, 239)
         Me.lbl_Item_id.Name = "lbl_Item_id"
-        Me.lbl_Item_id.Size = New System.Drawing.Size(27, 13)
+        Me.lbl_Item_id.Size = New System.Drawing.Size(29, 13)
         Me.lbl_Item_id.TabIndex = 409
         Me.lbl_Item_id.Text = "Item"
         '
@@ -3629,7 +3640,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_model.AutoSize = True
         Me.lbl_Terimabarangdetil_model.Location = New System.Drawing.Point(315, 311)
         Me.lbl_Terimabarangdetil_model.Name = "lbl_Terimabarangdetil_model"
-        Me.lbl_Terimabarangdetil_model.Size = New System.Drawing.Size(36, 13)
+        Me.lbl_Terimabarangdetil_model.Size = New System.Drawing.Size(35, 13)
         Me.lbl_Terimabarangdetil_model.TabIndex = 421
         Me.lbl_Terimabarangdetil_model.Text = "Model"
         '
@@ -3648,7 +3659,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_serial_no.Location = New System.Drawing.Point(95, 333)
         Me.obj_Terimabarangdetil_serial_no.MaxLength = 20
         Me.obj_Terimabarangdetil_serial_no.Name = "obj_Terimabarangdetil_serial_no"
-        Me.obj_Terimabarangdetil_serial_no.Size = New System.Drawing.Size(163, 20)
+        Me.obj_Terimabarangdetil_serial_no.Size = New System.Drawing.Size(163, 21)
         Me.obj_Terimabarangdetil_serial_no.TabIndex = 416
         '
         'obj_Itemcategory_id
@@ -3675,7 +3686,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Itemcategory_id.AutoSize = True
         Me.lbl_Itemcategory_id.Location = New System.Drawing.Point(6, 263)
         Me.lbl_Itemcategory_id.Name = "lbl_Itemcategory_id"
-        Me.lbl_Itemcategory_id.Size = New System.Drawing.Size(49, 13)
+        Me.lbl_Itemcategory_id.Size = New System.Drawing.Size(52, 13)
         Me.lbl_Itemcategory_id.TabIndex = 411
         Me.lbl_Itemcategory_id.Text = "Category"
         '
@@ -3755,7 +3766,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Currency_iddetil.AutoSize = True
         Me.lbl_Currency_iddetil.Location = New System.Drawing.Point(17, 40)
         Me.lbl_Currency_iddetil.Name = "lbl_Currency_iddetil"
-        Me.lbl_Currency_iddetil.Size = New System.Drawing.Size(49, 13)
+        Me.lbl_Currency_iddetil.Size = New System.Drawing.Size(51, 13)
         Me.lbl_Currency_iddetil.TabIndex = 378
         Me.lbl_Currency_iddetil.Text = "Currency"
         '
@@ -3773,7 +3784,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_totalidrreal.MaxLength = 20
         Me.obj_Terimabarangdetil_totalidrreal.Name = "obj_Terimabarangdetil_totalidrreal"
         Me.obj_Terimabarangdetil_totalidrreal.ReadOnly = True
-        Me.obj_Terimabarangdetil_totalidrreal.Size = New System.Drawing.Size(138, 20)
+        Me.obj_Terimabarangdetil_totalidrreal.Size = New System.Drawing.Size(138, 21)
         Me.obj_Terimabarangdetil_totalidrreal.TabIndex = 375
         Me.obj_Terimabarangdetil_totalidrreal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3782,7 +3793,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_totalidrreal.AutoSize = True
         Me.lbl_Terimabarangdetil_totalidrreal.Location = New System.Drawing.Point(584, 66)
         Me.lbl_Terimabarangdetil_totalidrreal.Name = "lbl_Terimabarangdetil_totalidrreal"
-        Me.lbl_Terimabarangdetil_totalidrreal.Size = New System.Drawing.Size(98, 13)
+        Me.lbl_Terimabarangdetil_totalidrreal.Size = New System.Drawing.Size(100, 13)
         Me.lbl_Terimabarangdetil_totalidrreal.TabIndex = 376
         Me.lbl_Terimabarangdetil_totalidrreal.Text = "Total Amount (IDR)"
         '
@@ -3792,7 +3803,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_totalforeign.MaxLength = 20
         Me.obj_Terimabarangdetil_totalforeign.Name = "obj_Terimabarangdetil_totalforeign"
         Me.obj_Terimabarangdetil_totalforeign.ReadOnly = True
-        Me.obj_Terimabarangdetil_totalforeign.Size = New System.Drawing.Size(133, 20)
+        Me.obj_Terimabarangdetil_totalforeign.Size = New System.Drawing.Size(133, 21)
         Me.obj_Terimabarangdetil_totalforeign.TabIndex = 373
         Me.obj_Terimabarangdetil_totalforeign.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3801,7 +3812,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_totalforeign.AutoSize = True
         Me.lbl_Terimabarangdetil_totalforeign.Location = New System.Drawing.Point(311, 64)
         Me.lbl_Terimabarangdetil_totalforeign.Name = "lbl_Terimabarangdetil_totalforeign"
-        Me.lbl_Terimabarangdetil_totalforeign.Size = New System.Drawing.Size(70, 13)
+        Me.lbl_Terimabarangdetil_totalforeign.Size = New System.Drawing.Size(71, 13)
         Me.lbl_Terimabarangdetil_totalforeign.TabIndex = 374
         Me.lbl_Terimabarangdetil_totalforeign.Text = "Total Amount"
         '
@@ -3811,7 +3822,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_ppnidrreal.MaxLength = 20
         Me.obj_Terimabarangdetil_ppnidrreal.Name = "obj_Terimabarangdetil_ppnidrreal"
         Me.obj_Terimabarangdetil_ppnidrreal.ReadOnly = True
-        Me.obj_Terimabarangdetil_ppnidrreal.Size = New System.Drawing.Size(138, 20)
+        Me.obj_Terimabarangdetil_ppnidrreal.Size = New System.Drawing.Size(138, 21)
         Me.obj_Terimabarangdetil_ppnidrreal.TabIndex = 371
         Me.obj_Terimabarangdetil_ppnidrreal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3820,7 +3831,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_ppnidrreal.AutoSize = True
         Me.lbl_Terimabarangdetil_ppnidrreal.Location = New System.Drawing.Point(584, 40)
         Me.lbl_Terimabarangdetil_ppnidrreal.Name = "lbl_Terimabarangdetil_ppnidrreal"
-        Me.lbl_Terimabarangdetil_ppnidrreal.Size = New System.Drawing.Size(96, 13)
+        Me.lbl_Terimabarangdetil_ppnidrreal.Size = New System.Drawing.Size(95, 13)
         Me.lbl_Terimabarangdetil_ppnidrreal.TabIndex = 372
         Me.lbl_Terimabarangdetil_ppnidrreal.Text = "PPN Amount (IDR)"
         '
@@ -3830,7 +3841,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_ppnforeign.MaxLength = 20
         Me.obj_Terimabarangdetil_ppnforeign.Name = "obj_Terimabarangdetil_ppnforeign"
         Me.obj_Terimabarangdetil_ppnforeign.ReadOnly = True
-        Me.obj_Terimabarangdetil_ppnforeign.Size = New System.Drawing.Size(133, 20)
+        Me.obj_Terimabarangdetil_ppnforeign.Size = New System.Drawing.Size(133, 21)
         Me.obj_Terimabarangdetil_ppnforeign.TabIndex = 369
         Me.obj_Terimabarangdetil_ppnforeign.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3839,7 +3850,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_ppnforeign.AutoSize = True
         Me.lbl_Terimabarangdetil_ppnforeign.Location = New System.Drawing.Point(311, 39)
         Me.lbl_Terimabarangdetil_ppnforeign.Name = "lbl_Terimabarangdetil_ppnforeign"
-        Me.lbl_Terimabarangdetil_ppnforeign.Size = New System.Drawing.Size(68, 13)
+        Me.lbl_Terimabarangdetil_ppnforeign.Size = New System.Drawing.Size(66, 13)
         Me.lbl_Terimabarangdetil_ppnforeign.TabIndex = 370
         Me.lbl_Terimabarangdetil_ppnforeign.Text = "PPN Amount"
         '
@@ -3849,7 +3860,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_pphidrreal.MaxLength = 20
         Me.obj_Terimabarangdetil_pphidrreal.Name = "obj_Terimabarangdetil_pphidrreal"
         Me.obj_Terimabarangdetil_pphidrreal.ReadOnly = True
-        Me.obj_Terimabarangdetil_pphidrreal.Size = New System.Drawing.Size(138, 20)
+        Me.obj_Terimabarangdetil_pphidrreal.Size = New System.Drawing.Size(138, 21)
         Me.obj_Terimabarangdetil_pphidrreal.TabIndex = 367
         Me.obj_Terimabarangdetil_pphidrreal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3868,7 +3879,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_pphforeign.MaxLength = 20
         Me.obj_Terimabarangdetil_pphforeign.Name = "obj_Terimabarangdetil_pphforeign"
         Me.obj_Terimabarangdetil_pphforeign.ReadOnly = True
-        Me.obj_Terimabarangdetil_pphforeign.Size = New System.Drawing.Size(133, 20)
+        Me.obj_Terimabarangdetil_pphforeign.Size = New System.Drawing.Size(133, 21)
         Me.obj_Terimabarangdetil_pphforeign.TabIndex = 365
         Me.obj_Terimabarangdetil_pphforeign.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3877,7 +3888,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_pphforeign.AutoSize = True
         Me.lbl_Terimabarangdetil_pphforeign.Location = New System.Drawing.Point(311, 15)
         Me.lbl_Terimabarangdetil_pphforeign.Name = "lbl_Terimabarangdetil_pphforeign"
-        Me.lbl_Terimabarangdetil_pphforeign.Size = New System.Drawing.Size(66, 13)
+        Me.lbl_Terimabarangdetil_pphforeign.Size = New System.Drawing.Size(65, 13)
         Me.lbl_Terimabarangdetil_pphforeign.TabIndex = 366
         Me.lbl_Terimabarangdetil_pphforeign.Text = "PPh Amount"
         '
@@ -3887,7 +3898,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_disc.MaxLength = 20
         Me.obj_Terimabarangdetil_disc.Name = "obj_Terimabarangdetil_disc"
         Me.obj_Terimabarangdetil_disc.ReadOnly = True
-        Me.obj_Terimabarangdetil_disc.Size = New System.Drawing.Size(184, 20)
+        Me.obj_Terimabarangdetil_disc.Size = New System.Drawing.Size(184, 21)
         Me.obj_Terimabarangdetil_disc.TabIndex = 363
         Me.obj_Terimabarangdetil_disc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3896,7 +3907,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_disc.AutoSize = True
         Me.lbl_Terimabarangdetil_disc.Location = New System.Drawing.Point(16, 110)
         Me.lbl_Terimabarangdetil_disc.Name = "lbl_Terimabarangdetil_disc"
-        Me.lbl_Terimabarangdetil_disc.Size = New System.Drawing.Size(49, 13)
+        Me.lbl_Terimabarangdetil_disc.Size = New System.Drawing.Size(48, 13)
         Me.lbl_Terimabarangdetil_disc.TabIndex = 364
         Me.lbl_Terimabarangdetil_disc.Text = "Discount"
         '
@@ -3906,7 +3917,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_ppnpercent.MaxLength = 20
         Me.obj_Terimabarangdetil_ppnpercent.Name = "obj_Terimabarangdetil_ppnpercent"
         Me.obj_Terimabarangdetil_ppnpercent.ReadOnly = True
-        Me.obj_Terimabarangdetil_ppnpercent.Size = New System.Drawing.Size(69, 20)
+        Me.obj_Terimabarangdetil_ppnpercent.Size = New System.Drawing.Size(69, 21)
         Me.obj_Terimabarangdetil_ppnpercent.TabIndex = 361
         Me.obj_Terimabarangdetil_ppnpercent.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3925,7 +3936,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_pphpercent.MaxLength = 20
         Me.obj_Terimabarangdetil_pphpercent.Name = "obj_Terimabarangdetil_pphpercent"
         Me.obj_Terimabarangdetil_pphpercent.ReadOnly = True
-        Me.obj_Terimabarangdetil_pphpercent.Size = New System.Drawing.Size(73, 20)
+        Me.obj_Terimabarangdetil_pphpercent.Size = New System.Drawing.Size(73, 21)
         Me.obj_Terimabarangdetil_pphpercent.TabIndex = 359
         Me.obj_Terimabarangdetil_pphpercent.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3934,7 +3945,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_pphpercent.AutoSize = True
         Me.lbl_Terimabarangdetil_pphpercent.Location = New System.Drawing.Point(17, 89)
         Me.lbl_Terimabarangdetil_pphpercent.Name = "lbl_Terimabarangdetil_pphpercent"
-        Me.lbl_Terimabarangdetil_pphpercent.Size = New System.Drawing.Size(35, 13)
+        Me.lbl_Terimabarangdetil_pphpercent.Size = New System.Drawing.Size(36, 13)
         Me.lbl_Terimabarangdetil_pphpercent.TabIndex = 360
         Me.lbl_Terimabarangdetil_pphpercent.Text = "PPh%"
         '
@@ -3944,7 +3955,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_idrreal.MaxLength = 20
         Me.obj_Terimabarangdetil_idrreal.Name = "obj_Terimabarangdetil_idrreal"
         Me.obj_Terimabarangdetil_idrreal.ReadOnly = True
-        Me.obj_Terimabarangdetil_idrreal.Size = New System.Drawing.Size(184, 20)
+        Me.obj_Terimabarangdetil_idrreal.Size = New System.Drawing.Size(184, 21)
         Me.obj_Terimabarangdetil_idrreal.TabIndex = 357
         Me.obj_Terimabarangdetil_idrreal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3953,7 +3964,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_idrreal.AutoSize = True
         Me.lbl_Terimabarangdetil_idrreal.Location = New System.Drawing.Point(17, 66)
         Me.lbl_Terimabarangdetil_idrreal.Name = "lbl_Terimabarangdetil_idrreal"
-        Me.lbl_Terimabarangdetil_idrreal.Size = New System.Drawing.Size(71, 13)
+        Me.lbl_Terimabarangdetil_idrreal.Size = New System.Drawing.Size(73, 13)
         Me.lbl_Terimabarangdetil_idrreal.TabIndex = 358
         Me.lbl_Terimabarangdetil_idrreal.Text = "Amount (IDR)"
         '
@@ -3963,7 +3974,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_foreignrate.MaxLength = 20
         Me.obj_Terimabarangdetil_foreignrate.Name = "obj_Terimabarangdetil_foreignrate"
         Me.obj_Terimabarangdetil_foreignrate.ReadOnly = True
-        Me.obj_Terimabarangdetil_foreignrate.Size = New System.Drawing.Size(69, 20)
+        Me.obj_Terimabarangdetil_foreignrate.Size = New System.Drawing.Size(69, 21)
         Me.obj_Terimabarangdetil_foreignrate.TabIndex = 355
         Me.obj_Terimabarangdetil_foreignrate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3982,7 +3993,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.obj_Terimabarangdetil_foreign.MaxLength = 20
         Me.obj_Terimabarangdetil_foreign.Name = "obj_Terimabarangdetil_foreign"
         Me.obj_Terimabarangdetil_foreign.ReadOnly = True
-        Me.obj_Terimabarangdetil_foreign.Size = New System.Drawing.Size(184, 20)
+        Me.obj_Terimabarangdetil_foreign.Size = New System.Drawing.Size(184, 21)
         Me.obj_Terimabarangdetil_foreign.TabIndex = 353
         Me.obj_Terimabarangdetil_foreign.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -3991,7 +4002,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.lbl_Terimabarangdetil_foreign.AutoSize = True
         Me.lbl_Terimabarangdetil_foreign.Location = New System.Drawing.Point(17, 15)
         Me.lbl_Terimabarangdetil_foreign.Name = "lbl_Terimabarangdetil_foreign"
-        Me.lbl_Terimabarangdetil_foreign.Size = New System.Drawing.Size(43, 13)
+        Me.lbl_Terimabarangdetil_foreign.Size = New System.Drawing.Size(44, 13)
         Me.lbl_Terimabarangdetil_foreign.TabIndex = 354
         Me.lbl_Terimabarangdetil_foreign.Text = "Amount"
         '

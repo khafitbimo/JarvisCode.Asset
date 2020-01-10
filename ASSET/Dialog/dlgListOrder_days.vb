@@ -118,7 +118,7 @@ Public Class dlgListOrder_days
         ' ''End If
 
         cChannel_id.Name = "channel_id"
-        cChannel_id.HeaderText = "Channel"
+        cChannel_id.HeaderText = "Company"
         cChannel_id.DataPropertyName = "channel_id"
         cChannel_id.Width = 100
         cChannel_id.DefaultCellStyle.Alignment = DataGridViewContentAlignment.NotSet
@@ -302,7 +302,7 @@ Public Class dlgListOrder_days
 
      
         cChannel_id.Name = "channel_id"
-        cChannel_id.HeaderText = "Channel"
+        cChannel_id.HeaderText = "Company"
         cChannel_id.DataPropertyName = "channel_id"
         cChannel_id.Width = 80
         cChannel_id.DefaultCellStyle.Alignment = DataGridViewContentAlignment.NotSet
