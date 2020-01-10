@@ -13,7 +13,7 @@ Public Class uiTrnTerimaJasa_Rental
     Private Event FormAfterSave(ByRef id As Object, ByVal result As FormSaveResult)
     Private Event FormBeforeNew()
     Private Event FormBeforeDelete(ByRef id As Object)
-    Private Event FormAfterDelete(ByRef id As Object) 'test
+    Private Event FormAfterDelete(ByRef id As Object) 'test + baru
 
     Private FILTER_QUERY_MODE As Boolean
     Private DATA_ISLOCKED As Boolean
