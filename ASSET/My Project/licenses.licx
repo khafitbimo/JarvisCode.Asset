@@ -9,3 +9,4 @@ DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v12.1, Version=12.1.6.
 DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
 DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
 DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpressReg.LicensePatcher, DevExpressReg, Version=12.1.0.1, Culture=neutral, PublicKeyToken=d6ff4ebaea2d8ac4
