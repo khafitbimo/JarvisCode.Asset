@@ -537,7 +537,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.ftabDataDetil.Controls.Add(Me.ftabDataDetil_Order)
         Me.ftabDataDetil.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ftabDataDetil.Location = New System.Drawing.Point(3, 196)
-        Me.ftabDataDetil.myBackColor = System.Drawing.Color.White
+        Me.ftabDataDetil.myBackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil.Name = "ftabDataDetil"
         Me.ftabDataDetil.SelectedIndex = 0
         Me.ftabDataDetil.Size = New System.Drawing.Size(739, 268)
@@ -545,7 +545,7 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         'ftabDataDetil_Detil
         '
-        Me.ftabDataDetil_Detil.BackColor = System.Drawing.Color.White
+        Me.ftabDataDetil_Detil.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Detil.Controls.Add(Me.DgvTrnTerimajasadetil)
         Me.ftabDataDetil_Detil.Controls.Add(Me.Panel4)
         Me.ftabDataDetil_Detil.Location = New System.Drawing.Point(4, 25)
@@ -585,7 +585,7 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         'ftabDataDetil_Info
         '
-        Me.ftabDataDetil_Info.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_Info.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Info.Controls.Add(Me.pnlClose1)
         Me.ftabDataDetil_Info.Controls.Add(Me.dgvTerimaJasaUsed)
         Me.ftabDataDetil_Info.Controls.Add(Me.obj_Terimajasa_createdt)
@@ -618,7 +618,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.ftabDataDetil_Info.Controls.Add(Me.obj_Terimajasa_isdisabled)
         Me.ftabDataDetil_Info.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Info.Name = "ftabDataDetil_Info"
-        Me.ftabDataDetil_Info.Size = New System.Drawing.Size(178, 0)
+        Me.ftabDataDetil_Info.Size = New System.Drawing.Size(731, 239)
         Me.ftabDataDetil_Info.TabIndex = 1
         Me.ftabDataDetil_Info.Text = "Info"
         '
@@ -899,13 +899,13 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         'ftabDataDetil_Jurnal
         '
-        Me.ftabDataDetil_Jurnal.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_Jurnal.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Jurnal.Controls.Add(Me.pnlclose3)
         Me.ftabDataDetil_Jurnal.Controls.Add(Me.FtabJurnal)
         Me.ftabDataDetil_Jurnal.Controls.Add(Me.Panel2)
         Me.ftabDataDetil_Jurnal.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Jurnal.Name = "ftabDataDetil_Jurnal"
-        Me.ftabDataDetil_Jurnal.Size = New System.Drawing.Size(178, 0)
+        Me.ftabDataDetil_Jurnal.Size = New System.Drawing.Size(731, 239)
         Me.ftabDataDetil_Jurnal.TabIndex = 3
         Me.ftabDataDetil_Jurnal.Text = "Jurnal"
         '
@@ -925,10 +925,10 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.FtabJurnal.Controls.Add(Me.ftabDataDetil_Response)
         Me.FtabJurnal.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FtabJurnal.Location = New System.Drawing.Point(0, 79)
-        Me.FtabJurnal.myBackColor = System.Drawing.Color.WhiteSmoke
+        Me.FtabJurnal.myBackColor = System.Drawing.SystemColors.Control
         Me.FtabJurnal.Name = "FtabJurnal"
         Me.FtabJurnal.SelectedIndex = 0
-        Me.FtabJurnal.Size = New System.Drawing.Size(178, 0)
+        Me.FtabJurnal.Size = New System.Drawing.Size(731, 160)
         Me.FtabJurnal.TabIndex = 236
         '
         'ftabDataDetil_Pembayaran
@@ -938,7 +938,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.ftabDataDetil_Pembayaran.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Pembayaran.Name = "ftabDataDetil_Pembayaran"
         Me.ftabDataDetil_Pembayaran.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Pembayaran.Size = New System.Drawing.Size(170, 0)
+        Me.ftabDataDetil_Pembayaran.Size = New System.Drawing.Size(723, 131)
         Me.ftabDataDetil_Pembayaran.TabIndex = 4
         Me.ftabDataDetil_Pembayaran.Text = "Penerimaan (D)"
         '
@@ -948,27 +948,28 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.DgvTrnJurnaldetil_Pembayaran.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnaldetil_Pembayaran.Location = New System.Drawing.Point(3, 3)
         Me.DgvTrnJurnaldetil_Pembayaran.Name = "DgvTrnJurnaldetil_Pembayaran"
-        Me.DgvTrnJurnaldetil_Pembayaran.Size = New System.Drawing.Size(164, 0)
+        Me.DgvTrnJurnaldetil_Pembayaran.Size = New System.Drawing.Size(717, 125)
         Me.DgvTrnJurnaldetil_Pembayaran.TabIndex = 1
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.LavenderBlush
+        Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Controls.Add(Me.Panel5)
         Me.TabPage1.Location = New System.Drawing.Point(4, 25)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(184, 0)
+        Me.TabPage1.Size = New System.Drawing.Size(723, 131)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Pembayaran (K)"
         '
         'Panel5
         '
+        Me.Panel5.BackColor = System.Drawing.SystemColors.Control
         Me.Panel5.Controls.Add(Me.DgvTrnJurnaldetil)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel5.Location = New System.Drawing.Point(3, 3)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(178, 0)
+        Me.Panel5.Size = New System.Drawing.Size(717, 125)
         Me.Panel5.TabIndex = 1
         '
         'DgvTrnJurnaldetil
@@ -977,37 +978,36 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.DgvTrnJurnaldetil.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnaldetil.Location = New System.Drawing.Point(0, 0)
         Me.DgvTrnJurnaldetil.Name = "DgvTrnJurnaldetil"
-        Me.DgvTrnJurnaldetil.Size = New System.Drawing.Size(178, 0)
+        Me.DgvTrnJurnaldetil.Size = New System.Drawing.Size(717, 125)
         Me.DgvTrnJurnaldetil.TabIndex = 0
         '
         'ftabDataDetil_Reference
         '
-        Me.ftabDataDetil_Reference.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_Reference.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Reference.Controls.Add(Me.DgvTrnJurnalreference)
         Me.ftabDataDetil_Reference.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Reference.Name = "ftabDataDetil_Reference"
         Me.ftabDataDetil_Reference.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Reference.Size = New System.Drawing.Size(184, 0)
+        Me.ftabDataDetil_Reference.Size = New System.Drawing.Size(723, 131)
         Me.ftabDataDetil_Reference.TabIndex = 1
         Me.ftabDataDetil_Reference.Text = "Reference"
         '
         'DgvTrnJurnalreference
         '
         Me.DgvTrnJurnalreference.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DgvTrnJurnalreference.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnalreference.Location = New System.Drawing.Point(3, 3)
         Me.DgvTrnJurnalreference.Name = "DgvTrnJurnalreference"
-        Me.DgvTrnJurnalreference.Size = New System.Drawing.Size(178, 0)
+        Me.DgvTrnJurnalreference.Size = New System.Drawing.Size(178, 69)
         Me.DgvTrnJurnalreference.TabIndex = 1
         '
         'ftabDataDetil_Response
         '
-        Me.ftabDataDetil_Response.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_Response.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Response.Controls.Add(Me.DgvTrnJurnalresponse)
         Me.ftabDataDetil_Response.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Response.Name = "ftabDataDetil_Response"
         Me.ftabDataDetil_Response.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Response.Size = New System.Drawing.Size(184, 0)
+        Me.ftabDataDetil_Response.Size = New System.Drawing.Size(723, 131)
         Me.ftabDataDetil_Response.TabIndex = 2
         Me.ftabDataDetil_Response.Text = "Response"
         '
@@ -1017,11 +1017,12 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.DgvTrnJurnalresponse.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnalresponse.Location = New System.Drawing.Point(3, 3)
         Me.DgvTrnJurnalresponse.Name = "DgvTrnJurnalresponse"
-        Me.DgvTrnJurnalresponse.Size = New System.Drawing.Size(178, 0)
+        Me.DgvTrnJurnalresponse.Size = New System.Drawing.Size(717, 125)
         Me.DgvTrnJurnalresponse.TabIndex = 1
         '
         'Panel2
         '
+        Me.Panel2.BackColor = System.Drawing.SystemColors.Control
         Me.Panel2.Controls.Add(Me.pnlClose2)
         Me.Panel2.Controls.Add(Me.obj_Jurnal_bookdate)
         Me.Panel2.Controls.Add(Me.lbl_Jurnal_bookdate)
@@ -1044,7 +1045,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(178, 79)
+        Me.Panel2.Size = New System.Drawing.Size(731, 79)
         Me.Panel2.TabIndex = 237
         '
         'pnlClose2
@@ -1221,11 +1222,11 @@ Partial Class uiTrnTerimaJasa_Rental
         '
         'ftabDataDetil_Order
         '
-        Me.ftabDataDetil_Order.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_Order.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Order.Controls.Add(Me.dgvTrnOrder)
         Me.ftabDataDetil_Order.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Order.Name = "ftabDataDetil_Order"
-        Me.ftabDataDetil_Order.Size = New System.Drawing.Size(178, 0)
+        Me.ftabDataDetil_Order.Size = New System.Drawing.Size(731, 239)
         Me.ftabDataDetil_Order.TabIndex = 4
         Me.ftabDataDetil_Order.Text = "Order"
         '
@@ -1235,7 +1236,7 @@ Partial Class uiTrnTerimaJasa_Rental
         Me.dgvTrnOrder.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvTrnOrder.Location = New System.Drawing.Point(0, 0)
         Me.dgvTrnOrder.Name = "dgvTrnOrder"
-        Me.dgvTrnOrder.Size = New System.Drawing.Size(178, 0)
+        Me.dgvTrnOrder.Size = New System.Drawing.Size(731, 239)
         Me.dgvTrnOrder.TabIndex = 6
         '
         'obj_Budget_id

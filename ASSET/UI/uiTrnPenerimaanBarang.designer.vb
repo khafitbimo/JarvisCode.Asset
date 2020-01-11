@@ -426,7 +426,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         'ftabMain_List
         '
-        Me.ftabMain_List.BackColor = System.Drawing.Color.White
+        Me.ftabMain_List.BackColor = System.Drawing.SystemColors.Control
         Me.ftabMain_List.Controls.Add(Me.Panel1)
         Me.ftabMain_List.Controls.Add(Me.PnlDfMain)
         Me.ftabMain_List.Controls.Add(Me.PnlDfFooter)
@@ -739,7 +739,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         'ftabMain_Data
         '
-        Me.ftabMain_Data.BackColor = System.Drawing.Color.White
+        Me.ftabMain_Data.BackColor = System.Drawing.SystemColors.Control
         Me.ftabMain_Data.Controls.Add(Me.ftabDataDetil)
         Me.ftabMain_Data.Controls.Add(Me.PnlDataMaster)
         Me.ftabMain_Data.Location = New System.Drawing.Point(4, 25)
@@ -764,7 +764,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         'ftabDataDetil_Detil
         '
-        Me.ftabDataDetil_Detil.BackColor = System.Drawing.Color.White
+        Me.ftabDataDetil_Detil.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Detil.Controls.Add(Me.TLTrnPenerimaanBarangDetil)
         Me.ftabDataDetil_Detil.Controls.Add(Me.Panel4)
         Me.ftabDataDetil_Detil.Location = New System.Drawing.Point(4, 25)
@@ -1539,7 +1539,7 @@ Partial Class uiTrnPenerimaanBarang
         '
         'ftabDataDetil_Info
         '
-        Me.ftabDataDetil_Info.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_Info.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Info.Controls.Add(Me.obj_Strukturunit_id)
         Me.ftabDataDetil_Info.Controls.Add(Me.lbl_Strukturunit_id)
         Me.ftabDataDetil_Info.Controls.Add(Me.obj_Terimabarang_isdisabled)
@@ -1570,7 +1570,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.ftabDataDetil_Info.Controls.Add(Me.obj_Terimabarang_appacc)
         Me.ftabDataDetil_Info.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Info.Name = "ftabDataDetil_Info"
-        Me.ftabDataDetil_Info.Size = New System.Drawing.Size(178, 0)
+        Me.ftabDataDetil_Info.Size = New System.Drawing.Size(725, 168)
         Me.ftabDataDetil_Info.TabIndex = 1
         Me.ftabDataDetil_Info.Text = "Info"
         '
@@ -1841,13 +1841,13 @@ Partial Class uiTrnPenerimaanBarang
         '
         'ftabDataDetil_jurnal
         '
-        Me.ftabDataDetil_jurnal.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_jurnal.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_jurnal.Controls.Add(Me.pnlclose3)
         Me.ftabDataDetil_jurnal.Controls.Add(Me.FtabJurnal)
         Me.ftabDataDetil_jurnal.Controls.Add(Me.Panel2)
         Me.ftabDataDetil_jurnal.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_jurnal.Name = "ftabDataDetil_jurnal"
-        Me.ftabDataDetil_jurnal.Size = New System.Drawing.Size(178, 0)
+        Me.ftabDataDetil_jurnal.Size = New System.Drawing.Size(725, 168)
         Me.ftabDataDetil_jurnal.TabIndex = 2
         Me.ftabDataDetil_jurnal.Text = "Jurnal"
         '
@@ -1870,17 +1870,17 @@ Partial Class uiTrnPenerimaanBarang
         Me.FtabJurnal.myBackColor = System.Drawing.Color.WhiteSmoke
         Me.FtabJurnal.Name = "FtabJurnal"
         Me.FtabJurnal.SelectedIndex = 0
-        Me.FtabJurnal.Size = New System.Drawing.Size(178, 0)
+        Me.FtabJurnal.Size = New System.Drawing.Size(725, 89)
         Me.FtabJurnal.TabIndex = 352
         '
         'ftabDataDetil_Pembayaran
         '
-        Me.ftabDataDetil_Pembayaran.BackColor = System.Drawing.Color.White
+        Me.ftabDataDetil_Pembayaran.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Pembayaran.Controls.Add(Me.DgvTrnJurnaldetil_Pembayaran)
         Me.ftabDataDetil_Pembayaran.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Pembayaran.Name = "ftabDataDetil_Pembayaran"
         Me.ftabDataDetil_Pembayaran.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Pembayaran.Size = New System.Drawing.Size(170, 0)
+        Me.ftabDataDetil_Pembayaran.Size = New System.Drawing.Size(717, 60)
         Me.ftabDataDetil_Pembayaran.TabIndex = 4
         Me.ftabDataDetil_Pembayaran.Text = "Penerimaan (D)"
         '
@@ -1890,17 +1890,17 @@ Partial Class uiTrnPenerimaanBarang
         Me.DgvTrnJurnaldetil_Pembayaran.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnaldetil_Pembayaran.Location = New System.Drawing.Point(3, 3)
         Me.DgvTrnJurnaldetil_Pembayaran.Name = "DgvTrnJurnaldetil_Pembayaran"
-        Me.DgvTrnJurnaldetil_Pembayaran.Size = New System.Drawing.Size(164, 0)
+        Me.DgvTrnJurnaldetil_Pembayaran.Size = New System.Drawing.Size(711, 54)
         Me.DgvTrnJurnaldetil_Pembayaran.TabIndex = 1
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.LavenderBlush
+        Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Controls.Add(Me.Panel5)
         Me.TabPage1.Location = New System.Drawing.Point(4, 25)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(184, 0)
+        Me.TabPage1.Size = New System.Drawing.Size(717, 60)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Pembayaran (K)"
         '
@@ -1910,7 +1910,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel5.Location = New System.Drawing.Point(3, 3)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(178, 0)
+        Me.Panel5.Size = New System.Drawing.Size(711, 54)
         Me.Panel5.TabIndex = 1
         '
         'DgvTrnJurnaldetil
@@ -1919,17 +1919,17 @@ Partial Class uiTrnPenerimaanBarang
         Me.DgvTrnJurnaldetil.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnaldetil.Location = New System.Drawing.Point(0, 0)
         Me.DgvTrnJurnaldetil.Name = "DgvTrnJurnaldetil"
-        Me.DgvTrnJurnaldetil.Size = New System.Drawing.Size(178, 0)
+        Me.DgvTrnJurnaldetil.Size = New System.Drawing.Size(711, 54)
         Me.DgvTrnJurnaldetil.TabIndex = 0
         '
         'ftabDataDetil_Reference
         '
-        Me.ftabDataDetil_Reference.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_Reference.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Reference.Controls.Add(Me.DgvTrnJurnalreference)
         Me.ftabDataDetil_Reference.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Reference.Name = "ftabDataDetil_Reference"
         Me.ftabDataDetil_Reference.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Reference.Size = New System.Drawing.Size(184, 0)
+        Me.ftabDataDetil_Reference.Size = New System.Drawing.Size(717, 60)
         Me.ftabDataDetil_Reference.TabIndex = 1
         Me.ftabDataDetil_Reference.Text = "Reference"
         '
@@ -1939,17 +1939,17 @@ Partial Class uiTrnPenerimaanBarang
         Me.DgvTrnJurnalreference.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnalreference.Location = New System.Drawing.Point(3, 3)
         Me.DgvTrnJurnalreference.Name = "DgvTrnJurnalreference"
-        Me.DgvTrnJurnalreference.Size = New System.Drawing.Size(178, 0)
+        Me.DgvTrnJurnalreference.Size = New System.Drawing.Size(711, 54)
         Me.DgvTrnJurnalreference.TabIndex = 1
         '
         'ftabDataDetil_Response
         '
-        Me.ftabDataDetil_Response.BackColor = System.Drawing.Color.LavenderBlush
+        Me.ftabDataDetil_Response.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Response.Controls.Add(Me.DgvTrnJurnalresponse)
         Me.ftabDataDetil_Response.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Response.Name = "ftabDataDetil_Response"
         Me.ftabDataDetil_Response.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Response.Size = New System.Drawing.Size(184, 0)
+        Me.ftabDataDetil_Response.Size = New System.Drawing.Size(717, 60)
         Me.ftabDataDetil_Response.TabIndex = 2
         Me.ftabDataDetil_Response.Text = "Response"
         '
@@ -1959,7 +1959,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.DgvTrnJurnalresponse.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DgvTrnJurnalresponse.Location = New System.Drawing.Point(3, 3)
         Me.DgvTrnJurnalresponse.Name = "DgvTrnJurnalresponse"
-        Me.DgvTrnJurnalresponse.Size = New System.Drawing.Size(178, 0)
+        Me.DgvTrnJurnalresponse.Size = New System.Drawing.Size(711, 54)
         Me.DgvTrnJurnalresponse.TabIndex = 1
         '
         'Panel2
@@ -1986,7 +1986,7 @@ Partial Class uiTrnPenerimaanBarang
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(178, 79)
+        Me.Panel2.Size = New System.Drawing.Size(725, 79)
         Me.Panel2.TabIndex = 351
         '
         'pnlClose2
