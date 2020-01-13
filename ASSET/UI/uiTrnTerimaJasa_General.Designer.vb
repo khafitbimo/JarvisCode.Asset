@@ -135,11 +135,11 @@ Partial Class uiTrnTerimaJasa_General
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.dgvTravelOthers = New System.Windows.Forms.DataGridView()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.pnlclose5 = New System.Windows.Forms.Panel()
         Me.txtDestinationTo = New System.Windows.Forms.TextBox()
         Me.lbDestinationTo = New System.Windows.Forms.Label()
         Me.txtDepartureFr = New System.Windows.Forms.TextBox()
         Me.lbDepartureFr = New System.Windows.Forms.Label()
+        Me.pnlclose5 = New System.Windows.Forms.Panel()
         Me.txtIDTravel = New System.Windows.Forms.TextBox()
         Me.lbIDTravel = New System.Windows.Forms.Label()
         Me.PnlDataMaster = New System.Windows.Forms.Panel()
@@ -563,7 +563,7 @@ Partial Class uiTrnTerimaJasa_General
         Me.chkSearchChannel.AutoSize = True
         Me.chkSearchChannel.Location = New System.Drawing.Point(17, 15)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(65, 17)
         Me.chkSearchChannel.TabIndex = 0
         Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
@@ -1300,7 +1300,7 @@ Partial Class uiTrnTerimaJasa_General
         Me.ftabDataDetil_Travel.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Travel.Name = "ftabDataDetil_Travel"
         Me.ftabDataDetil_Travel.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Travel.Size = New System.Drawing.Size(178, 0)
+        Me.ftabDataDetil_Travel.Size = New System.Drawing.Size(731, 245)
         Me.ftabDataDetil_Travel.TabIndex = 5
         Me.ftabDataDetil_Travel.Text = "Official Travel"
         '
@@ -1320,7 +1320,7 @@ Partial Class uiTrnTerimaJasa_General
         Me.TabControl1.Location = New System.Drawing.Point(3, 64)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(172, 0)
+        Me.TabControl1.Size = New System.Drawing.Size(725, 178)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage2
@@ -1329,7 +1329,7 @@ Partial Class uiTrnTerimaJasa_General
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(164, 0)
+        Me.TabPage2.Size = New System.Drawing.Size(717, 152)
         Me.TabPage2.TabIndex = 0
         Me.TabPage2.Text = "Person"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -1343,7 +1343,7 @@ Partial Class uiTrnTerimaJasa_General
         Me.dgvTravelPerson.Location = New System.Drawing.Point(3, 3)
         Me.dgvTravelPerson.Name = "dgvTravelPerson"
         Me.dgvTravelPerson.ReadOnly = True
-        Me.dgvTravelPerson.Size = New System.Drawing.Size(158, 0)
+        Me.dgvTravelPerson.Size = New System.Drawing.Size(711, 146)
         Me.dgvTravelPerson.TabIndex = 0
         '
         'TabPage3
@@ -1381,16 +1381,8 @@ Partial Class uiTrnTerimaJasa_General
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(3, 3)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(172, 61)
+        Me.Panel3.Size = New System.Drawing.Size(725, 61)
         Me.Panel3.TabIndex = 1
-        '
-        'pnlclose5
-        '
-        Me.pnlclose5.BackColor = System.Drawing.Color.White
-        Me.pnlclose5.Location = New System.Drawing.Point(263, 5)
-        Me.pnlclose5.Name = "pnlclose5"
-        Me.pnlclose5.Size = New System.Drawing.Size(198, 28)
-        Me.pnlclose5.TabIndex = 360
         '
         'txtDestinationTo
         '
@@ -1425,6 +1417,14 @@ Partial Class uiTrnTerimaJasa_General
         Me.lbDepartureFr.Size = New System.Drawing.Size(69, 13)
         Me.lbDepartureFr.TabIndex = 361
         Me.lbDepartureFr.Text = "Departure Fr."
+        '
+        'pnlclose5
+        '
+        Me.pnlclose5.BackColor = System.Drawing.Color.White
+        Me.pnlclose5.Location = New System.Drawing.Point(263, 5)
+        Me.pnlclose5.Name = "pnlclose5"
+        Me.pnlclose5.Size = New System.Drawing.Size(198, 28)
+        Me.pnlclose5.TabIndex = 360
         '
         'txtIDTravel
         '

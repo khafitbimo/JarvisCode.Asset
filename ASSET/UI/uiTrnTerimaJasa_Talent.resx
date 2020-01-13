@@ -128,7 +128,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACe
-        CQAAAk1TRnQBSQFMAgEBAgEAAXQBAAF0AQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CQAAAk1TRnQBSQFMAgEBAgEAAWwBAAFsAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -175,4 +175,13 @@
   <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>397, 17</value>
   </metadata>
+  <data name="$this.DSNAsset" xml:space="preserve">
+    <value>User ID=sa; Password=Lantai27; Data Source="172.16.11.55"; Initial Catalog=E_ASSET; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
+  </data>
+  <data name="$this.DSNFrm" xml:space="preserve">
+    <value>User ID=sa; Password=rahasia; Data Source="172.16.8.102"; Initial Catalog=E_FRM; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
+  </data>
+  <data name="$this.DSNStart" xml:space="preserve">
+    <value>User ID=sa; Password=Lantai27; Data Source="172.16.11.55"; Initial Catalog=E_START; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
+  </data>
 </root>

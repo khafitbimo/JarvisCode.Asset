@@ -498,7 +498,7 @@ Partial Class uiTrnTerimaJasa_Rental_Wardrobe
         Me.chkSearchChannel.AutoSize = True
         Me.chkSearchChannel.Location = New System.Drawing.Point(17, 15)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(65, 17)
         Me.chkSearchChannel.TabIndex = 0
         Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
@@ -1485,12 +1485,12 @@ Partial Class uiTrnTerimaJasa_Rental_Wardrobe
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btn_BuiltJurnal})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(133, 26)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(127, 26)
         '
         'btn_BuiltJurnal
         '
         Me.btn_BuiltJurnal.Name = "btn_BuiltJurnal"
-        Me.btn_BuiltJurnal.Size = New System.Drawing.Size(132, 22)
+        Me.btn_BuiltJurnal.Size = New System.Drawing.Size(126, 22)
         Me.btn_BuiltJurnal.Text = "Built Jurnal"
         '
         'ImageList1

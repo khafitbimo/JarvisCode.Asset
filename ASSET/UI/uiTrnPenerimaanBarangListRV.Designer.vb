@@ -1960,7 +1960,7 @@ Partial Class uiTrnPenerimaanBarangListRV
         '
         'colRekananResponse_Name
         '
-        Me.colRekananResponse_Name.Caption = "Partner"
+        Me.colRekananResponse_Name.Caption = "Rekanan"
         Me.colRekananResponse_Name.FieldName = "rekanan_name"
         Me.colRekananResponse_Name.Name = "colRekananResponse_Name"
         Me.colRekananResponse_Name.Visible = True

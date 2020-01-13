@@ -184,7 +184,7 @@ Partial Class dlgTrnPenerimaanBarang_Select_PV
         'DataGridViewTextBoxColumn3
         '
         Me.DataGridViewTextBoxColumn3.DataPropertyName = "rekanan_name"
-        Me.DataGridViewTextBoxColumn3.HeaderText = "Partner"
+        Me.DataGridViewTextBoxColumn3.HeaderText = "Rekanan"
         Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
         Me.DataGridViewTextBoxColumn3.ReadOnly = True
         '

@@ -94,7 +94,7 @@ Public Class DlgBpjSelectOrder
         cStatus.ReadOnly = True
 
         cVendor.Name = "vendor"
-        cVendor.HeaderText = "Partner"
+        cVendor.HeaderText = "vendor"
         cVendor.DataPropertyName = "vendor"
         cVendor.Width = 250
         cVendor.DefaultCellStyle.Alignment = DataGridViewContentAlignment.NotSet

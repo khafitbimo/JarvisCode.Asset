@@ -139,14 +139,18 @@ Partial Class uiBase2
         '
         Me.tbtnPosting.Caption = "Posting"
         Me.tbtnPosting.Id = 14
+        Me.tbtnPosting.ImageIndex = 7
         Me.tbtnPosting.Name = "tbtnPosting"
+        Me.tbtnPosting.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph
         Me.tbtnPosting.Visibility = DevExpress.XtraBars.BarItemVisibility.Never
         '
         'tbtnUnposting
         '
         Me.tbtnUnposting.Caption = "UnPosting"
         Me.tbtnUnposting.Id = 15
+        Me.tbtnUnposting.ImageIndex = 17
         Me.tbtnUnposting.Name = "tbtnUnposting"
+        Me.tbtnUnposting.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph
         Me.tbtnUnposting.Visibility = DevExpress.XtraBars.BarItemVisibility.Never
         '
         'BarDockControl1
@@ -154,7 +158,7 @@ Partial Class uiBase2
         Me.BarDockControl1.CausesValidation = False
         Me.BarDockControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.BarDockControl1.Location = New System.Drawing.Point(0, 0)
-        Me.BarDockControl1.Size = New System.Drawing.Size(753, 26)
+        Me.BarDockControl1.Size = New System.Drawing.Size(753, 24)
         '
         'BarDockControl2
         '
@@ -167,15 +171,15 @@ Partial Class uiBase2
         '
         Me.BarDockControl3.CausesValidation = False
         Me.BarDockControl3.Dock = System.Windows.Forms.DockStyle.Left
-        Me.BarDockControl3.Location = New System.Drawing.Point(0, 26)
-        Me.BarDockControl3.Size = New System.Drawing.Size(0, 524)
+        Me.BarDockControl3.Location = New System.Drawing.Point(0, 24)
+        Me.BarDockControl3.Size = New System.Drawing.Size(0, 526)
         '
         'BarDockControl4
         '
         Me.BarDockControl4.CausesValidation = False
         Me.BarDockControl4.Dock = System.Windows.Forms.DockStyle.Right
-        Me.BarDockControl4.Location = New System.Drawing.Point(753, 26)
-        Me.BarDockControl4.Size = New System.Drawing.Size(0, 524)
+        Me.BarDockControl4.Location = New System.Drawing.Point(753, 24)
+        Me.BarDockControl4.Size = New System.Drawing.Size(0, 526)
         '
         'tbtnRefresh
         '

@@ -2432,7 +2432,7 @@ Public Class uiTrnTerimaJasa_Rental
         Me.ftabMain.Anchor += AnchorStyles.Right
         Me.ftabMain.Anchor += AnchorStyles.Left
 
-        Me.ftabMain.TabPages.Item(1).BackColor = Color.Gainsboro
+        'Me.ftabMain.TabPages.Item(1).BackColor = Color.Gainsboro
         Me.PnlDfSearch.Dock = DockStyle.Top
         Me.PnlDfSearch.Visible = False
         Me.PnlDfMain.Dock = DockStyle.Fill
@@ -4641,8 +4641,8 @@ Public Class uiTrnTerimaJasa_Rental
                 Me.tbtnDel.Enabled = False
                 Me.tbtnLoad.Enabled = True
                 Me.tbtnQuery.Enabled = True
-                Me.ftabMain.TabPages.Item(0).BackColor = Color.White
-                Me.ftabMain.TabPages.Item(1).BackColor = Color.Gainsboro
+                'Me.ftabMain.TabPages.Item(0).BackColor = Color.White
+                'Me.ftabMain.TabPages.Item(1).BackColor = Color.Gainsboro
                 If Me._USERTYPE = "user" Then
                     Me.btnApproved.Visible = True
                     Me.btnUnApproved.Visible = True
@@ -4656,8 +4656,8 @@ Public Class uiTrnTerimaJasa_Rental
                 Me.tbtnDel.Enabled = True
                 Me.tbtnLoad.Enabled = False
                 Me.tbtnQuery.Enabled = False
-                Me.ftabMain.TabPages.Item(0).BackColor = Color.Gainsboro
-                Me.ftabMain.TabPages.Item(1).BackColor = Color.White
+                'Me.ftabMain.TabPages.Item(0).BackColor = Color.Gainsboro
+                'Me.ftabMain.TabPages.Item(1).BackColor = Color.White
 
                 If Me.DgvTrnTerimajasa.CurrentRow IsNot Nothing Then
                     Me.uiTrnTerimaJasa_Rental_OpenRow(Me.DgvTrnTerimajasa.CurrentRow.Index)
@@ -5333,21 +5333,21 @@ ulang:
     Private Sub ftabDataDetil_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ftabDataDetil.SelectedIndexChanged
         Dim i, activetab As Byte
 
-        For i = 0 To (Me.ftabDataDetil.TabCount - 1)
-            Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.LavenderBlush
-        Next
-        activetab = Me.ftabDataDetil.SelectedIndex
-        Me.ftabDataDetil.TabPages.Item(activetab).BackColor = Color.White
+        'For i = 0 To (Me.ftabDataDetil.TabCount - 1)
+        '    Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.LavenderBlush
+        'Next
+        'activetab = Me.ftabDataDetil.SelectedIndex
+        'Me.ftabDataDetil.TabPages.Item(activetab).BackColor = Color.White
     End Sub
 
     Private Sub FtabJurnal_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles FtabJurnal.SelectedIndexChanged
         Dim i, activetab As Byte
 
-        For i = 0 To (Me.ftabDataDetil.TabCount - 1)
-            Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.LavenderBlush
-        Next
-        activetab = Me.ftabDataDetil.SelectedIndex
-        Me.ftabDataDetil.TabPages.Item(activetab).BackColor = Color.White
+        'For i = 0 To (Me.ftabDataDetil.TabCount - 1)
+        '    Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.LavenderBlush
+        'Next
+        'activetab = Me.ftabDataDetil.SelectedIndex
+        'Me.ftabDataDetil.TabPages.Item(activetab).BackColor = Color.White
     End Sub
 
 

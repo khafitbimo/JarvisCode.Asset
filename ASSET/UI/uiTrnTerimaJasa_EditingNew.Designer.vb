@@ -541,7 +541,7 @@ Partial Class uiTrnTerimaJasa_EditingNew
         Me.chkSearchChannel.AutoSize = True
         Me.chkSearchChannel.Location = New System.Drawing.Point(17, 15)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(65, 17)
         Me.chkSearchChannel.TabIndex = 0
         Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
